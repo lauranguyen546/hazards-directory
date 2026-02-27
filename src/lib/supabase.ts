@@ -64,7 +64,8 @@ export async function getStates() {
     .order('state')
 
   if (error) throw error
-  return [...new Set(data.map(d => d.state))]
+  const states = new Set(data.map(d => d.state))
+  return Array.from(states)
 }
 
 export async function getCountiesByState(state: string) {
@@ -75,5 +76,6 @@ export async function getCountiesByState(state: string) {
     .order('county')
 
   if (error) throw error
-  return [...new Set(data.map(d => d.county))]
+  const counties = new Set(data.map(d => d.county))
+  return Array.from(counties)
 }

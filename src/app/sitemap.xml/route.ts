@@ -1,20 +1,27 @@
 import { getProviders } from '@/lib/supabase'
 
+interface SitemapPage {
+  url: string
+  changefreq: string
+  priority: number
+  lastmod?: string
+}
+
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
   
-  const staticPages = [
+  const staticPages: SitemapPage[] = [
     { url: `${baseUrl}/`, changefreq: 'daily', priority: 1.0 },
     { url: `${baseUrl}/providers`, changefreq: 'daily', priority: 0.9 },
   ]
 
   const { data: providers } = await getProviders({ limit: 10000 })
   
-  const providerPages = (providers || []).map((provider) => ({
+  const providerPages: SitemapPage[] = (providers || []).map((provider) => ({
     url: `${baseUrl}/providers/${provider.id}`,
     changefreq: 'weekly',
     priority: 0.8,
-    lastmod: provider.updated_at,
+    lastmod: provider.updated_at || undefined,
   }))
 
   const allPages = [...staticPages, ...providerPages]

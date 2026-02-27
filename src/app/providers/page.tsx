@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { getProviders, getStates } from '@/lib/supabase'
 import ProviderCard from '@/components/ProviderCard'
-import SearchFilters from '@/components/SearchFilters'
+import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
 
 interface ProvidersPageProps {
   searchParams: {
@@ -77,7 +77,7 @@ export default async function ProvidersPage({ searchParams }: ProvidersPageProps
       </div>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <SearchFilters states={states} />
+        <SearchFiltersWrapper states={states} />
 
         {/* Results */}
         <div className="mt-8">

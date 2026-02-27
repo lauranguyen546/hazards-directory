@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getStates, getProviders } from '@/lib/supabase'
 import { generateOrganizationSchema } from '@/lib/schema'
 import ProviderCard from '@/components/ProviderCard'
-import SearchFilters from '@/components/SearchFilters'
+import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
 import TopRatedSection from '@/components/TopRatedSection'
 
 export const metadata: Metadata = {
@@ -97,7 +97,7 @@ export default async function HomePage() {
               Find mold remediation, water damage restoration, and pest control professionals in your area.
             </p>
 
-            <SearchFilters states={states} />
+            <SearchFiltersWrapper states={states} />
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {providers.map((provider) => (
