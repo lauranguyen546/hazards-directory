@@ -9,6 +9,10 @@
   body {
     @apply bg-gray-50 text-gray-900;
   }
+  /* Prevent sticky nav from overlapping anchor-linked sections */
+  [id] {
+    scroll-margin-top: 64px;
+  }
 }
 
 @layer components {

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getProviders, getStates } from '@/lib/supabase'
 import ProviderCard from '@/components/ProviderCard'
 import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
+import { filterAndSortProviders } from '@/lib/filterProviders'
 
 interface ProvidersPageProps {
   searchParams: {
@@ -43,7 +44,7 @@ export default async function ProvidersPage({ searchParams }: ProvidersPageProps
   const limit = 24
   const offset = (page - 1) * limit
 
-  const [{ data: providers, count }, states] = await Promise.all([
+  const [{ data: rawProviders, count }, states] = await Promise.all([
     getProviders({
       state: searchParams.state,
       county: searchParams.county,
@@ -55,6 +56,9 @@ export default async function ProvidersPage({ searchParams }: ProvidersPageProps
     }),
     getStates(),
   ])
+
+  // Task 5: filter out dirty/scraped records and sort deprioritized ones last
+  const providers = filterAndSortProviders(rawProviders)
 
   const totalPages = count ? Math.ceil(count / limit) : 1
 

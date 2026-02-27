@@ -5,6 +5,7 @@ import { generateOrganizationSchema } from '@/lib/schema'
 import ProviderCard from '@/components/ProviderCard'
 import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
 import TopRatedSection from '@/components/TopRatedSection'
+import { filterAndSortProviders } from '@/lib/filterProviders'
 
 export const metadata: Metadata = {
   title: 'Hazards Directory | Mold, Water Damage & Pest Control Pros',
@@ -12,11 +13,12 @@ export const metadata: Metadata = {
 }
 
 export default async function HomePage() {
-  const [{ data: providers }, states] = await Promise.all([
+  const [{ data: rawProviders }, states] = await Promise.all([
     getProviders({ limit: 12 }),
     getStates(),
   ])
 
+  const providers = filterAndSortProviders(rawProviders)
   const organizationSchema = generateOrganizationSchema()
 
   return (
@@ -25,39 +27,52 @@ export default async function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-      
+
       <main className="min-h-screen">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary-600 to-primary-700 text-white py-20 px-4">
-          <div className="max-w-6xl mx-auto text-center">
+        {/* ── Hero Section ── */}
+        <section
+          className="text-white py-20 px-4 min-h-[60vh] flex items-center"
+          style={{ background: 'linear-gradient(135deg, #3B5BDB 0%, #2146C7 100%)' }}
+        >
+          <div className="max-w-6xl mx-auto text-center w-full">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Find Trusted Hazards Professionals
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
               Verified mold remediation, water damage restoration, and pest control providers across the United States.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="#directory" className="btn-primary text-lg">
+              {/* Task 2 + Task 8: primary CTA gets amber accent */}
+              <Link
+                href="#directory"
+                className="bg-amber-500 text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-amber-600 transition-colors"
+              >
                 Browse Directory
               </Link>
-              <Link href="#about" className="bg-white text-primary-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              {/* Task 2: secondary CTA becomes ghost/outlined */}
+              <Link
+                href="#about"
+                className="border border-white text-white bg-transparent px-6 py-3 rounded-lg font-semibold text-lg hover:bg-white/10 transition-colors"
+              >
                 Learn More
               </Link>
             </div>
           </div>
         </section>
 
-        {/* Regional Focus Section */}
-        <section className="py-8 bg-primary-50 border-b">
+        {/* ── Task 4: Featured Region Banner ── */}
+        <section className="py-8 border-b">
           <div className="max-w-6xl mx-auto px-4">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div>
-                <h2 className="text-xl font-bold text-primary-900">Southeast Focus</h2>
-                <p className="text-primary-700">Deep coverage in FL, GA, NC, SC</p>
-              </div>
-              <Link 
-                href="/se" 
-                className="bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
+            <div className="bg-blue-50 border border-blue-100 rounded-lg p-8 text-center">
+              <h2 className="text-xl font-bold text-gray-900 mb-2">
+                Deep Coverage in the Southeast
+              </h2>
+              <p className="text-gray-600 mb-5">
+                Extensive listings across FL, GA, NC &amp; SC — with nationwide expansion underway.
+              </p>
+              <Link
+                href="/se"
+                className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors inline-block"
               >
                 Explore Southeast Directory →
               </Link>
@@ -65,7 +80,7 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Stats Section */}
+        {/* ── Task 3: Stats Bar ── */}
         <section className="py-12 bg-white border-b">
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -81,15 +96,16 @@ export default async function HomePage() {
                 <div className="text-3xl font-bold text-primary-600">4</div>
                 <div className="text-gray-600">Service Categories</div>
               </div>
+              {/* Task 3: Replace "Google / Verified Ratings" with rating stat */}
               <div>
-                <div className="text-3xl font-bold text-primary-600">Google</div>
-                <div className="text-gray-600">Verified Ratings</div>
+                <div className="text-3xl font-bold text-primary-600">4.7★</div>
+                <div className="text-gray-600">Avg Google Rating</div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Directory Section */}
+        {/* ── Directory Section ── */}
         <section id="directory" className="py-16 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4">Browse Providers</h2>
@@ -113,15 +129,15 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Top Rated Section */}
+        {/* Top Rated Sections */}
         <TopRatedSection category="Mold" limit={6} />
-        
+
         <div className="py-8">
           <TopRatedSection category="Water" limit={6} />
         </div>
 
-        {/* Categories Section */}
-        <section className="py-16 bg-gray-100 px-4">
+        {/* ── Categories Section ── */}
+        <section id="categories" className="py-16 bg-gray-100 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Service Categories</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -153,27 +169,38 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section id="about" className="py-16 px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Why Hazards Directory?</h2>
-            <div className="space-y-4 text-gray-700">
-              <p>
-                Finding reliable contractors for critical home services shouldn&apos;t be a gamble. 
-                We compile verified provider information from Google Business Profile data, 
-                including real ratings and reviews from actual customers.
-              </p>
-              <p>
-                Our directory focuses specifically on hazards-related services—mold remediation, 
-                water damage restoration, and pest control—because these are the services that 
-                protect your home&apos;s value and your family&apos;s health.
-              </p>
+        {/* ── Task 7: Why Hazards Directory — 3-column trust pillars ── */}
+        <section id="about" className="py-16 px-4 bg-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-12">Why Hazards Directory?</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+              <div className="bg-gray-50 rounded-xl shadow-sm p-6 flex flex-col items-center text-center">
+                <div className="text-4xl mb-4">🔍</div>
+                <h3 className="text-lg font-bold mb-3">Google-Verified Data</h3>
+                <p className="text-gray-600 text-sm">
+                  Provider info pulled directly from Google Business Profiles, including real ratings and reviews from customers.
+                </p>
+              </div>
+              <div className="bg-gray-50 rounded-xl shadow-sm p-6 flex flex-col items-center text-center">
+                <div className="text-4xl mb-4">🏠</div>
+                <h3 className="text-lg font-bold mb-3">Hazard-Specific Focus</h3>
+                <p className="text-gray-600 text-sm">
+                  Unlike general directories, we specialize in the services that protect your home&apos;s value and your family&apos;s health.
+                </p>
+              </div>
+              <div className="bg-gray-50 rounded-xl shadow-sm p-6 flex flex-col items-center text-center">
+                <div className="text-4xl mb-4">✅</div>
+                <h3 className="text-lg font-bold mb-3">4,600+ Verified Providers</h3>
+                <p className="text-gray-600 text-sm">
+                  Extensive coverage across the US, with deep listings across FL, GA, NC, and SC.
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-gray-900 text-gray-300 py-12 px-4">
+        {/* ── Task 9: Footer ── */}
+        <footer id="contact" className="bg-gray-900 text-gray-300 py-12 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
@@ -185,14 +212,29 @@ export default async function HomePage() {
               <div>
                 <h4 className="text-white font-semibold mb-4">Services</h4>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="/providers?category=Mold" className="hover:text-white">Mold Remediation</Link></li>
-                  <li><Link href="/providers?category=Water" className="hover:text-white">Water Damage</Link></li>
-                  <li><Link href="/providers?category=Pest" className="hover:text-white">Pest Control</Link></li>
+                  <li><Link href="/providers?category=Mold" className="hover:text-white transition-colors">Mold Remediation</Link></li>
+                  <li><Link href="/providers?category=Water" className="hover:text-white transition-colors">Water Damage</Link></li>
+                  <li><Link href="/providers?category=Pest" className="hover:text-white transition-colors">Pest Control</Link></li>
                 </ul>
               </div>
+              {/* Task 9: Real contact info */}
               <div>
                 <h4 className="text-white font-semibold mb-4">Contact</h4>
-                <p className="text-sm">For provider inquiries or corrections, please contact us.</p>
+                <ul className="space-y-2 text-sm">
+                  <li>
+                    <a
+                      href="mailto:contact@hazardsdirectory.com"
+                      className="hover:text-white transition-colors"
+                    >
+                      contact@hazardsdirectory.com
+                    </a>
+                  </li>
+                  <li>
+                    <Link href="/list-your-business" className="hover:text-white transition-colors">
+                      List Your Business →
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">

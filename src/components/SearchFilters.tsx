@@ -90,8 +90,12 @@ export default function SearchFilters({ states }: SearchFiltersProps) {
           </select>
         </div>
 
+        {/* Task 8: Search button uses amber accent */}
         <div className="flex items-end">
-          <button type="submit" className="w-full btn-primary py-2">
+          <button
+            type="submit"
+            className="w-full bg-amber-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-600 transition-colors"
+          >
             Search
           </button>
         </div>
