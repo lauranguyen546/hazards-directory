@@ -5,9 +5,8 @@ import Link from 'next/link'
 
 const navLinks = [
   { label: 'Browse Directory', href: '/#directory' },
-  { label: 'Categories', href: '/#categories' },
-  { label: 'About', href: '/#about' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Guides', href: '/guides' },
+  { label: 'List Your Business', href: '/list-your-business' },
 ]
 
 export default function Navbar() {
@@ -35,6 +34,12 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/get-quotes"
+            className="bg-amber-500 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-amber-600 transition-colors"
+          >
+            Get Free Quotes
+          </Link>
         </nav>
 
         {/* Mobile hamburger button */}
@@ -70,6 +75,13 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <Link
+              href="/get-quotes"
+              className="py-2 px-3 text-sm font-bold text-amber-600 hover:bg-amber-50 rounded-lg transition-colors"
+              onClick={() => setMobileOpen(false)}
+            >
+              Get Free Quotes
+            </Link>
           </nav>
         </div>
       )}

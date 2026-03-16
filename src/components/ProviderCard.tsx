@@ -16,6 +16,8 @@ export default function ProviderCard({ provider }: ProviderCardProps) {
     rating,
     review_count,
     description,
+    county,
+    state,
   } = provider
 
   const serviceLabels: Record<string, string> = {
@@ -95,6 +97,15 @@ export default function ProviderCard({ provider }: ProviderCardProps) {
             Details →
           </Link>
         </div>
+      </div>
+      {/* Internal link to more pros in county */}
+      <div className="mt-3 pt-3 border-t border-gray-50">
+        <Link
+          href={`/providers?county=${encodeURIComponent(county)}&state=${encodeURIComponent(state)}&category=${service_category}`}
+          className="text-xs text-gray-400 hover:text-primary-600 transition-colors"
+        >
+          More {serviceLabel} pros in {county}, {state} →
+        </Link>
       </div>
     </div>
   )

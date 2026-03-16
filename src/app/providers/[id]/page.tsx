@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getProviderById } from '@/lib/supabase'
 import { generateLocalBusinessSchema } from '@/lib/schema'
+import LeadCaptureForm from '@/components/LeadCaptureForm'
 
 interface ProviderPageProps {
   params: {
@@ -70,7 +71,7 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="max-w-5xl mx-auto px-4 py-8">
           {/* Provider Header */}
           <div className="bg-white rounded-xl shadow-sm border p-8 mb-6">
             <div className="flex items-start justify-between mb-4">
@@ -125,6 +126,16 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
                 </a>
               )}
             </div>
+          </div>
+
+          {/* Lead Capture + Contact Info */}
+          <div className="grid lg:grid-cols-2 gap-6 mb-6">
+            <LeadCaptureForm
+              prefilledCategory={provider.service_category as 'Mold' | 'Water' | 'Pest' | 'Radon'}
+              prefilledState={provider.state}
+              sourceProviderName={provider.provider_name}
+              sourceProviderId={provider.id}
+            />
           </div>
 
           {/* Contact Info */}
@@ -191,9 +202,15 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
           </div>
 
           {/* Back Link */}
-          <div className="mt-8">
+          <div className="mt-8 flex items-center justify-between">
             <Link href="/providers" className="text-primary-600 hover:underline">
               ← Back to all providers
+            </Link>
+            <Link
+              href={`/providers?state=${encodeURIComponent(provider.state)}&county=${encodeURIComponent(provider.county)}&category=${provider.service_category}`}
+              className="text-sm text-gray-500 hover:text-gray-700"
+            >
+              More {provider.service_category === 'Mold' ? 'Mold Remediation' : provider.service_category === 'Water' ? 'Water Damage' : provider.service_category === 'Pest' ? 'Pest Control' : 'Radon'} pros in {provider.county}, {provider.state} →
             </Link>
           </div>
         </div>

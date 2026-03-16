@@ -136,6 +136,33 @@ export default async function HomePage() {
           <TopRatedSection category="Water" limit={6} />
         </div>
 
+        {/* ── Popular Searches ── */}
+        <section className="py-12 bg-white border-b px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-2xl font-bold text-center mb-8">Popular Searches</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {[
+                { label: 'Mold Removal in Florida', href: '/mold-remediation/florida' },
+                { label: 'Mold Removal in Georgia', href: '/mold-remediation/georgia' },
+                { label: 'Water Damage in Florida', href: '/water-damage-restoration/florida' },
+                { label: 'Pest Control in Florida', href: '/pest-control/florida' },
+                { label: 'Radon Testing in NC', href: '/radon-testing/north-carolina' },
+                { label: 'Mold Removal in NC', href: '/mold-remediation/north-carolina' },
+                { label: 'Water Damage in Georgia', href: '/water-damage-restoration/georgia' },
+                { label: 'Pest Control in SC', href: '/pest-control/south-carolina' },
+              ].map(({ label, href }) => (
+                <a
+                  key={href}
+                  href={href}
+                  className="text-center text-sm text-primary-700 bg-blue-50 hover:bg-blue-100 border border-blue-100 rounded-lg px-3 py-2 transition-colors font-medium"
+                >
+                  {label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ── Categories Section ── */}
         <section id="categories" className="py-16 bg-gray-100 px-4">
           <div className="max-w-6xl mx-auto">
