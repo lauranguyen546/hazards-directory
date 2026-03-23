@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabaseAdmin'
+import { distributeLead } from '@/lib/leadDistribution'
 import { CreateLeadInput } from '@/types/lead'
 
 const REQUIRED_FIELDS = ['homeowner_name', 'homeowner_email', 'service_category', 'state'] as const
@@ -66,6 +67,11 @@ export async function POST(req: NextRequest) {
     console.error('Lead insert error:', error)
     return NextResponse.json({ error: 'Failed to save lead' }, { status: 500 })
   }
+
+  // Fire-and-forget lead distribution (don't block the response)
+  distributeLead(data.id).catch(err =>
+    console.error('Lead distribution failed for', data.id, err)
+  )
 
   return NextResponse.json({ success: true, lead_id: data.id }, { status: 201 })
 }

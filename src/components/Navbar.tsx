@@ -6,7 +6,7 @@ import Link from 'next/link'
 const navLinks = [
   { label: 'Browse Directory', href: '/#directory' },
   { label: 'Guides', href: '/guides' },
-  { label: 'List Your Business', href: '/list-your-business' },
+  { label: 'For Providers', href: '/list-your-business' },
 ]
 
 export default function Navbar() {
