@@ -18,6 +18,8 @@ export async function getProviders(filters?: {
   let query = supabase
     .from('providers')
     .select('*', { count: 'exact' })
+    // Featured/premium providers sort first; within same tier sort alphabetically
+    .order('tier', { ascending: false })
     .order('provider_name', { ascending: true })
 
   if (filters?.state) {
@@ -78,4 +80,46 @@ export async function getCountiesByState(state: string) {
   if (error) throw error
   const counties = new Set(data.map(d => d.county))
   return Array.from(counties)
+}
+
+/** All distinct (state, service_category) pairs — used by generateStaticParams. */
+export async function getCategoryStateParams() {
+  const { data, error } = await supabase
+    .from('providers')
+    .select('state, service_category')
+    .order('state')
+
+  if (error) throw error
+
+  const seen = new Set<string>()
+  const result: Array<{ state: string; service_category: string }> = []
+  for (const row of data) {
+    const key = `${row.state}|${row.service_category}`
+    if (!seen.has(key)) {
+      seen.add(key)
+      result.push(row)
+    }
+  }
+  return result
+}
+
+/** All distinct (state, county, service_category) triples — used by generateStaticParams. */
+export async function getCategoryStateCountyParams() {
+  const { data, error } = await supabase
+    .from('providers')
+    .select('state, county, service_category')
+    .order('state')
+
+  if (error) throw error
+
+  const seen = new Set<string>()
+  const result: Array<{ state: string; county: string; service_category: string }> = []
+  for (const row of data) {
+    const key = `${row.state}|${row.county}|${row.service_category}`
+    if (!seen.has(key)) {
+      seen.add(key)
+      result.push(row)
+    }
+  }
+  return result
 }
