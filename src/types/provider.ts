@@ -13,11 +13,11 @@ export interface Provider {
   review_count: number | null
   place_id: string | null
   description: string | null
-  tier: 'free' | 'featured' | 'premium'
-  stripe_subscription_id: string | null
-  stripe_customer_id: string | null
-  claimed_by_email: string | null
-  claimed_at: string | null
+  tier?: 'free' | 'featured' | 'premium'
+  stripe_subscription_id?: string | null
+  stripe_customer_id?: string | null
+  claimed_by_email?: string | null
+  claimed_at?: string | null
   created_at: string
   updated_at: string
 }

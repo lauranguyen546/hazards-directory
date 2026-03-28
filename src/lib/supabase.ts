@@ -18,8 +18,6 @@ export async function getProviders(filters?: {
   let query = supabase
     .from('providers')
     .select('*', { count: 'exact' })
-    // Featured/premium providers sort first; within same tier sort alphabetically
-    .order('tier', { ascending: false })
     .order('provider_name', { ascending: true })
 
   if (filters?.state) {

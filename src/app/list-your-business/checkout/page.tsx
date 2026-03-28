@@ -1,11 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { TIERS, TierKey } from '@/lib/stripe'
 
-export default function CheckoutPage() {
+function CheckoutPageInner() {
   const searchParams = useSearchParams()
   const claimId = searchParams.get('claim_id')
   const tier = (searchParams.get('tier') || 'featured') as TierKey
@@ -69,4 +69,8 @@ export default function CheckoutPage() {
       </div>
     </main>
   )
+}
+
+export default function CheckoutPage() {
+  return <Suspense><CheckoutPageInner /></Suspense>
 }

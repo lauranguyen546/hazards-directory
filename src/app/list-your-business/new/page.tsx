@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { TIERS, TierKey } from '@/lib/stripe'
@@ -14,7 +14,7 @@ const US_STATES = [
   'VA','WA','WV','WI','WY',
 ]
 
-export default function NewListingPage() {
+function NewListingPageInner() {
   const searchParams = useSearchParams()
   const defaultTier = (searchParams.get('tier') || 'free') as TierKey | 'free'
 
@@ -209,4 +209,8 @@ export default function NewListingPage() {
       </div>
     </main>
   )
+}
+
+export default function NewListingPage() {
+  return <Suspense><NewListingPageInner /></Suspense>
 }
