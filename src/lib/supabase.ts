@@ -18,6 +18,7 @@ export async function getProviders(filters?: {
   let query = supabase
     .from('providers')
     .select('*', { count: 'exact' })
+    .order('tier', { ascending: false })
     .order('provider_name', { ascending: true })
 
   if (filters?.state) {
