@@ -130,14 +130,33 @@ The homepage includes:
 - Organization schema
 - Sitemap generation (add `/sitemap.xml` route)
 
+## Submitting the Sitemap to Google Search Console
+
+The sitemap is auto-generated at:
+```
+https://hazards-directory.vercel.app/sitemap.xml
+```
+
+To submit it to Google Search Console:
+
+1. Go to [Google Search Console](https://search.google.com/search-console) and sign in
+2. Select your property (add `https://hazards-directory.vercel.app` if not already added)
+3. In the left sidebar, click **Sitemaps** (under *Indexing*)
+4. In the "Add a new sitemap" field, enter: `sitemap.xml`
+5. Click **Submit**
+
+Google will crawl the sitemap and begin indexing the pages. Check back after 24–48 hours to see crawl status and any errors.
+
 ## Next Steps
 
-1. [ ] Add `/sitemap.xml` and `/robots.txt` routes
-2. [ ] Implement agent API endpoints for automated ingestion
-3. [ ] Add image support for providers
-4. [ ] Implement review aggregation
-5. [ ] Add lead generation/contact forms
-6. [ ] Analytics tracking
+1. [x] Add `/sitemap.xml` and `/robots.txt` routes
+2. [x] Add organic content sections to category pages and `/guides`
+3. [ ] Submit sitemap via Google Search Console (see above)
+4. [ ] Implement agent API endpoints for automated ingestion
+5. [ ] Add image support for providers
+6. [ ] Implement review aggregation
+7. [ ] Add lead generation/contact forms
+8. [ ] Analytics tracking
 
 ## License
 

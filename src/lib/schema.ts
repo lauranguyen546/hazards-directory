@@ -48,8 +48,22 @@ function mapCategoryToSchemaType(category: string): string {
     'plumber': 'Plumber',
     'electrician': 'Electrician',
     'hvac': 'HVACBusiness',
+    'septic_system_service': 'HomeAndConstructionBusiness',
   }
   return categoryMap[category] || 'LocalBusiness'
+}
+
+export function generateBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  }
 }
 
 export function generateOrganizationSchema() {
@@ -59,5 +73,49 @@ export function generateOrganizationSchema() {
     name: 'Hazards Directory',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory',
     description: 'Find trusted mold remediation, water damage restoration, and pest control providers across the United States.',
+  }
+}
+
+export function generateFAQSchema(faqs: Array<{ question: string; answer: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  }
+}
+
+export function generateArticleSchema({
+  title,
+  description,
+  url,
+  datePublished,
+  dateModified,
+}: {
+  title: string
+  description: string
+  url: string
+  datePublished: string
+  dateModified: string
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    url,
+    datePublished,
+    dateModified,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Hazards Directory',
+      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory',
+    },
   }
 }
