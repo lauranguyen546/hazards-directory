@@ -39,7 +39,7 @@ export default async function HomePage() {
         >
           <div className="max-w-6xl mx-auto text-center w-full">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Find Trusted Hazards Professionals
+              Find Trusted Home Repair Professionals
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
               Verified mold remediation, water damage restoration, and pest control providers across the United States.
