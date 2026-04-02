@@ -232,12 +232,9 @@ export default async function HomePage() {
                 <h4 className="text-white font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-sm">
                   <li>
-                    <a
-                      href="mailto:contact@homerepair.expert"
-                      className="hover:text-white transition-colors"
-                    >
-                      contact@homerepair.expert
-                    </a>
+                    <Link href="/contact" className="hover:text-white transition-colors">
+                      Contact Us
+                    </Link>
                   </li>
                   <li>
                     <Link href="/list-your-business" className="hover:text-white transition-colors">

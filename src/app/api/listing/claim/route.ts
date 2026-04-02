@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase-server'
+import { notifyOwner } from '@/lib/email'
 import crypto from 'crypto'
 
 function isValidEmail(email: string) {
@@ -54,25 +55,34 @@ export async function POST(request: NextRequest) {
     const verifyUrl = `${siteUrl}/list-your-business/verify?token=${token}`
 
     if (resendKey) {
-      await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${resendKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          from: 'HomeRepair.Expert <listings@homerepair.expert>',
-          to: contact_email,
-          subject: `Verify your claim for ${provider.provider_name}`,
-          html: `
-            <p>Hi ${contact_name},</p>
-            <p>Click the link below to verify your email and continue setting up your listing for <strong>${provider.provider_name}</strong>:</p>
-            <p><a href="${verifyUrl}" style="background:#3B5BDB;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block">Verify Email</a></p>
-            <p>This link expires in 24 hours.</p>
-            <p>If you did not request this, you can ignore this email.</p>
-          `,
+      await Promise.all([
+        fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${resendKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            from: 'HomeRepair.Expert <listings@homerepair.expert>',
+            to: contact_email,
+            subject: `Verify your claim for ${provider.provider_name}`,
+            html: `
+              <p>Hi ${contact_name},</p>
+              <p>Click the link below to verify your email and continue setting up your listing for <strong>${provider.provider_name}</strong>:</p>
+              <p><a href="${verifyUrl}" style="background:#3B5BDB;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block">Verify Email</a></p>
+              <p>This link expires in 24 hours.</p>
+              <p>If you did not request this, you can ignore this email.</p>
+            `,
+          }),
         }),
-      })
+        notifyOwner('Listing claim submitted', {
+          Business: provider.provider_name,
+          Contact: contact_name,
+          Email: contact_email,
+          Phone: contact_phone || null,
+          Tier: tier_selected || 'free',
+        }),
+      ])
     }
 
     return NextResponse.json({

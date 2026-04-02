@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabase'
+import { notifyOwner } from '@/lib/email'
 
 export async function POST(request: NextRequest) {
   try {
@@ -45,6 +46,17 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       )
     }
+
+    await notifyOwner('New quote request', {
+      Name: lead.name,
+      Email: lead.email,
+      Phone: lead.phone,
+      Service: lead.service_needed,
+      Message: lead.message,
+      Source: lead.source_type,
+      State: lead.source_state,
+      Category: lead.source_category,
+    })
 
     return NextResponse.json({ success: true, data }, { status: 201 })
   } catch (error) {

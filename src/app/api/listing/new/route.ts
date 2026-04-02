@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase-server'
+import { notifyOwner } from '@/lib/email'
 import crypto from 'crypto'
 
 function isValidEmail(email: string) {
@@ -66,24 +67,36 @@ export async function POST(request: NextRequest) {
     const resendKey = process.env.RESEND_API_KEY
 
     if (resendKey) {
-      await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${resendKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          from: 'HomeRepair.Expert <listings@homerepair.expert>',
-          to: contact_email,
-          subject: `Verify your new listing for ${business_name}`,
-          html: `
-            <p>Hi ${contact_name},</p>
-            <p>Click below to verify your email and activate your listing for <strong>${business_name}</strong>:</p>
-            <p><a href="${verifyUrl}" style="background:#3B5BDB;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block">Verify Email & Activate Listing</a></p>
-            <p>This link expires in 24 hours. Once verified, your listing will be reviewed and published within 1 business day.</p>
-          `,
+      await Promise.all([
+        fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${resendKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            from: 'HomeRepair.Expert <listings@homerepair.expert>',
+            to: contact_email,
+            subject: `Verify your new listing for ${business_name}`,
+            html: `
+              <p>Hi ${contact_name},</p>
+              <p>Click below to verify your email and activate your listing for <strong>${business_name}</strong>:</p>
+              <p><a href="${verifyUrl}" style="background:#3B5BDB;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block">Verify Email & Activate Listing</a></p>
+              <p>This link expires in 24 hours. Once verified, your listing will be reviewed and published within 1 business day.</p>
+            `,
+          }),
         }),
-      })
+        notifyOwner('New business listing submitted', {
+          Business: business_name,
+          Category: service_category,
+          Contact: contact_name,
+          Email: contact_email,
+          Phone: contact_phone || null,
+          Address: `${address}, ${city}, ${state}${zip ? ' ' + zip : ''}`,
+          Website: website || null,
+          Tier: tier_selected || 'free',
+        }),
+      ])
     }
 
     return NextResponse.json({
