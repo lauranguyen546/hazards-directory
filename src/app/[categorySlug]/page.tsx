@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isCategorySlug(params.categorySlug)) return { title: 'Not Found' }
   const category = CATEGORIES[params.categorySlug]
-  const title = `${category.label} Services | Find Local Providers | Hazards Directory`
+  const title = `${category.label} Services | Find Local Providers | HomeRepair.Expert`
   const description = `Find verified ${category.metaDescription} professionals near you. Compare local providers, read reviews, and get quotes. Browse by state.`
   return {
     title,
@@ -32,7 +32,7 @@ export default async function CategoryPage({ params }: Props) {
 
   const category = CATEGORIES[params.categorySlug]
   const content = CATEGORY_CONTENT[params.categorySlug]
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
 
   const states = await getStates()
 

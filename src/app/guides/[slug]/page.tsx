@@ -15,9 +15,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = getGuide(params.slug)
   if (!guide) return { title: 'Not Found' }
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
   return {
-    title: `${guide.title} | Hazards Directory`,
+    title: `${guide.title} | HomeRepair.Expert`,
     description: guide.metaDescription,
     openGraph: { title: guide.title, description: guide.metaDescription, type: 'article' },
     alternates: { canonical: `${baseUrl}/guides/${guide.slug}` },
@@ -28,7 +28,7 @@ export default function GuidePage({ params }: Props) {
   const guide = getGuide(params.slug)
   if (!guide) notFound()
 
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: baseUrl },

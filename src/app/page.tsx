@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { getStates, getProviders } from '@/lib/supabase'
@@ -5,10 +7,11 @@ import { generateOrganizationSchema } from '@/lib/schema'
 import ProviderCard from '@/components/ProviderCard'
 import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
 import TopRatedSection from '@/components/TopRatedSection'
+import GetQuotesWidget from '@/components/GetQuotesWidget'
 import { filterAndSortProviders } from '@/lib/filterProviders'
 
 export const metadata: Metadata = {
-  title: 'Hazards Directory | Mold, Water Damage & Pest Control Pros',
+  title: 'HomeRepair.Expert | Mold, Water Damage & Pest Control Pros',
   description: 'Find verified mold remediation, water damage restoration, and pest control providers across the United States.',
 }
 
@@ -136,6 +139,13 @@ export default async function HomePage() {
           <TopRatedSection category="Water" limit={6} />
         </div>
 
+        {/* Get 3 Quotes Widget */}
+        <section className="py-8 px-4 bg-white">
+          <div className="max-w-2xl mx-auto">
+            <GetQuotesWidget />
+          </div>
+        </section>
+
         {/* ── Categories Section ── */}
         <section id="categories" className="py-16 bg-gray-100 px-4">
           <div className="max-w-6xl mx-auto">
@@ -169,10 +179,10 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ── Task 7: Why Hazards Directory — 3-column trust pillars ── */}
+        {/* ── Task 7: Why HomeRepair.Expert — 3-column trust pillars ── */}
         <section id="about" className="py-16 px-4 bg-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-12">Why Hazards Directory?</h2>
+            <h2 className="text-3xl font-bold mb-12">Why HomeRepair.Expert?</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
               <div className="bg-gray-50 rounded-xl shadow-sm p-6 flex flex-col items-center text-center">
                 <div className="text-4xl mb-4">🔍</div>
@@ -204,7 +214,7 @@ export default async function HomePage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-white text-lg font-bold mb-4">Hazards Directory</h3>
+                <h3 className="text-white text-lg font-bold mb-4">HomeRepair.Expert</h3>
                 <p className="text-sm">
                   Connecting homeowners with trusted mold, water damage, and pest control professionals.
                 </p>
@@ -223,10 +233,10 @@ export default async function HomePage() {
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
-                      href="mailto:contact@hazardsdirectory.com"
+                      href="mailto:contact@homerepair.expert"
                       className="hover:text-white transition-colors"
                     >
-                      contact@hazardsdirectory.com
+                      contact@homerepair.expert
                     </a>
                   </li>
                   <li>
@@ -238,7 +248,7 @@ export default async function HomePage() {
               </div>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-              © {new Date().getFullYear()} Hazards Directory. All rights reserved.
+              © {new Date().getFullYear()} HomeRepair.Expert. All rights reserved.
             </div>
           </div>
         </footer>

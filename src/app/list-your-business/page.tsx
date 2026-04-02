@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { TIERS } from '@/lib/stripe'
 
 export const metadata: Metadata = {
-  title: 'List Your Business | Hazards Directory',
-  description: 'Get your mold remediation, water damage restoration, pest control, or radon testing business listed in the Hazards Directory.',
+  title: 'List Your Business | HomeRepair.Expert',
+  description: 'Get your mold remediation, water damage restoration, pest control, or radon testing business listed in HomeRepair.Expert.',
 }
 
 const features = [

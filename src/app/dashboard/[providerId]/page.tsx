@@ -8,7 +8,7 @@ interface DashboardPageProps {
 }
 
 export async function generateMetadata({ params }: DashboardPageProps): Promise<Metadata> {
-  return { title: 'Provider Dashboard | Hazards Directory' }
+  return { title: 'Provider Dashboard | HomeRepair.Expert' }
 }
 
 async function getProviderWithLeads(id: string) {

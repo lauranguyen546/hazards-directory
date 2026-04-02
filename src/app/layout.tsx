@@ -6,10 +6,10 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Hazards Directory | Find Trusted Mold, Water & Pest Control Pros',
+  title: 'HomeRepair.Expert | Find Trusted Mold, Water & Pest Control Pros',
   description: 'Find verified mold remediation, water damage restoration, and pest control providers across the United States. Compare ratings, reviews, and services.',
   openGraph: {
-    title: 'Hazards Directory',
+    title: 'HomeRepair.Expert',
     description: 'Find trusted mold, water damage, and pest control professionals',
     type: 'website',
   },

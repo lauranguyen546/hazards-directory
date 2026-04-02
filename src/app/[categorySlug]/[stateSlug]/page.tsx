@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!resolved) return { title: 'Not Found' }
 
   const { category, state } = resolved
-  const title = `${category.label} in ${state} | Hazards Directory`
+  const title = `${category.label} in ${state} | HomeRepair.Expert`
   const description = `Find trusted ${category.metaDescription} professionals in ${state}. Browse local providers, compare ratings, and get quotes.`
 
   return {
@@ -60,7 +60,7 @@ export default async function StateCategoryPage({ params }: Props) {
   if (!resolved) notFound()
 
   const { category, state } = resolved
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
 
   const [{ data: rawProviders, count }, counties] = await Promise.all([
     getProviders({ state, service_category: category.dbValue, limit: 1000 }),

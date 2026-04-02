@@ -21,7 +21,7 @@ export default function Navbar() {
           href="/"
           className="text-lg font-bold text-primary-700 hover:text-primary-800 transition-colors"
         >
-          Hazards Directory
+          HomeRepair.Expert
         </Link>
 
         {/* Desktop nav */}

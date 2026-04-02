@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getProviderById } from '@/lib/supabase'
 import { generateLocalBusinessSchema } from '@/lib/schema'
+import QuoteRequestForm from '@/components/QuoteRequestForm'
 
 interface ProviderPageProps {
   params: {
@@ -188,6 +189,22 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
                 )}
               </div>
             </div>
+          </div>
+
+          {/* Quote Request Form */}
+          <div className="bg-white rounded-xl shadow-sm border p-6 mt-6">
+            <h2 className="text-xl font-bold mb-1">Request a Free Quote</h2>
+            <p className="text-gray-500 text-sm mb-5">
+              Contact {provider.provider_name} directly — no obligation, no spam.
+            </p>
+            <QuoteRequestForm
+              providerId={provider.id}
+              providerName={provider.provider_name}
+              defaultService={serviceLabel}
+              sourceType="provider_page"
+              sourceState={provider.state}
+              sourceCategory={provider.service_category}
+            />
           </div>
 
           {/* Back Link */}

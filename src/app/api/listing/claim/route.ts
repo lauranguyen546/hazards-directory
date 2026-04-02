@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
 
     // Send verification email if Resend is configured
     const resendKey = process.env.RESEND_API_KEY
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
     const verifyUrl = `${siteUrl}/list-your-business/verify?token=${token}`
 
     if (resendKey) {
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'Hazards Directory <listings@hazards.directory>',
+          from: 'HomeRepair.Expert <listings@homerepair.expert>',
           to: contact_email,
           subject: `Verify your claim for ${provider.provider_name}`,
           html: `

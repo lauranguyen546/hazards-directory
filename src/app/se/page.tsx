@@ -1,10 +1,13 @@
+export const dynamic = 'force-dynamic'
+
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { getProviders } from '@/lib/supabase'
 import TopRatedSection from '@/components/TopRatedSection'
+import GetQuotesWidget from '@/components/GetQuotesWidget'
 
 export const metadata: Metadata = {
-  title: 'Southeast Hazards Directory | FL, GA, NC, SC',
+  title: 'Southeast HomeRepair.Expert | FL, GA, NC, SC',
   description: 'Find trusted mold remediation, water damage restoration, and pest control providers in Florida, Georgia, North Carolina, and South Carolina.',
 }
 
@@ -27,7 +30,7 @@ export default async function SoutheastPage() {
       <section className="bg-gradient-to-br from-primary-700 to-primary-900 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Southeast Hazards Directory
+            Southeast HomeRepair.Expert
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl">
             Connecting homeowners with trusted mold, water damage, and pest control professionals across Florida, Georgia, North Carolina, and South Carolina.
@@ -78,6 +81,13 @@ export default async function SoutheastPage() {
       <div className="py-8 bg-gradient-to-br from-primary-50 to-white">
         <TopRatedSection category="Pest" limit={3} />
       </div>
+
+      {/* Get 3 Quotes Widget */}
+      <section className="py-8 px-4 bg-white">
+        <div className="max-w-2xl mx-auto">
+          <GetQuotesWidget sourceState="Southeast" />
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="py-16 bg-gray-900 text-white px-4">

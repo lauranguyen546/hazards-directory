@@ -1,5 +1,5 @@
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
   
   const robots = `User-agent: *
 Allow: /

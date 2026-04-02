@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Email not verified yet' }, { status: 403 })
     }
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
 
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',

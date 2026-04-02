@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Failed to submit listing' }, { status: 500 })
     }
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory'
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'
     const verifyUrl = `${siteUrl}/api/listing/verify-new?token=${token}`
     const resendKey = process.env.RESEND_API_KEY
 
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'Hazards Directory <listings@hazards.directory>',
+          from: 'HomeRepair.Expert <listings@homerepair.expert>',
           to: contact_email,
           subject: `Verify your new listing for ${business_name}`,
           html: `

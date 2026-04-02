@@ -70,8 +70,8 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Hazards Directory',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory',
+    name: 'HomeRepair.Expert',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert',
     description: 'Find trusted mold remediation, water damage restoration, and pest control providers across the United States.',
   }
 }
@@ -114,8 +114,8 @@ export function generateArticleSchema({
     dateModified,
     publisher: {
       '@type': 'Organization',
-      name: 'Hazards Directory',
-      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://hazards.directory',
+      name: 'HomeRepair.Expert',
+      url: process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert',
     },
   }
 }

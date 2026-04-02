@@ -4,7 +4,7 @@ import { GUIDES } from '@/lib/guides'
 import { CATEGORIES } from '@/lib/slugs'
 
 export const metadata: Metadata = {
-  title: 'Home Hazard Guides | Mold, Water Damage & More | Hazards Directory',
+  title: 'Home Hazard Guides | Mold, Water Damage & More | HomeRepair.Expert',
   description:
     'Free guides for homeowners on mold remediation, water damage restoration, pest control, and radon testing — what to expect, costs, warning signs, and how to find pros.',
   alternates: { canonical: '/guides' },

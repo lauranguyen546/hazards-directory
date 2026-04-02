@@ -34,7 +34,7 @@ export async function generateMetadata({ searchParams }: ProvidersPageProps): Pr
   }
   
   return {
-    title: `${title} | Hazards Directory`,
+    title: `${title} | HomeRepair.Expert`,
     description,
   }
 }
