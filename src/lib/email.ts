@@ -1,5 +1,5 @@
 const OWNER_EMAIL = 'team@sollesolutions.com'
-const FROM = 'HomeRepair.Expert <notifications@homerepair.expert>'
+const FROM = 'HomeRepair.Expert <team@sollesolutions.com>'
 
 async function sendEmail(to: string, subject: string, html: string) {
   const resendKey = process.env.RESEND_API_KEY

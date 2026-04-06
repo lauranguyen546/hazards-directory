@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            from: 'HomeRepair.Expert <listings@homerepair.expert>',
+            from: 'HomeRepair.Expert <team@sollesolutions.com>',
             to: contact_email,
             subject: `Verify your claim for ${provider.provider_name}`,
             html: `
