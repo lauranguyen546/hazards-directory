@@ -95,6 +95,7 @@ export const CATEGORY_CONTENT: Record<CategorySlug, CategoryContent> = {
     relatedGuides: [
       { title: 'How to Tell If You Have Mold', slug: 'how-to-tell-if-you-have-mold' },
       { title: 'Mold Remediation Cost Guide', slug: 'mold-remediation-cost' },
+      { title: 'Black Mold Symptoms: Health Effects and What to Do', slug: 'black-mold-symptoms' },
     ],
   },
 
@@ -351,6 +352,94 @@ export const CATEGORY_CONTENT: Record<CategorySlug, CategoryContent> = {
         answer:
           'A standard radon fan uses 20–90 watts — comparable to a light bulb. The annual electricity cost is typically $30–$100. Given the lung cancer risk reduction, this is one of the most cost-effective home health investments available.',
       },
+    ],
+  },
+
+  'septic-services': {
+    whatIs:
+      'Septic services encompass the inspection, pumping, repair, and installation of residential and commercial septic systems. A septic system treats and disperses household wastewater on-site through a tank and drain field. Without regular maintenance — typically pumping every 3–5 years — solids accumulate, causing system failure, sewage backups, and costly repairs. Licensed septic professionals also handle system inspections for real estate transactions, drain field restoration, and full system replacements.',
+
+    warningSigns: [
+      'Slow drains throughout the home (not isolated to one fixture)',
+      'Gurgling sounds in toilets or drains when water is used elsewhere',
+      'Sewage odors inside the home or around the yard near the tank or drain field',
+      'Unusually lush, green grass over the drain field — a sign of effluent surfacing',
+      'Sewage backup in the lowest drains of the house',
+      'It has been more than 3–5 years since your last septic pumping',
+    ],
+
+    whatToExpect: [
+      {
+        step: '1. Inspection & Locate',
+        description:
+          'A licensed technician locates your tank (using records or probing), uncovers the lids, and inspects the system — measuring sludge and scum layers, checking baffles, and assessing the drain field for signs of failure.',
+      },
+      {
+        step: '2. Pumping & Cleaning',
+        description:
+          'A vacuum truck pumps all liquid and solid waste from the tank. The technician rinses the walls and checks the inlet/outlet baffles and filter. The pumped waste is transported to an approved treatment facility.',
+      },
+      {
+        step: '3. Report & Recommendations',
+        description:
+          'You receive a written service report noting tank condition, sludge depth, and any issues observed. If repairs are needed — baffle replacement, riser installation, or drain field remediation — the technician will outline next steps and costs.',
+      },
+    ],
+
+    howToChoose: [
+      {
+        factor: 'State Licensing & Insurance',
+        description:
+          'Septic pumpers and installers must be licensed in most states. Verify the company holds a current license and carries general liability and environmental liability insurance, as spills can trigger costly cleanup requirements.',
+      },
+      {
+        factor: 'Written Service Report',
+        description:
+          'Insist on a written report after each service call documenting tank condition, sludge levels, and any deficiencies. This record is essential for resale disclosures and future maintenance planning.',
+      },
+      {
+        factor: 'Proper Waste Disposal',
+        description:
+          'Ask where pumped waste is disposed. Reputable companies transport septage to licensed treatment facilities or approved land application sites. Illegal dumping is an environmental violation that can expose you to liability.',
+      },
+      {
+        factor: 'Full-Service Capability',
+        description:
+          'Choose a company that can handle inspections, pumping, and repairs under one roof. If your system needs more than routine pumping, you want a provider who can diagnose and fix drain field issues, replace baffles, or install risers without subcontracting.',
+      },
+    ],
+
+    faqs: [
+      {
+        question: 'How often should a septic tank be pumped?',
+        answer:
+          'Most residential septic tanks should be pumped every 3–5 years, depending on household size and tank capacity. A 1,000-gallon tank serving a family of four typically needs pumping every 3–4 years. Annual inspections help you track sludge accumulation and avoid emergency pumping.',
+      },
+      {
+        question: 'How much does septic pumping cost?',
+        answer:
+          'Septic tank pumping typically costs $300–$600 for a standard residential tank, depending on tank size, access difficulty, and local market rates. Systems with multiple tanks, risers, or hard-to-access lids may cost more. Get at least two quotes and confirm what is included.',
+      },
+      {
+        question: 'What are the signs of septic system failure?',
+        answer:
+          'Key warning signs include slow drains throughout the home, sewage odors indoors or outdoors, sewage backups in the lowest fixtures, and wet or unusually green patches of grass over the drain field. If you notice any of these, stop using water-intensive appliances and call a septic professional immediately.',
+      },
+      {
+        question: 'Can I use a garbage disposal with a septic system?',
+        answer:
+          'While possible, garbage disposals significantly increase the solids load in your tank and can shorten the time between necessary pumpings by 50% or more. If you have a disposal, plan for more frequent pumping and consider a high-capacity tank or a composting alternative.',
+      },
+      {
+        question: 'What should I avoid putting into a septic system?',
+        answer:
+          'Never flush wipes (even "flushable" ones), feminine hygiene products, diapers, medications, cooking grease, coffee grounds, or harsh chemical drain cleaners. These items kill beneficial bacteria in the tank or clog the drain field, leading to premature system failure.',
+      },
+    ],
+
+    relatedGuides: [
+      { title: 'Septic Tank Pumping Cost: 2026 Price Guide', slug: 'septic-tank-pumping-cost' },
+      { title: 'Signs Your Septic System Is Failing', slug: 'signs-of-septic-system-failure' },
     ],
   },
 }
