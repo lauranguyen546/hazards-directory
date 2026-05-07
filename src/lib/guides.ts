@@ -1284,6 +1284,129 @@ A licensed pest control company will conduct a full inspection, identify entry p
       },
     ],
   },
+
+  // Week 5: Septic — Septic Tank Problems
+  {
+    slug: 'septic-tank-problems',
+    title: 'Septic Tank Problems: Warning Signs, Causes, and What to Do',
+    metaDescription:
+      'Learn to recognize common septic tank problems before they become emergencies. Covers slow drains, odors, soggy yard, root intrusion, and when to call a pro.',
+    targetKeyword: 'septic tank problems',
+    categorySlug: 'septic-services',
+    categoryLabel: 'Septic Services',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Septic Service Professional Near You',
+    ctaHref: '/septic-services',
+    sections: [
+      {
+        heading: 'Why Septic Problems Rarely Announce Themselves',
+        body: `Most homeowners don't think about their septic system until something goes wrong — and by the time something is obviously wrong, the problem has usually been developing for months. A septic system in distress sends early warning signals long before the crisis point of sewage backup or drain field failure, but those signals are easy to dismiss or misattribute.
+
+Catching septic problems early is not just convenient — it is financially significant. The difference between diagnosing an issue at the slow-drain stage (a $300–$500 pump-out and inspection) versus catching it at the drain field failure stage ($10,000–$30,000 system replacement or repair) can be enormous. This guide covers the most common septic tank problems, how to recognize them, what causes each, and when the situation requires professional intervention.`,
+      },
+      {
+        heading: 'Slow or Gurgling Drains',
+        body: `**What it looks like:** Multiple drains throughout the home — not just one — running slowly at the same time. Toilets that take longer than usual to clear. Gurgling or bubbling sounds from floor drains, toilets, or sinks after flushing or draining.
+
+**Why it matters:** A single slow drain is almost always a localized clog — hair, grease, or debris in that specific drain line. Multiple slow drains simultaneously point to a problem downstream: either in the main drain line between the house and the tank, the tank itself (full or clogged inlet), or the drain field (saturated or failing).
+
+**Common causes:**
+- Tank overdue for pumping — sludge and scum layers have built up to the point that water movement is restricted
+- Inlet baffle clogged or broken — the baffle that directs incoming sewage into the tank is blocked
+- Main line blockage between house and tank — root intrusion, grease buildup, or physical damage
+- Saturated drain field — the soil is no longer absorbing effluent at the rate the household is producing it
+
+**What to do:** Do not ignore slow drains throughout the home. Reduce water use immediately and call a septic professional. Have the tank pumped and inspected. If pumping doesn't resolve the symptom immediately after the truck leaves, the problem is in the drain field or main line — not just a full tank.`,
+      },
+      {
+        heading: 'Sewage Odors Indoors or Outdoors',
+        body: `**What it looks like:** A sewage or sulfur smell inside the home — particularly from floor drains, the basement, or lower-level bathrooms. Or an outdoor sewage odor concentrated near the tank lid or over the drain field area.
+
+**Why a properly functioning system shouldn't smell:** A healthy septic system is sealed and under negative pressure relative to the house. Odors are controlled by the plumbing's vent stack system, which releases gases safely above the roofline. When odors are detectable inside or outside, something in that sealed system has broken down.
+
+**Common causes:**
+- Dried P-traps — floor drains, rarely used sinks, and basement shower drains have U-shaped traps that hold water to block sewer gas. If a drain isn't used for weeks, the water evaporates and sewer gas enters. Fix: pour a gallon of water down the drain.
+- Failed vent stack — a vent pipe blocked by a bird nest, debris, or ice in winter can cause sewer gas to back up into the home instead of venting properly.
+- Full or overloaded tank — a tank approaching or at capacity produces gases that can escape through the inlet baffle.
+- Outdoor odors near the tank — a cracked or damaged tank lid, a loose access cover, or early-stage effluent surfacing over the field.
+- Effluent surfacing on the drain field — sewage odors in the yard over the drain field area are a definitive warning sign of field failure.
+
+**What to do:** Indoor odors from a single dry drain are a DIY fix. Persistent indoor odors from multiple sources, or any outdoor sewage smell, require professional inspection. Outdoor sewage odors are a public health concern and should be treated urgently.`,
+      },
+      {
+        heading: 'Sewage Backup Into the Home',
+        body: `**What it looks like:** Sewage or dark water backing up into floor drains, the lowest-level shower or tub, or toilets — particularly on the lowest floor of the home. Raw sewage visible in the drain.
+
+**This is an emergency.** Stop all water use in the home immediately. Do not flush toilets, run dishwashers, do laundry, or shower. Every additional gallon of water into the system worsens the backup and increases the risk of sewage entering living areas.
+
+**Common causes:**
+- Main line blockage — a physical obstruction (root intrusion, collapsed pipe, grease clog) between the house and the tank
+- Full tank with blocked outlet — a completely full tank with a clogged outlet baffle forces sewage back toward the house
+- Complete drain field failure — when the field cannot accept any additional effluent, the system has nowhere to send wastewater and backs up
+
+**The critical distinction:** If the tank is pumped and the backup clears immediately and stays clear, the tank was the problem. If symptoms return within hours or days after pumping, the problem is the drain field or the line between house and tank — and requires further diagnosis, not repeat pumping.
+
+**What to do:** Call an emergency septic service. In the meantime, keep occupants away from affected drains. If sewage has surfaced inside the home, the affected area is a biohazard and should be cleaned by a professional remediation service using appropriate PPE and disinfection protocols.`,
+      },
+      {
+        heading: 'Wet, Soggy, or Unusually Green Grass Over the Drain Field',
+        body: `**What it looks like:** A section of the yard that stays wet or spongy even during dry weather. A noticeably lush, bright green stripe of grass growing over the drain field while the surrounding lawn is ordinary. Standing water in the yard that doesn't correlate with recent rainfall.
+
+**Why this happens:** The drain field is designed to disperse treated effluent (wastewater that has settled in the tank) into the soil, where it is further treated as it percolates through the soil layers. When the field is overloaded or failing, effluent rises to the surface instead of percolating down. This surfacing wastewater fertilizes the grass above it — explaining the lush green stripe — and saturates the soil, explaining the wet, spongy ground.
+
+**Causes of drain field saturation:**
+- Solids overflowing into the field — when the tank hasn't been pumped on schedule, sludge overflows into the outlet and into the distribution pipes, clogging the gravel and soil pores in the field
+- Hydraulic overload — too much water entering the system (leaking toilets, extra guests, consecutive laundry loads) exceeds the field's daily absorption capacity
+- Biomat buildup — a natural biological layer that forms in the soil over time; excessive buildup restricts absorption
+- Soil saturation from high water table — seasonal high water table periods can temporarily overwhelm even a healthy field
+
+**What to do:** Stop all non-essential water use. Call a septic professional for a full system inspection. Surfacing effluent is a health hazard and an environmental violation in most jurisdictions — it should not be left untreated. Depending on the cause, solutions range from resting the field (temporarily using the system very lightly to allow recovery) to field repair or full replacement.`,
+      },
+      {
+        heading: 'Root Intrusion',
+        body: `**What it looks like:** This problem is typically invisible until it causes a more dramatic symptom — slow drains, backup, or field failure. It is most often diagnosed during a professional inspection or camera inspection of the drain lines.
+
+**How roots damage septic systems:** Tree and shrub roots follow moisture gradients. Septic system components — tank walls, inlet and outlet pipes, distribution boxes, and drain field lines — are all sources of moisture and nutrients. Roots can crack tank walls, physically block pipes and distribution boxes, and infiltrate drain field laterals, causing mechanical blockages.
+
+**Most vulnerable components:**
+- The inlet and outlet pipes connecting the tank to the house and field — plastic and cast iron pipes are both susceptible, though cast iron corrodes and cracks more easily
+- The distribution box — the junction point that splits effluent flow to the drain field laterals; root intrusion here blocks flow to all field lines simultaneously
+- Drain field laterals — roots infiltrating the perforated pipes in the field clog the perforations and prevent proper distribution
+
+**Trees and plants to keep away from the septic system:**
+- Keep trees with aggressive root systems (willow, poplar, silver maple, elm) at least 30–50 feet from the tank and field
+- Large trees (oaks, maples) should be 20–30 feet away
+- Ornamental shrubs planted over the field can send roots into lateral lines
+
+**What to do:** If root intrusion is suspected (recurrent slow drains, known nearby trees, old system), a camera inspection of the main line and drain field is the diagnostic step. Root cutting can clear lines in the short term. If roots have physically cracked the tank or collapsed pipes, repair or replacement is necessary.`,
+      },
+      {
+        heading: 'When to Call a Septic Professional — and What to Expect',
+        body: `**Call immediately for:**
+- Sewage backup into the home
+- Sewage odors outside near the drain field
+- Wet or surfacing effluent in the yard
+- Any backup that doesn't fully clear after pumping
+
+**Schedule within a week for:**
+- Multiple slow drains throughout the home
+- Persistent sewage odors inside the home that aren't from a dry P-trap
+- It has been more than 5 years since the last pump-out
+
+**What a proper inspection covers:**
+A thorough septic inspection goes beyond just pumping the tank. A professional service should:
+- Measure sludge and scum layer depths before pumping (to assess how quickly the tank fills)
+- Inspect inlet and outlet baffles for condition and blockage
+- Locate and assess the distribution box
+- Visually inspect the drain field area for surfacing or saturation
+- Check tank walls for cracks (may require camera in older tanks)
+- Provide a written report of findings
+
+**On choosing a professional:** Use a licensed septic contractor (licensing requirements vary by state — verify through your state's environmental or health agency). For drain field diagnosis, a contractor experienced in field restoration and not just pumping gives you the most complete picture of your options. Get at least two opinions on any repair costing over $2,000 — drain field repair and replacement costs vary significantly, and not every contractor will present all available options.`,
+      },
+    ],
+  },
 ]
 
 export function getGuide(slug: string): Guide | undefined {
