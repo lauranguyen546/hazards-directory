@@ -1407,6 +1407,274 @@ A thorough septic inspection goes beyond just pumping the tank. A professional s
       },
     ],
   },
+
+  // Week 6: Water Damage — How to File a Water Damage Insurance Claim
+  {
+    slug: 'how-to-file-water-damage-insurance-claim',
+    title: 'How to File a Water Damage Insurance Claim: A Step-by-Step Guide',
+    metaDescription:
+      'Learn how to file a water damage insurance claim successfully — from documenting damage and reporting to your insurer, to working with adjusters and avoiding denials.',
+    targetKeyword: 'water damage insurance claim',
+    categorySlug: 'water-damage-restoration',
+    categoryLabel: 'Water Damage Restoration',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Water Damage Restoration Professional Near You',
+    ctaHref: '/water-damage-restoration',
+    sections: [
+      {
+        heading: 'Understanding What Water Damage Insurance Covers',
+        body: `Before you file a claim, understanding what your policy covers — and what it excludes — is essential. Water damage coverage under a standard homeowners policy is narrower than most homeowners expect.
+
+**Generally covered:**
+- Sudden and accidental water damage from internal sources: burst pipes, appliance failures (washing machine hose, dishwasher, water heater), HVAC condensate overflow, and accidental overflows from fixtures
+- Wind-driven rain entering through a storm-damaged roof or wall (in most cases)
+- Water damage resulting from a covered peril (for example, a fire suppression system activating)
+
+**Generally NOT covered:**
+- Flooding from external sources — rising water, storm surge, overland flooding, or groundwater intrusion — requires a separate flood insurance policy (NFIP or private)
+- Gradual or long-term leaks: a slow drip under the sink that went unaddressed for months is typically excluded as a maintenance failure
+- Sewer or drain backup: usually excluded from standard policies but can be added as an endorsement for modest additional premium
+- Mold damage, unless directly resulting from a covered water event and addressed promptly
+
+**The key distinction:** Sudden vs. gradual. Insurance covers sudden, accidental events. It does not cover damage that resulted from deferred maintenance or a problem the homeowner knew about or should have known about. When in doubt, document everything and file — letting the adjuster make the coverage determination is better than self-denying a potentially covered claim.`,
+      },
+      {
+        heading: 'Step 1 — Stop the Source and Mitigate Further Damage',
+        body: `Your homeowners policy requires you to take reasonable steps to prevent further damage after a covered loss. Failing to do so can give your insurer grounds to reduce your claim payout. This is called the "duty to mitigate."
+
+**Immediate steps:**
+- Shut off the water supply at the source (individual shut-off valve under the fixture) or at the main if you can't isolate the source
+- Turn off electricity to the affected area at the breaker panel if there is any risk of electrical contact with water
+- Move furniture, electronics, and valuables out of the wet area if it can be done safely
+- Extract standing water with a wet/dry vacuum if you have one, or call an emergency restoration service
+
+**What mitigation does NOT mean:** You are not required to complete full repairs before filing a claim. You are only required to prevent the damage from worsening. Do not start permanent repairs — replacing drywall, reinstalling flooring — until your adjuster has inspected or you have received written authorization to proceed. Repairing before inspection can complicate or reduce your claim.
+
+**Emergency restoration companies and your insurer:** If you call a water damage restoration company before contacting your insurer (often necessary to prevent mold within the 24–48 hour window), that is acceptable. Keep all receipts. Most restoration companies are experienced with insurance billing and will work directly with your adjuster. Choosing your own contractor rather than an insurer-preferred vendor is your right in virtually every state.`,
+      },
+      {
+        heading: 'Step 2 — Document Everything Before Cleanup',
+        body: `Documentation is the foundation of a successful claim. The more thorough your documentation before any cleanup or repair, the stronger your position throughout the process.
+
+**Photo and video documentation:**
+- Record video walking through the entire affected area before touching anything — narrate what you're seeing
+- Photograph the water source (burst pipe, appliance failure) and all affected surfaces: floors, walls, ceilings, furniture, and personal belongings
+- Photograph the waterline on walls — this establishes the extent of flooding
+- Capture serial numbers and model numbers of damaged appliances and electronics
+- Document any structural damage: buckled floors, damaged drywall, ceiling damage
+
+**Written inventory:**
+- Create a room-by-room list of damaged items with descriptions, approximate purchase dates, and estimated replacement values
+- For high-value items (electronics, jewelry, appliances), locate original receipts or credit card statements if available
+- For permanently installed items (flooring, cabinetry, built-ins), note the material type and approximate square footage
+
+**Preserve damaged materials:** Do not throw away damaged materials — including flooring samples, sections of drywall, or damaged appliance components — until your adjuster has seen them or explicitly authorized disposal. If materials must be removed for safety or to prevent mold, photograph them thoroughly first and store representative samples.
+
+**Cloud backup immediately:** Upload photos and videos to cloud storage before anything happens to your phone or device. Email yourself a copy of the inventory.`,
+      },
+      {
+        heading: 'Step 3 — Report the Claim Promptly',
+        body: `Report the loss to your insurer as soon as possible — ideally the same day the damage is discovered. Most policies have a reporting requirement, and delays can complicate claims.
+
+**How to report:**
+Most insurers offer multiple reporting channels: online portal, 24/7 phone claim line, or through your agent. The phone claim line is typically fastest for water damage events. Have the following ready:
+- Your policy number
+- Date and time the damage was discovered
+- Description of what happened (burst pipe, appliance failure, etc.)
+- General description of affected areas and preliminary damage estimate
+- Whether you have already engaged a restoration company
+
+**What happens after you report:**
+- You'll receive a claim number — keep it for every subsequent communication
+- An adjuster will be assigned, typically within 24–72 hours for urgent water losses
+- The adjuster may conduct an in-person inspection or, increasingly, request that you submit photos/video for a virtual inspection
+- Your insurer may dispatch their own preferred mitigation vendor — you can accept or decline this
+
+**Your agent vs. your claims department:** Your insurance agent can help you navigate the process and advocate for you, but the claims decision is made by the claims department, not your agent. If you have a complex loss or a dispute, a public adjuster (an independent professional who works for you, not the insurer, for a percentage of the settlement) can be valuable.`,
+      },
+      {
+        heading: 'Step 4 — Work With the Adjuster',
+        body: `The adjuster's job is to assess the damage and determine what your policy covers. Knowing how to work with an adjuster protects your interests and speeds up resolution.
+
+**Before the adjuster arrives:**
+- Have your documentation package ready: photos, video, written inventory, any receipts
+- Make a list of questions about coverage, timeline, and the repair process
+- Do not begin permanent repairs — temporary mitigation (tarps, water extraction, containment) is fine and expected, but structural repair waits for adjuster authorization
+
+**During the inspection:**
+- Walk through every affected area with the adjuster and point out all damage — do not assume they will find everything on their own
+- Ask the adjuster to document damage you're concerned about, including hidden damage they cannot directly inspect (moisture inside walls, under flooring)
+- Ask explicitly: "Is this covered under my policy?" for any item or area you're uncertain about
+- Ask when you can expect the estimate and claim decision
+
+**The adjuster's estimate vs. a contractor's estimate:**
+Adjusters use estimating software (most commonly Xactimate) that applies standardized pricing. Contractor quotes may differ — sometimes significantly. If your restoration company or contractor's estimate exceeds the adjuster's, request a scope review or ask them to negotiate directly. Gaps between adjuster estimates and actual contractor costs are common and usually resolvable.
+
+**Actual cash value vs. replacement cost value:**
+Check whether your policy pays ACV (depreciated value of the damaged items at time of loss) or RCV (the cost to replace with new items). RCV policies cost more in premium but pay out substantially more on claims. If you have an ACV policy, you will receive the depreciated value initially, with the "recoverable depreciation" paid out after you complete repairs and submit documentation.`,
+      },
+      {
+        heading: 'Common Reasons Claims Are Denied or Reduced',
+        body: `Understanding why claims fail helps you avoid the same mistakes.
+
+**"Gradual damage" denial:** The most common denial for water claims. If an adjuster determines the damage resulted from a slow, long-term leak rather than a sudden event, the claim will be denied. Document the sudden nature of the event — a pipe that burst, an appliance that failed — as clearly as possible. If you noticed any signs of a slow leak previously and did not address it, that complicates coverage.
+
+**Failure to mitigate:** If evidence suggests you knew about the damage and did nothing to stop it from worsening, the insurer can deny or reduce the claim. Act promptly and document every step you took.
+
+**Excluded peril:** Flooding from external sources, sewer backup, and groundwater intrusion are excluded from standard policies. If your damage resulted from any of these, you need a flood policy (NFIP or private) or a sewer backup endorsement to recover.
+
+**Documentation gaps:** Claims without adequate documentation of what was damaged, when it was discovered, and what the cause was are harder to settle favorably. The more organized and thorough your documentation, the less room for dispute.
+
+**Disagreement on scope or pricing:** This is not technically a denial but a common source of claim underpayment. If the adjuster's estimate seems low, you have the right to negotiate. Hire a public adjuster or an attorney specializing in insurance claims for disputes involving significant amounts.`,
+      },
+      {
+        heading: 'Appealing a Denied or Underpaid Claim',
+        body: `A claim denial or a settlement offer that doesn't cover your actual damages is not necessarily final. You have options.
+
+**Request the denial in writing:** Insurers are required to provide written explanations for claim denials. Read the letter carefully — it will cite the specific policy language the insurer is relying on. This tells you what argument you need to make in your appeal.
+
+**File a formal appeal:** Most insurers have an internal appeals process. Submit a written appeal with supporting documentation that directly addresses the denial reason. Include any additional evidence — a plumber's report on the cause of failure, contractor assessments of damage scope, or photos that counter the adjuster's characterization.
+
+**Independent appraisal:** Most homeowners policies include an appraisal clause that allows each party to hire an independent appraiser when there is a dispute about the amount of loss (not coverage). An umpire selected by both appraisers makes the final determination. This process is often faster and less expensive than litigation.
+
+**State insurance department complaint:** If you believe your insurer acted in bad faith — wrongfully denied a valid claim, failed to investigate properly, or delayed unreasonably — file a complaint with your state's department of insurance. Regulators take these complaints seriously and insurers are motivated to resolve them.
+
+**Public adjuster or attorney:** For large claims ($10,000+) where the denial or underpayment is significant, engaging a public adjuster (who takes a percentage of the settlement, typically 10–15%) or an insurance coverage attorney can yield a materially better outcome than handling the dispute yourself. The cost is typically worth it for substantial losses.`,
+      },
+    ],
+  },
+
+  // Week 7: Mold — Basement Mold Removal
+  {
+    slug: 'basement-mold-removal',
+    title: 'Basement Mold Removal: How to Safely Remediate and Prevent Recurrence',
+    metaDescription:
+      'Learn how to safely remove basement mold, when to DIY vs. hire a professional, what causes mold to grow in basements, and how to prevent it from coming back.',
+    targetKeyword: 'basement mold removal',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Mold Remediation',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Mold Remediation Professional Near You',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'Why Basements Are Mold\'s Preferred Environment',
+        body: `Of all the areas in a home, basements are the most consistently vulnerable to mold growth. The reason comes down to physics: basements are below grade, surrounded by soil on three or more sides, and often poorly ventilated. They are naturally cooler, which causes warm humid air to condense on cooler surfaces. They frequently have concrete or masonry walls and floors that absorb moisture from the surrounding soil. And because they are often used for storage and infrequently visited, mold problems can develop for months before anyone notices.
+
+The three conditions mold requires — moisture, organic material, and warmth — are all present in most basements. Moisture arrives through foundation walls, floor slab cracks, window well flooding, plumbing leaks, and HVAC condensation. Organic material is supplied by wooden framing, drywall, cardboard storage boxes, paper, and fabric. And while basements are cooler than the rest of the house, they are still above the temperature threshold for mold growth (above approximately 40°F).
+
+Understanding why your specific basement is developing mold is as important as addressing the visible growth — remediation without moisture control always results in recurrence.`,
+      },
+      {
+        heading: 'Assessing the Scope: DIY or Professional?',
+        body: `The EPA's standard guidance for mold remediation is clear on one threshold: **10 square feet**. Mold affecting less than 10 square feet (roughly a 3' x 3' area) on non-porous surfaces, where the moisture source has been identified and fixed, and where the homeowner is in good health, is generally appropriate for careful DIY cleanup. Beyond that, professional remediation is recommended.
+
+**Factors that move a basement mold job firmly into professional territory:**
+
+- **Mold on porous materials** — drywall, wood framing, insulation, carpet, stored paper and fabric. Porous materials cannot be cleaned; they must be physically removed and replaced.
+- **Hidden mold** — if you can smell mold but cannot find the source, or if moisture readings suggest mold inside a wall cavity or under flooring, professional inspection with moisture meters and potentially air sampling is needed.
+- **HVAC involvement** — if the air handler, ductwork, or return air vents are in the basement and near the mold, the HVAC system may have distributed spores throughout the home. This requires a professional scope.
+- **Area exceeds 10 square feet** — any mold problem larger than a few square feet on non-porous surfaces falls outside standard DIY guidelines.
+- **Health-sensitive occupants** — anyone in the household with asthma, respiratory conditions, allergies, or a compromised immune system means you should err toward professional remediation regardless of scale.
+- **Mold returned after prior DIY cleanup** — recurrence means the moisture source was not resolved, the cleanup was incomplete, or both.`,
+      },
+      {
+        heading: 'DIY Basement Mold Removal: Step-by-Step',
+        body: `For contained mold on non-porous surfaces (concrete, painted block, tile) under 10 square feet, careful DIY cleanup is feasible. Follow these steps:
+
+**1. Personal protective equipment:**
+Before entering the area, put on: an N95 respirator (minimum — P100 half-face respirator for better protection), nitrile gloves, safety goggles, and old clothing that can be washed or discarded. Do not wear the same clothes through the rest of the house after working.
+
+**2. Isolate the area:**
+Close off the basement from the rest of the home. Cover the doorway with plastic sheeting and tape. If possible, set up a box fan in a window exhausting air outside (not recirculating into the home) to create negative pressure relative to the rest of the house.
+
+**3. Wet the mold before disturbing it:**
+Before scrubbing, mist the mold growth with a light spray of water. This prevents dry mold spores from becoming airborne as you work. Never dry-brush or vacuum mold without a HEPA vacuum — this disperses spores.
+
+**4. Clean with an appropriate product:**
+- White vinegar (undiluted): effective antifungal for concrete and masonry
+- Hydrogen peroxide (3%): good for non-porous surfaces
+- Commercial EPA-registered antimicrobial cleaner: most reliable option for confirmed mold
+- Bleach is **not recommended** for porous or semi-porous surfaces like concrete block and mortar — it removes color but does not penetrate to kill mold roots. On fully non-porous surfaces, diluted bleach (1 cup per gallon water) can be used with adequate ventilation.
+
+Scrub thoroughly. Apply cleaner, let it dwell for 10–15 minutes, then scrub with a stiff brush. Wipe up residue with disposable rags.
+
+**5. Bag and dispose:**
+Place all used rags, cleaning materials, and any removed items in heavy-duty plastic bags. Seal the bags before carrying them through the home and dispose of them in the outside trash.
+
+**6. Dry the area completely:**
+After cleaning, the surface must dry completely. Use a dehumidifier and fans. Mold will return on any surface that remains damp.`,
+      },
+      {
+        heading: 'Professional Mold Remediation in Basements: What to Expect',
+        body: `For mold on porous materials, large areas, or hidden mold, certified professional remediation follows a structured process:
+
+**Inspection and assessment:**
+A certified inspector (IICRC AMRT or equivalent) will assess the full extent of the mold problem using moisture meters, thermal imaging, and visual inspection. Air sampling may be performed to quantify spore counts and identify species. This establishes the scope of work.
+
+**Containment setup:**
+Affected areas are isolated with plastic sheeting barriers and negative air pressure (air scrubbers exhausting contaminated air outside) to prevent cross-contamination of clean areas during work. This is critical in basements where the HVAC may otherwise distribute disturbed spores.
+
+**Material removal:**
+All mold-affected porous materials — drywall, insulation, carpet, wood framing if structurally affected — are physically removed and disposed of in sealed bags following EPA disposal guidelines. There is no cleaning option for porous materials with mold contamination; removal is required.
+
+**Surface treatment:**
+After removal, exposed structural surfaces are HEPA-vacuumed, treated with EPA-registered antimicrobials, and allowed to dry. In some cases, encapsulants are applied to wood framing surfaces.
+
+**Air clearance testing:**
+Reputable remediators arrange for post-remediation clearance testing by an independent hygienist (not the same company that did the work) to verify spore counts in the treated area meet acceptable standards before reconstruction begins. This is the objective measure of a job done correctly.
+
+**Reconstruction:**
+Replacing removed drywall, insulation, and framing is either included in the remediation contract or handled separately. Confirm scope before signing.`,
+      },
+      {
+        heading: 'Finding and Fixing the Moisture Source',
+        body: `Mold remediation without resolving the moisture source is pointless — growth will return within weeks. Identifying the exact moisture pathway requires systematic investigation.
+
+**Common basement moisture sources:**
+
+**Condensation:** Warm, humid air contacting cool basement walls and surfaces condenses. This is most common in summer months when outdoor humidity is high. Signs: uniform dampness on exterior walls, especially on the interior side of below-grade concrete.
+
+**Seepage through foundation walls or floor:** Water in the surrounding soil migrating through cracks, wall voids, and the floor-wall joint. Signs: efflorescence (white mineral deposits), staining patterns that track cracks or joints, wetness that appears only during or after heavy rain.
+
+**Interior plumbing leaks:** Slow drips from supply lines, drain pipes, or HVAC condensate lines. Often hidden in wall cavities or above drop ceilings. Signs: staining on drywall, musty odor localized to a specific area regardless of weather.
+
+**Window well drainage failure:** Window wells that accumulate water and have no drainage. Signs: water intrusion around basement windows during rainfall.
+
+**Downspout and grading issues:** Gutters that overflow or discharge against the foundation, and landscaping that directs water toward the house. Signs: water intrusion concentrated at the corners where downspouts discharge.
+
+**Fixes range from simple to significant:**
+- Improving gutter drainage and regrading landscaping: $500–$5,000 and often the highest-impact intervention
+- Window well drains: $200–$800
+- Interior drain tile (French drain) and sump pump: $3,000–$10,000 for a full perimeter system — addresses hydrostatic pressure from a high water table
+- Exterior waterproofing (excavation and membrane): $10,000–$25,000 — the most comprehensive solution for severe seepage but rarely necessary if surface drainage is addressed first`,
+      },
+      {
+        heading: 'Preventing Basement Mold From Returning',
+        body: `After remediation, the goal is maintaining conditions that prevent mold establishment. Moisture control is everything.
+
+**Dehumidification:**
+Keep relative humidity in the basement below 50% year-round (ideally 30–45%). A dedicated basement dehumidifier (look for 50–70 pint capacity units for typical basements) running continuously during humid months is one of the most effective preventive investments available. Check and empty the reservoir or ensure a continuous drain line. Monitor humidity with an inexpensive hygrometer.
+
+**Improve ventilation:**
+Basements with HVAC supply registers but no return air path effectively have stagnant air. Add a return air register or, at minimum, leave a gap at the bottom of the basement door to allow air circulation.
+
+**Address surface moisture on walls:**
+If walls are consistently damp from condensation, applying a waterproofing paint or sealant (products like DRYLOK) reduces moisture migration. This is a supplementary measure, not a primary fix for seepage.
+
+**Storage choices:**
+Replace cardboard boxes (mold food) with plastic bins with lids. Store items on shelving, not directly on the concrete floor. Avoid storing paper, fabric, and organic materials on the floor or against exterior walls.
+
+**Annual inspection habit:**
+Walk the basement perimeter after every significant rain event. Check for new staining, efflorescence, or musty odors. Catching moisture intrusion early — before it becomes an active mold problem — is far cheaper than remediation.
+
+**Post-remediation air testing:**
+One year after professional remediation, consider a repeat air quality test to verify the basement environment remains within normal parameters. This is inexpensive ($150–$300) and provides objective confirmation that the remediation held.`,
+      },
+    ],
+  },
 ]
 
 export function getGuide(slug: string): Guide | undefined {
