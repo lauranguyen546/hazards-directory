@@ -1675,6 +1675,607 @@ One year after professional remediation, consider a repeat air quality test to v
       },
     ],
   },
+
+  // Week 8: Pest Control — How to Get Rid of Cockroaches
+  {
+    slug: 'how-to-get-rid-of-cockroaches',
+    title: 'How to Get Rid of Cockroaches: Identification, Treatment, and Prevention',
+    metaDescription:
+      'Learn how to identify cockroach species, choose the most effective treatment methods, and prevent re-infestation. Full guide for homeowners.',
+    targetKeyword: 'how to get rid of cockroaches',
+    categorySlug: 'pest-control',
+    categoryLabel: 'Pest Control',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Pest Control Professional Near You',
+    ctaHref: '/pest-control',
+    sections: [
+      {
+        heading: 'Why Cockroaches Are Among the Hardest Pests to Eliminate',
+        body: `Cockroaches have survived on Earth for over 300 million years, and their resilience is not accidental. They reproduce rapidly — a single German cockroach female can produce up to 400 offspring in her lifetime — tolerate extreme conditions, can survive weeks without food or water, and develop resistance to pesticides faster than almost any other household pest.
+
+More practically: cockroaches are almost always more numerous than what you see. They are nocturnal and prefer harborage in tight crevices, behind appliances, inside wall voids, and under cabinets. A single cockroach visible during the day typically signals a significant hidden population. The population you observe is rarely the population you have.
+
+Effective cockroach elimination requires understanding the specific species you are dealing with (treatment approaches differ significantly), combining multiple treatment methods, and maintaining consistent follow-through over 2–4 weeks. One-time treatment is rarely sufficient for an established infestation.`,
+      },
+      {
+        heading: 'Identifying the Species: German vs. American vs. Oriental',
+        body: `Species identification matters because German cockroaches — the most common indoor species — require very different treatment than the larger peridomestic species.
+
+**German cockroach (Blattella germanica)**
+- Size: 1/2 to 5/8 inch
+- Color: Light brown with two dark stripes behind the head
+- Habitat: Almost exclusively indoors, concentrated in kitchens and bathrooms
+- Reproduction: The fastest-reproducing indoor cockroach — the primary species behind serious residential infestations
+- Key characteristic: They rarely come from outdoors; infestations spread via infested grocery bags, used appliances, cardboard boxes, and moving furniture
+- Treatment emphasis: Gel bait + insect growth regulator (IGR) is the most effective protocol
+
+**American cockroach (Periplaneta americana)**
+- Size: 1.5 to 2 inches — the largest common house cockroach
+- Color: Reddish-brown
+- Habitat: Primarily outdoors in sewers, drains, and mulch; enters homes through drains, gaps in foundations, and utility penetrations
+- Key characteristic: Seeing one or two occasionally does not necessarily mean an indoor infestation — they often wander in from outside
+- Treatment emphasis: Perimeter exclusion and outdoor treatment
+
+**Oriental cockroach (Blatta orientalis)**
+- Size: 1 to 1.25 inches
+- Color: Dark brown to black, shiny
+- Habitat: Prefers cool, damp areas — basements, drains, crawl spaces
+- Key characteristic: Slower and less adaptable than German cockroaches; strong sewage odor associated with infestations
+- Treatment emphasis: Moisture reduction, bait in harborage areas`,
+      },
+      {
+        heading: 'Step 1 — Deep Clean and Eliminate Harborage',
+        body: `Before applying any treatment, remove the conditions that allow cockroaches to thrive. Pesticides applied in a dirty, cluttered environment are far less effective because cockroaches have unlimited food sources and hiding places to avoid treated areas.
+
+**Food source elimination:**
+- Store all food — including pet food — in airtight containers. Cockroaches can chew through cardboard and thin plastic.
+- Clean under and behind all kitchen appliances. A single evening's grease and crumb accumulation under a stove provides weeks of nutrition.
+- Clean grease from the stove hood, the sides of the stove, and behind the refrigerator.
+- Rinse all dishes, pots, and pans before leaving them in the sink.
+- Empty and clean trash cans nightly. Trash cans with food residue inside are a primary harborage and food site.
+
+**Clutter reduction:**
+- Remove cardboard boxes — cockroaches use corrugated cardboard for harborage and feeding. Replace with plastic storage bins.
+- Remove piles of paper, paper bags, and newspapers.
+- Address clutter in cabinets, under sinks, and in pantries.
+
+**Moisture:**
+- Fix dripping faucets and slow drain leaks under sinks.
+- German cockroaches are highly attracted to moisture. Any standing water source in the kitchen or bathroom provides a competitive advantage to the infestation.`,
+      },
+      {
+        heading: 'Step 2 — Gel Bait: The Most Effective Treatment for German Cockroaches',
+        body: `For German cockroaches — the species responsible for most serious household infestations — gel bait is the most effective treatment available, outperforming spray pesticides in nearly every scientific study. Here's why it works and how to use it correctly.
+
+**Why gel bait works:** Cockroaches are attracted to the bait, consume it, and return to their harborage where they die. Other cockroaches consume the dead cockroach and its feces (cockroaches practice coprophagy), spreading the active ingredient through the population including individuals who never directly contacted bait. This cascade effect eliminates hidden populations that sprays cannot reach.
+
+**Professional-grade bait products available to consumers:** Advion Cockroach Gel Bait (indoxacarb) and Vendetta Plus (abamectin with an IGR component) are highly effective and available online without a pest control license.
+
+**Placement is critical:**
+- Apply small pea-sized dots (approximately 0.5cm) — more is not better. Small placements are consumed faster and replaced more frequently, maintaining fresh bait.
+- Place bait in or near harborage areas: inside cabinet hinges, underneath appliances, behind the refrigerator, inside the motor housing area of appliances, under sinks (especially near the drain pipe), inside cabinet corners where walls meet.
+- Target areas where you have seen cockroaches or found droppings.
+- Do not spray any pesticide near the bait placements — sprays repel cockroaches from bait stations and make them ineffective.
+
+**Insect Growth Regulator (IGR):**
+Add an IGR product (such as Gentrol Point Source) alongside gel bait. IGRs prevent cockroach nymphs from maturing into reproductive adults, breaking the breeding cycle. Bait kills current adults; IGR prevents new generations from replacing them.
+
+**Reapply every 1–2 weeks** for at least 4–6 weeks. The first round of bait eliminates the visible population; subsequent rounds address hatching egg cases (ootheca).`,
+      },
+      {
+        heading: 'Step 3 — Boric Acid and Diatomaceous Earth as Supplementary Treatments',
+        body: `Two non-repellent residual treatments work well as complements to gel bait, particularly in harborage areas where bait cannot be easily placed.
+
+**Boric acid:**
+A fine powder that adheres to the cockroach's body as it walks through treated areas and is ingested during grooming. It is slow-acting (2–3 days), which allows cockroaches to return to harborage and expose other cockroaches before dying.
+
+Application: Apply a very thin, barely visible layer of boric acid inside void areas — behind and underneath appliances, inside wall voids accessible through outlet covers (remove the outlet cover plate, puff a small amount into the wall void, replace cover), in cabinet toe kicks. Thick application is counterproductive — cockroaches avoid dusty piles. The layer should be nearly invisible.
+
+**Important:** Boric acid loses effectiveness when wet. It is most useful in dry voids and areas that are not exposed to moisture.
+
+**Diatomaceous earth (DE):**
+Fossilized diatom shells that damage the cockroach's exoskeleton, causing dehydration. Apply similarly to boric acid — thin layers in dry void areas. Food-grade DE is safe around pets and children when dry.
+
+**What not to use:** Aerosol "bug bombs" (total release foggers) are largely ineffective for cockroaches and are associated with more risks (fire, respiratory) than benefits. Research consistently shows foggers do not penetrate harborage areas where cockroaches actually live, and the repellent effect of the pesticide disperses cockroaches to new areas rather than eliminating them.`,
+      },
+      {
+        heading: 'When to Call a Professional Pest Control Company',
+        body: `DIY treatment is effective for mild to moderate German cockroach infestations when applied correctly and consistently. Professional intervention is the better choice when:
+
+**The infestation is large or longstanding.** If you are seeing cockroaches throughout the day, in multiple rooms, or finding them in bedrooms — not just the kitchen — the population is large enough that a professional program is significantly more efficient.
+
+**Multiple treatment cycles haven't produced results.** If you have applied gel bait consistently for 4–6 weeks and are still finding fresh droppings and active cockroaches, a professional can assess whether there is an unaddressed source (a neighboring unit in a multi-family building, a hidden harborage you haven't treated, or bait aversion from prior pesticide exposure).
+
+**Multi-family housing.** Apartment and condo infestations are not controllable by individual unit treatment alone — cockroaches move freely between units through shared walls, plumbing chases, and shared utility areas. Building-wide treatment coordinated through property management is necessary for lasting results.
+
+**American or Oriental cockroaches with unclear entry points.** Large peridomestic cockroaches entering from outdoors require perimeter treatment, drain treatment, and exclusion work that is difficult to execute systematically without professional equipment.
+
+A professional pest control company will identify the species, locate primary harborage areas through inspection, apply appropriate treatments including IGRs, and schedule follow-up visits to ensure population collapse rather than just reduction.`,
+      },
+    ],
+  },
+
+  // Week 9: Radon — Radon Mitigation Cost
+  {
+    slug: 'radon-mitigation-cost',
+    title: 'Radon Mitigation Cost: 2026 Price Guide by System Type',
+    metaDescription:
+      'How much does radon mitigation cost in 2026? See current price ranges by system type, foundation type, and what factors affect your total installation cost.',
+    targetKeyword: 'radon mitigation cost',
+    categorySlug: 'radon-testing',
+    categoryLabel: 'Radon Testing & Mitigation',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Radon Testing & Mitigation Professional Near You',
+    ctaHref: '/radon-testing',
+    sections: [
+      {
+        heading: 'Radon Mitigation Cost Overview',
+        body: `Radon mitigation in the United States typically costs **$800 to $2,500** for a standard residential installation, with a national average around $1,200 to $1,500 for a single-pipe sub-slab depressurization (SSD) system in a home with a basement or slab foundation. Most homeowners with a typical foundation type and a single concrete slab area will fall within this range.
+
+Cost varies based on foundation type, the number of suction points needed, pipe routing complexity, and regional labor rates. Homes with crawl spaces, multiple foundation types (a combination basement/slab/crawl), or that require interior pipe routing to avoid exterior aesthetics will cost more.
+
+Radon mitigation is one of the more predictably priced home improvement services — the job is well-defined, the equipment is standardized, and experienced contractors can accurately scope most homes after a diagnostic visit. Getting 2–3 quotes from NRPP-certified contractors is recommended, but significant outliers from the ranges below deserve scrutiny.`,
+      },
+      {
+        heading: 'Cost by Foundation Type',
+        body: `Foundation type is the primary driver of radon mitigation system design and cost.
+
+**Basement (poured concrete or block): $800–$1,800**
+The most straightforward case. A single suction point is drilled through the basement slab, PVC pipe is routed to the exterior or through the home to exit above the roofline, and a continuously running fan is installed. Block wall foundations may require additional block wall suction points if the basement walls are contributing significantly to radon entry.
+
+**Slab-on-grade: $800–$2,000**
+Similar to a basement, but pipe routing from a slab-on-grade home sometimes requires longer runs or creative routing to reach an appropriate exterior exit point. If the slab has multiple isolated sections (separated by a footing or step-down), multiple suction points may be needed.
+
+**Crawl space: $1,500–$3,500**
+Crawl space mitigation requires a different approach: encapsulation of the crawl space floor with a heavy-duty vapor barrier, which is then depressurized using suction points similar to SSD. For large or complex crawl spaces (dirt floors, exposed piers, multiple compartments), material and labor costs increase substantially. Sub-membrane depressurization is the standard method.
+
+**Combination foundations: $2,000–$4,500+**
+Homes with multiple foundation types — a basement under part of the house, a slab under another section, and a crawl space under a third — require treating each zone separately. These are the most complex and expensive jobs because each foundation section requires its own suction point(s) and potentially separate fans or a more powerful single fan.`,
+      },
+      {
+        heading: 'What Drives Cost Beyond Foundation Type',
+        body: `Several factors push individual installation costs above or below the foundation-type baseline:
+
+**Number of suction points:** Standard homes require one suction point in the slab. If the diagnostic shows poor sub-slab communication (the suction from a single point doesn't extend across the entire slab footprint), additional suction points are needed. Each additional point adds $200–$500 to the job.
+
+**Fan type and capacity:** Fans range from small, low-flow units (~$100 fan cost) for homes with good sub-slab communication to high-flow fans ($200–$400 fan cost) for dense soil, multiple sections, or large footprints. The fan is a minor portion of total cost but affects electricity consumption over the life of the system.
+
+**Pipe routing:** Interior routing (running the pipe through a closet, utility room, or finished space to exit through the roof) is more labor-intensive than exterior routing but is often preferred for aesthetics. Interior runs add $200–$600 vs. a straightforward exterior run.
+
+**Finished vs. unfinished basement:** Drilling through a finished floor (tile, hardwood, carpet) requires more care and additional materials to restore the surface. Add $100–$300 for finished floor drilling.
+
+**Geographic labor rates:** Installer labor rates vary by region. Expect 20–40% higher prices in high-cost metros (Northeast, Bay Area, Seattle, Denver) compared to rural markets.
+
+**Post-mitigation testing:** Most certified contractors include a short-term test after installation ($30–$50 material cost) or recommend one independently. This is a necessary cost to verify the system is working — budget for it if not included.`,
+      },
+      {
+        heading: 'Ongoing Operating Costs',
+        body: `A radon mitigation system runs continuously, 24 hours a day, 365 days a year. Understanding the ongoing costs helps you evaluate the full investment.
+
+**Electricity:** The fan is the only operating component. Standard residential radon fans consume 20–90 watts depending on model and capacity. At the US average electricity rate (~$0.16/kWh):
+- 25-watt fan: approximately $35/year
+- 50-watt fan: approximately $70/year
+- 90-watt fan: approximately $126/year
+
+Most homes have fans in the 25–50 watt range. Annual electricity cost is modest.
+
+**Fan replacement:** Radon fans are designed for continuous operation and typically last 5–10 years. Replacement fans cost $100–$250 for the unit. Factor roughly $150–$300 per decade for fan replacement into your long-term planning.
+
+**Annual testing:** The EPA recommends testing radon levels every 2 years in a mitigated home to confirm the system continues to perform. A long-term alpha-track test costs $25–$40. Professional testing runs $100–$200.
+
+**System monitoring:** Most installations include a visual indicator (a U-tube manometer or digital indicator) that shows the fan is maintaining suction. Check it periodically — a reading that has changed from baseline may indicate a fan failure or a change in system conditions. Visual checks cost nothing; they just require the habit.
+
+**Warranty considerations:** Ask your installer about the system warranty and what it covers. Many certified contractors offer 1–5 year labor warranties and pass through manufacturer fan warranties (typically 5 years). Systems are mechanical and will require maintenance; knowing the warranty terms upfront is worthwhile.`,
+      },
+      {
+        heading: 'DIY Radon Mitigation: Can You Install It Yourself?',
+        body: `Technically, homeowners can install sub-slab depressurization systems themselves — the components are commercially available, and there is no federal licensing requirement for radon mitigation in most states. However, DIY installation is not generally recommended for several important reasons.
+
+**System design requires diagnostic assessment:** The correct fan selection and number of suction points depends on sub-slab communication — how freely air moves beneath your slab. Without a diagnostic assessment (a trained contractor uses a vacuum gauge and specific test procedures to measure this), you may install an undersized fan that does not adequately depressurize the slab, or an oversized fan that is unnecessarily expensive to operate and may depressurize the house itself in tightly constructed homes.
+
+**Improper installation can increase radon levels:** In some cases, incorrect pipe placement or an improperly sealed suction point can redistribute radon rather than exhausting it. This is rare but creates a worse situation than no system at all.
+
+**State licensing requirements:** Several states (including Illinois, Iowa, Minnesota, and others) require radon mitigators to be licensed. Installing without a license in these states is illegal and may create issues if you attempt to sell the home.
+
+**Real estate implications:** Many buyers and their inspectors specifically look for NRPP/NRSB-certified contractor documentation when reviewing mitigation systems. A DIY system without certified installation documentation may be viewed skeptically during a sale.
+
+**If you proceed DIY:** Use the EPA's "Consumer's Guide to Radon Reduction" as your reference document, select a fan sized by a radon professional or using the fan selection guidance, and commission a post-installation test from a certified measurement professional to verify the system is working correctly.`,
+      },
+      {
+        heading: 'Getting the Best Value on Radon Mitigation',
+        body: `Radon mitigation is a competitive market in most areas. Here is how to ensure you are getting both quality work and fair pricing.
+
+**Get 2–3 quotes from certified contractors.** Prices should be within 20–30% of each other for the same foundation type and scope. Significant underbids (more than 40% below the range) sometimes reflect inadequate diagnostic work, cheaper fans, or fewer suction points than the home requires.
+
+**Verify NRPP or NRSB certification.** Ask for the contractor's certification number and verify it at nrpp.info or nrsb.org. Certified contractors have passed examinations on system design, installation standards, and measurement protocols. This matters for both system quality and for real estate documentation purposes.
+
+**Ask whether post-mitigation testing is included.** Most certified contractors include this or build it into their service. If it's not included, ask the contractor to explain how you'll verify the system is working.
+
+**Ask what happens if the first test fails.** A reputable contractor will include a guarantee — if the post-mitigation test shows levels above 4 pCi/L (or a target the contractor specifies), they will add suction points, upgrade the fan, or otherwise adjust the system at no additional charge until the target is met.
+
+**Avoid contractors who don't perform a diagnostic before quoting.** A contractor who gives you a firm price without first assessing sub-slab communication and pipe routing options may be cutting corners on system design. At minimum, expect a visual inspection of the foundation and a conversation about diagnostic results before a contract is signed.`,
+      },
+    ],
+  },
+
+  // Week 10: Septic — How Long Does a Septic Tank Last
+  {
+    slug: 'how-long-does-septic-tank-last',
+    title: 'How Long Does a Septic Tank Last? Lifespan by Material and Care',
+    metaDescription:
+      'How long does a septic tank last? Concrete tanks last 40+ years, plastic 30–40, fiberglass 30–50. Learn what shortens lifespan and how to maximize yours.',
+    targetKeyword: 'how long does a septic tank last',
+    categorySlug: 'septic-services',
+    categoryLabel: 'Septic Services',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Septic Service Professional Near You',
+    ctaHref: '/septic-services',
+    sections: [
+      {
+        heading: 'Septic Tank Lifespan: The Short Answer',
+        body: `The lifespan of a septic tank depends primarily on the material it is made from, the quality of the soil surrounding it, and how well it is maintained. General expectations:
+
+- **Concrete tanks:** 40–80 years with proper maintenance. The most common type in older homes, and the most durable when not exposed to corrosive conditions.
+- **Plastic (polyethylene) tanks:** 30–40 years under normal conditions. Resistant to corrosion but susceptible to physical damage from soil pressure and freezing in shallow installations.
+- **Fiberglass tanks:** 30–50 years. Corrosion-resistant and lightweight, but can shift in saturated soils.
+- **Steel tanks:** 20–30 years. Steel tanks are no longer installed (they haven't been since the 1970s–80s in most areas) because they corrode predictably. If you have a steel tank, replacement planning is worth starting.
+
+These are design lifespans under reasonable maintenance conditions. Tanks that are never pumped, installed in highly acidic soils, or subjected to heavy vehicle traffic can fail decades earlier. Tanks that are pumped on schedule, in stable soils, and protected from physical stress routinely exceed their design life.
+
+The drain field, not the tank, is usually the first component to reach end of life — most fields have a design life of 20–30 years. Understanding both components is important for planning.`,
+      },
+      {
+        heading: 'What Shortens a Septic Tank\'s Life',
+        body: `Understanding the failure mechanisms helps you prevent premature tank failure.
+
+**Lack of pumping:**
+This is the most preventable cause of both tank damage and drain field failure. When a tank is not pumped, sludge builds up and eventually flows into the outlet baffle and drain field. Beyond field damage, high sludge levels can put physical stress on older concrete tanks. The scum layer can also cause corrosion if gases are trapped.
+
+**Root intrusion:**
+Tree and shrub roots penetrating concrete tank walls create cracks that allow groundwater infiltration. Groundwater infiltration dilutes the tank and can hydraulically overload the drain field. Prevention: avoid planting trees within 20–30 feet of the tank; inspect for root intrusion during annual maintenance.
+
+**Heavy vehicle traffic:**
+Driving vehicles over a buried tank — even once — can crack the walls or damage the inlet/outlet connections. Tank burial depth varies; tanks buried within 12–24 inches are particularly vulnerable. Mark the tank location to avoid accidental vehicle passage.
+
+**Corrosive conditions:**
+Hydrogen sulfide gas, produced by anaerobic decomposition in the tank, is mildly acidic and can, over decades, corrode concrete lids and the interior of concrete tanks. This is more of an issue with older, lower-quality concrete mixes and in areas with high wastewater hydrogen sulfide production. Modern concrete tanks are made with sulfate-resistant cement to address this.
+
+**Improper additives:**
+Septic system additives that claim to "rejuvenate" drain fields or reduce pumping frequency are largely unsupported by research. Some biological/enzymatic additives are benign. Chemical additives can damage the tank and violate state regulations. Do not introduce solvents, drain cleaners (lye), or strong disinfectants into a septic system.
+
+**Installation quality:**
+A tank installed without proper bedding (gravel or sand support beneath) can settle unevenly and crack. Inlet and outlet pipe connections made without proper flexible connectors can fail as the ground moves. These are installation factors you cannot control retroactively but should verify during inspection.`,
+      },
+      {
+        heading: 'Signs Your Tank May Be Failing',
+        body: `Unlike a burst pipe, tank failure is usually gradual. These signs indicate the tank — or the system overall — is in distress.
+
+**Structural signs (found during inspection):**
+- Cracks in the tank walls visible during pump-out inspection
+- Collapsed baffles — the inlet or outlet baffle is deteriorated or missing (concrete baffles in older tanks are particularly prone to this)
+- Corroded or broken access risers
+- Sunken ground over the tank indicating structural settlement
+
+**Performance signs (visible from the home or yard):**
+- Slow drains throughout the home — not isolated to a single fixture
+- Gurgling sounds from drains and toilets
+- Sewage odors indoors or outdoors
+- Wet, spongy ground over the drain field
+- Sewage backup into the lowest fixtures
+
+**Important distinction:** Many of these symptoms can result from a full tank that just needs pumping, a clogged inlet baffle, or a drain field issue — without any physical tank damage. A professional inspection is needed to distinguish between a tank that needs pumping and one that is structurally compromised.`,
+      },
+      {
+        heading: 'Tank Inspection: What Professionals Look For',
+        body: `A thorough septic inspection — not just a pump-out — is what gives you an accurate picture of your tank's remaining life. Here's what a qualified inspection covers:
+
+**Pre-pump assessment:**
+Before pumping, the inspector measures sludge depth and scum layer thickness with a measuring tool. This tells you how quickly the tank fills relative to your pumping interval and whether the pumping schedule should be adjusted.
+
+**Physical inspection of tank interior:**
+After pumping, the inside of the tank walls, floor, and ceiling are inspected visually for:
+- Cracks (hairline cracks vs. structural fractures)
+- Efflorescence (white mineral deposits indicating water infiltration)
+- Corrosion patterns on concrete
+- Evidence of root intrusion
+
+**Baffle condition:**
+The inlet baffle (which directs incoming sewage downward to prevent disturbing the scum layer) and the outlet baffle (which ensures only clarified effluent exits to the drain field) are inspected for deterioration. Missing or collapsed baffles should be repaired or replaced immediately — outlet baffle failure allows solids to enter the drain field.
+
+**Lid and riser condition:**
+Lids should be intact, watertight, and structurally sound. Lids buried under soil should have risers installed to bring access to grade — both for convenience and to allow inspection without excavation.
+
+**Drain field observation:**
+A complete inspection includes walking the drain field area, checking for surface saturation, and assessing distribution box condition. This is the component most likely to limit system life.
+
+Qualified inspectors document findings with photos and provide a written report. For a home purchase, an inspection should always be performed by a certified professional, not just a pump-and-go service.`,
+      },
+      {
+        heading: 'Extending Tank Lifespan: Maintenance Best Practices',
+        body: `These practices consistently extend both tank and drain field life beyond typical design expectations.
+
+**Pump on schedule:**
+The single most impactful maintenance action. Most residential tanks should be pumped every 3–5 years; the right interval depends on household size and tank capacity. Annual sludge measurement (measuring without pumping) lets you optimize the interval and pump only when needed.
+
+**Protect the tank from physical damage:**
+Mark the tank location clearly. Install permanent risers to bring lids to grade level — this eliminates the need for excavation at each service visit and makes annual checks practical.
+
+**Use water efficiently:**
+Every gallon of water entering the system has to be processed by the tank and field. Fixing running toilets (which can add 200+ gallons per day to the system), spreading laundry loads over multiple days rather than doing 10 loads on Saturday, and using high-efficiency fixtures all reduce the hydraulic load on the system.
+
+**Avoid flushing non-biodegradables:**
+Wipes (even "flushable" ones), feminine hygiene products, paper towels, dental floss, and medications should never enter a septic system. These materials accumulate in the tank, cannot be digested by bacteria, and physically clog pipes and baffles.
+
+**Annual visual inspection:**
+Walk the drain field after heavy rain and periodically during dry periods. Watch for changes in vegetation patterns, surface saturation, or odors. Catching a developing problem early — when it may be addressable by pumping, resting the field, or minor repair — is orders of magnitude cheaper than addressing complete field failure.`,
+      },
+      {
+        heading: 'When to Replace Rather Than Repair',
+        body: `At some point, a failing tank crosses from repairable to replace-it-now territory. Here are the indicators:
+
+**Structural failure beyond repair:**
+Multiple large cracks in the tank walls, a collapsed tank ceiling, or severely corroded walls that cannot be effectively sealed indicate the tank is past useful life. Patching individual cracks is reasonable; a tank that is structurally compromised throughout is not.
+
+**Steel tank, any age:**
+Steel tanks are always in some stage of corrosion. Once a steel tank shows symptoms (sinking lids, rust in the pump-out, soft spots in the ground above), replacement is the only long-term solution. Don't invest in maintaining a steel tank — plan replacement.
+
+**Failed outlet baffle and drain field damage:**
+If a failed or missing outlet baffle allowed solids to enter the drain field for an extended period, field damage may be permanent. In this scenario, both tank repair and drain field repair/replacement may be necessary simultaneously.
+
+**Cost-benefit analysis:**
+If the repair cost exceeds 50–60% of replacement cost, replacement is usually the better long-term investment — particularly for older tanks where additional failures are likely soon after repair.
+
+**Replacement cost:** A new concrete or plastic septic tank installed (not including drain field work) typically costs $3,000–$8,000 depending on tank size, depth, and site access. If the drain field also needs replacement, total system costs of $10,000–$25,000 are common. Engineered alternatives (mound systems, aerobic treatment units) required on challenging sites cost $15,000–$50,000+.`,
+      },
+    ],
+  },
+
+  // Week 11: Water Damage — Burst Pipe Water Damage
+  {
+    slug: 'burst-pipe-water-damage',
+    title: 'Burst Pipe Water Damage: What to Do, Costs, and Prevention',
+    metaDescription:
+      'A burst pipe can cause thousands in water damage. Learn the immediate steps to take, what repairs cost, what insurance covers, and how to prevent frozen pipes.',
+    targetKeyword: 'burst pipe water damage',
+    categorySlug: 'water-damage-restoration',
+    categoryLabel: 'Water Damage Restoration',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Water Damage Restoration Professional Near You',
+    ctaHref: '/water-damage-restoration',
+    sections: [
+      {
+        heading: 'Why Burst Pipes Are One of the Most Costly Home Emergencies',
+        body: `A burst pipe is one of the highest-cost plumbing failures a homeowner can face — not because the pipe itself is expensive to replace, but because of the water damage that occurs in the minutes and hours between the pipe failing and the water being shut off.
+
+A typical residential water supply line operates at 60–80 PSI. At that pressure, a burst pipe can discharge 4–8 gallons of water per minute. In the 20–30 minutes it may take to discover a burst pipe, shut off the main, and begin cleanup, 80–240 gallons can saturate flooring, walls, ceilings, and structural framing. Water moves through wall cavities and under flooring, spreading far beyond the visible wet area.
+
+The average insurance claim for burst pipe water damage is approximately $10,000–$15,000 when accounting for water extraction, structural drying, and rebuilding damaged finishes. Claims involving finished basements, hardwood floors, or catastrophic failures (pipes that burst undetected for hours) regularly exceed $30,000–$50,000.
+
+The good news: burst pipe water damage is almost entirely preventable with winterization, pipe insulation, and basic plumbing maintenance.`,
+      },
+      {
+        heading: 'Immediate Steps: The First 30 Minutes',
+        body: `The actions taken in the first 30 minutes after discovering a burst pipe have more impact on the final damage scope than almost anything else.
+
+**1. Shut off the water immediately.**
+Every adult in the household should know where the main water shut-off is located. Common locations: near the water meter (outside, in a utility box at the street), in the basement near the point where the water main enters the foundation, in a utility closet, or in the garage. If you cannot quickly locate or operate the main shut-off, call your water utility for emergency shut-off at the meter.
+
+For burst pipes in a specific fixture area (under a sink, behind a washing machine), use the fixture-specific shut-off valve rather than the main — this minimizes disruption to the rest of the home while you assess.
+
+**2. Turn off the electricity in affected areas.**
+Water and electricity are a lethal combination. If water has reached outlets, switch plates, or areas near electrical panels, turn off the electricity at the breaker before entering those areas.
+
+**3. Document before you touch anything.**
+Take photos and video of all affected areas, waterlines on walls, standing water depth, and the source of the failure. This documentation supports your insurance claim. Do not move or dispose of any damaged property until you have documented it.
+
+**4. Begin water extraction.**
+Use towels, mops, and a wet/dry vacuum to remove standing water from non-electrical areas. Every minute of contact between water and building materials increases damage and mold risk.
+
+**5. Call a water damage restoration company.**
+Call while you are extracting water. Most certified restoration companies offer 24/7 emergency response and can have industrial extraction and drying equipment on site within 1–2 hours. The professional equipment they bring — truck-mounted extractors, air movers, dehumidifiers — dramatically reduces total damage compared to homeowner equipment alone.`,
+      },
+      {
+        heading: 'Understanding the Damage: What Gets Affected',
+        body: `Burst pipe damage extends well beyond the immediately visible wet area. Understanding where water goes helps you ensure the full scope is addressed during restoration.
+
+**Flooring:**
+Water wicks immediately under flooring from any direction. Hardwood floors absorb water rapidly and begin to cup (edges rise) within hours of saturation. Laminate flooring swells irreversibly. Tile and grout are relatively water-resistant but water infiltrates through grout lines to the subfloor and underlayment below. Carpets absorb enormous amounts of water; the pad beneath almost always requires replacement.
+
+**Walls:**
+Drywall is porous and wicks moisture upward through capillary action. Water that reaches the base of a wall will saturate drywall to a height significantly above the visible waterline. Insulation inside exterior walls absorbs and holds moisture. Removing drywall from at least 12 inches above the visible waterline (and often more) is standard practice to allow complete drying of the wall cavity.
+
+**Ceilings:**
+When water comes from above — a pipe burst in an upper floor or attic — it saturates ceiling drywall and can cause ceiling collapse if not addressed quickly. Watch for sagging or discoloration in ceilings below a water event.
+
+**Structural framing:**
+Wood framing absorbs moisture and can begin to develop mold within 24–48 hours under warm conditions. Sill plates (the bottom horizontal framing member) are particularly vulnerable because they sit on concrete foundations that wick additional moisture.
+
+**HVAC and electrical:**
+Water in HVAC ducts creates significant mold risk because the system then distributes spores throughout the home. Electrical components — outlets, junction boxes, wiring — that were submerged must be inspected and in many cases replaced by a licensed electrician.`,
+      },
+      {
+        heading: 'Repair Costs: Pipe Repair vs. Water Damage Restoration',
+        body: `Burst pipe repair involves two separate cost categories that are often confused.
+
+**Pipe repair cost: $200–$1,000**
+The actual plumbing repair — replacing the burst pipe section, fitting, or joint — is typically one of the smaller costs associated with a burst pipe event. Simple copper or PVC pipe repairs in accessible locations run $200–$500. Repairs requiring opening walls, accessing inaccessible areas, or replacing longer pipe runs cost $500–$1,500. Emergency/after-hours plumber rates add $100–$200 to standard rates.
+
+**Water damage restoration cost: $3,000–$30,000+**
+This is where the major expense lies. Professional water damage restoration involves water extraction, structural drying over 3–5 days with industrial equipment, mold prevention treatment, and documentation. Basic costs:
+- Water extraction and initial setup: $1,000–$3,000 depending on affected area
+- Structural drying (3–5 days, industrial equipment): $1,500–$4,000
+- Materials removal (drywall, flooring, insulation): $500–$5,000
+- Rebuilding (new drywall, flooring, paint): $3,000–$15,000+
+
+**Total claim ranges:**
+- Minor burst (caught quickly, limited area): $3,000–$7,000
+- Moderate burst (several rooms, full drying cycle): $8,000–$18,000
+- Major burst (undetected for hours, finished basement, hardwood floors throughout): $20,000–$50,000+
+
+Most standard homeowners insurance policies cover sudden, accidental pipe bursts. The restoration company typically works directly with your insurance adjuster.`,
+      },
+      {
+        heading: 'Preventing Frozen Pipes: The Primary Cause of Winter Burst Pipes',
+        body: `Frozen pipes are the leading cause of burst pipes in cold climates. Water expands approximately 9% when it freezes. The expansion pressure in a sealed pipe section can exceed 2,000 PSI — far more than any residential pipe can withstand. The pipe doesn't actually burst where ice forms; it bursts downstream of the ice plug where the pressure from expanding ice builds against closed fittings.
+
+**The highest-risk pipes:**
+- Pipes in exterior walls — particularly in homes with insufficient insulation in the wall cavity
+- Pipes in unheated crawl spaces and garages
+- Hose bibs (outdoor faucets) and supply lines to them
+- Pipes in attics (rare, but very high risk when it occurs — attic pipes burst can flood the entire home from above)
+- Pipes in vacation or seasonal homes left unheated
+
+**Prevention measures:**
+**Insulate vulnerable pipes.** Pipe insulation sleeves (foam tube insulation, $0.50–$2.00 per linear foot) installed on pipes in exterior walls, crawl spaces, and garages are the most cost-effective prevention available.
+
+**Allow faucets to drip during extreme cold.** Running water is harder to freeze than standing water. For pipes in high-risk locations, allowing a thin trickle during temperatures below 20°F keeps water moving and prevents complete freezing.
+
+**Keep heat on in vacant homes.** The minimum safe temperature is 55°F. Pipes in exterior walls and crawl spaces can freeze even when interior temperatures are above freezing if the wall cavity is cold.
+
+**Disconnect and drain hose bibs** before the first hard freeze. Interior shut-off valves for hose bibs allow you to shut off water to the outdoor faucet and drain the remaining water in the line.
+
+**Know your shut-off.** The most important prevention is knowing where and how to shut off the main water supply before any event occurs.`,
+      },
+      {
+        heading: 'Insurance Coverage and the Claims Process',
+        body: `Burst pipe water damage is one of the most commonly covered homeowners insurance perils — but the coverage has important nuances.
+
+**What's covered:**
+Sudden and accidental pipe bursts are covered under the "sudden and accidental discharge" provision of most HO-3 (standard homeowners) policies. This includes both the resulting water damage and, in most policies, the cost of accessing the pipe (opening the wall) to repair it. The pipe repair itself is not typically covered — you pay for the plumber; insurance pays for the resulting damage.
+
+**What's not covered:**
+- Gradual leaks or pipes that were known to be deteriorating before the event
+- Freezing pipes in a home left unheated below safe temperatures (most policies require "reasonable care" to prevent freezing)
+- Flood damage from external water sources (requires separate flood policy)
+- Some policies exclude damage to the specific building component that failed (the section of flooring or ceiling directly above the burst) while covering damage to surrounding materials
+
+**Filing the claim:**
+Report the claim the same day. Document everything before cleanup — photos and video of the burst pipe location, all affected rooms, standing water, and waterlines on walls. The restoration company you hire will provide detailed documentation (moisture logs, drying reports) that supports the claim.
+
+Most restoration companies work directly with insurance adjusters and have experience navigating the claim process. Using a company experienced in insurance work often results in faster claim resolution and fewer disputes over scope.`,
+      },
+    ],
+  },
+
+  // Week 12: Mold — Mold Remediation Process
+  {
+    slug: 'mold-remediation-process',
+    title: 'The Mold Remediation Process: What Happens From Inspection to Clearance',
+    metaDescription:
+      'Understand the professional mold remediation process step by step — from inspection and containment through removal, treatment, clearance testing, and rebuild.',
+    targetKeyword: 'mold remediation process',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Mold Remediation',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Mold Remediation Professional Near You',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'Why the Process Matters as Much as the Outcome',
+        body: `Hiring a mold remediation company without understanding what the work should involve puts you at a significant disadvantage. Mold remediation is an unregulated industry in most states — there is no federal licensing requirement, and the quality of work varies enormously between contractors. Companies that skip containment, skip post-remediation testing, or treat porous mold-affected materials with surface cleaners instead of removing them can leave your home with an ongoing problem while charging for a complete remediation.
+
+Understanding the established industry standards — specifically the IICRC S520 Standard and Reference Guide for Professional Mold Remediation — gives you a framework for evaluating whether you received legitimate professional remediation or a superficial treatment that will fail.
+
+This guide walks through each phase of professional mold remediation: what it involves, what you should see happening, and what questions to ask at each stage.`,
+      },
+      {
+        heading: 'Phase 1: Inspection and Assessment',
+        body: `Professional remediation begins with a thorough inspection — not a sales visit, but a structured assessment to identify the full extent of mold contamination and its moisture source.
+
+**Visual inspection with moisture meters:**
+A certified remediator uses a combination of non-invasive moisture meters, pin-type moisture meters for porous materials, and in some cases thermal imaging cameras to identify elevated moisture in walls, ceilings, and floors beyond what is visible. Mold often grows inside wall cavities where water has tracked; the visible surface mold is frequently a small fraction of the actual contamination.
+
+**Air sampling (when appropriate):**
+Air sampling collects spores from the indoor air for laboratory analysis, identifying mold species present and comparing indoor spore counts to outdoor baseline levels. This is useful for determining the scope of contamination, identifying hidden sources, and establishing a baseline for post-remediation comparison. Air sampling is performed by a certified industrial hygienist — for objectivity, the same company should not both test and perform remediation.
+
+**Scope of work determination:**
+The assessment produces a scope of work: which materials will be removed, what containment will be established, what testing will verify completion. A legitimate scope of work is specific — it names the rooms and materials affected, not vague language like "treat affected areas."
+
+**The moisture source:**
+Remediation without identifying and fixing the moisture source is temporary. A reputable remediator will not start work until the moisture source (plumbing leak, roof leak, condensation issue, basement waterproofing failure) is identified. Addressing visible mold while leaving active moisture intrusion guarantees recurrence.`,
+      },
+      {
+        heading: 'Phase 2: Containment and Protection',
+        body: `Before any mold-affected material is disturbed, containment barriers are established to prevent mold spores from spreading to clean areas of the home. This is the single most important procedural step that separates professional remediation from amateur cleanup.
+
+**Physical containment barriers:**
+6-mil polyethylene sheeting is sealed with tape across doorways, HVAC registers, and any opening between the work area and the rest of the home. For large jobs, multiple layers of sheeting with a "decontamination chamber" (an airlock area) at the entry point allows workers to enter and exit without tracking contamination into clean areas.
+
+**Negative air pressure:**
+HEPA-filtered air scrubbers exhaust air from the containment zone to the exterior, creating negative air pressure inside the work area relative to the rest of the home. This means any air movement at the barrier boundary goes INTO the work area, not out of it — ensuring that disturbed spores are contained rather than distributed through the home.
+
+**HVAC shutdown:**
+The HVAC system in the affected zone is turned off and registers are sealed. Running HVAC during mold remediation — even with containment — risks distributing spores through the duct system. If the HVAC itself is part of the contamination, it requires separate treatment before being returned to service.
+
+**Worker protection:**
+Proper PPE for remediation workers includes: full-face respirators with P100/OV filters (or powered air-purifying respirators for large jobs), disposable Tyvek suits, nitrile gloves, and boot covers. This protects workers and prevents tracking contamination out of the work area.`,
+      },
+      {
+        heading: 'Phase 3: Removal of Affected Materials',
+        body: `The core of mold remediation is physical removal of contaminated porous materials — not surface cleaning, not painting over, not bleaching. This distinction is the most important factor in whether a remediation succeeds long term.
+
+**Why porous materials must be removed:**
+Mold grows into porous materials — the hyphae (root-like filaments) penetrate through drywall, wood fibers, insulation, and carpet. Cleaning or treating the surface does not reach or kill the mold structure within the material. Surface cleaning removes visible discoloration but leaves viable mold that will re-establish growth within days to weeks when moisture is present.
+
+**Materials that must be removed:**
+- Drywall (including paper-faced gypsum board) — remove to at least 12 inches above the visible moisture or mold line
+- Insulation (fiberglass batts, blown-in cellulose, foam) — cannot be effectively cleaned; removal is required
+- Carpet and carpet padding — remove and discard
+- Wood materials with significant surface or structural mold — depends on extent; surface mold on structural framing can sometimes be treated in place with wire brushing and antimicrobial treatment if the wood is not structurally compromised
+
+**Materials that can sometimes be cleaned in place:**
+- Structural wood framing (studs, joists) with surface mold — HEPA vacuum, then wire brushing or mechanical abrasion, then antimicrobial treatment
+- Concrete and masonry — HEPA vacuum, cleaning, antimicrobial treatment
+- Non-porous surfaces (metal, glass) — standard surface cleaning
+
+**Disposal:**
+Removed materials are double-bagged in heavy-duty plastic, sealed, and transported through the containment without exposing clean areas. Disposal follows local regulations for contaminated construction materials.`,
+      },
+      {
+        heading: 'Phase 4: Cleaning and Treatment',
+        body: `After physical removal of contaminated materials, the remaining structural surfaces are cleaned and treated before the containment is removed or reconstruction begins.
+
+**HEPA vacuuming:**
+All surfaces within the containment — floors, walls, framing, remaining structural elements — are thoroughly vacuumed with a HEPA-filtered vacuum. Standard vacuums and shop vacs without HEPA filtration exhaust fine spores back into the air; HEPA vacuums trap particles down to 0.3 microns. This is the first cleaning pass on all surfaces.
+
+**Surface cleaning:**
+Remaining structural surfaces are cleaned with a wet cleaning method using appropriate cleaning agents. For wood framing, cleaning is followed by wire brushing or light mechanical abrasion to remove surface mold that has penetrated the wood grain. For concrete and block, cleaning is followed by antimicrobial treatment.
+
+**Antimicrobial application:**
+EPA-registered antimicrobial or biocidal products are applied to all treated surfaces after cleaning and drying. Products like Benefect Decon 30 or professional-grade antimicrobial sprays inhibit mold re-establishment during the window before reconstruction closes wall cavities. This is a prevention step, not a substitute for proper material removal.
+
+**Drying:**
+After cleaning and treatment, the treated area must dry completely before reconstruction. Industrial dehumidifiers and air movers are used to bring structural materials to acceptable moisture content levels. Enclosing a wall cavity that still has elevated moisture — even with clean wood — will result in mold recurrence.
+
+**HEPA air scrubbing:**
+Throughout cleaning and after its completion, HEPA air scrubbers continue running to capture any spores that remain airborne in the work area.`,
+      },
+      {
+        heading: 'Phase 5: Post-Remediation Testing and Clearance',
+        body: `Post-remediation verification testing is how you confirm the remediation was successful — not a step to be skipped or performed by the same company that did the work.
+
+**Why independent testing matters:**
+A remediation company performing its own clearance testing has an obvious financial interest in passing results. The IICRC S520 standard and most professional guidelines recommend that post-remediation testing be performed by an independent hygienist — not the remediation contractor. This independence is the assurance that the clearance is objective.
+
+**What clearance testing involves:**
+An independent industrial hygienist returns to the property after remediation is complete and containment has been removed. Air samples are collected from the treated area(s) and from outside the home as a baseline. Tape or swab samples may also be collected from structural surfaces.
+
+**What passing results look like:**
+The goal is to return indoor spore counts to levels comparable to, or lower than, outdoor ambient levels for the same species. Complete absence of all mold spores is not the target (and is unachievable — mold spores exist everywhere in the environment). The target is: indoor counts are not elevated above outdoor baseline, and no elevated concentrations of the specific species that were remediated.
+
+**What happens if testing fails:**
+If clearance testing shows elevated spore counts, the remediator must return, identify where the protocol failed, and re-do the affected work. Testing fees and re-work costs are the contractor's responsibility in most contracts. Clearance testing failure is uncommon with properly conducted remediations — its primary value is catching the cases where it does fail before reconstruction conceals the problem.
+
+**After clearance: reconstruction**
+Once clearance testing passes, reconstruction can begin: new drywall, insulation, flooring, and finishes. The remediation phase is complete; the rebuild phase follows the same process as any water damage reconstruction.`,
+      },
+    ],
+  },
 ]
 
 export function getGuide(slug: string): Guide | undefined {
