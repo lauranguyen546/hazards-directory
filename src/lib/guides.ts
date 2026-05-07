@@ -1042,6 +1042,134 @@ Professional remediation involves containment to prevent spore spread, physical 
     ],
   },
 
+  // Week 4: Radon — What Is Radon Gas?
+  {
+    slug: 'what-is-radon-gas',
+    title: 'What Is Radon Gas? Health Risks, Testing, and Mitigation',
+    metaDescription:
+      'Radon is the leading cause of lung cancer in non-smokers. Learn what radon gas is, where it comes from, how to test for it, and what to do if levels are high.',
+    targetKeyword: 'what is radon gas',
+    categorySlug: 'radon-testing',
+    categoryLabel: 'Radon Testing & Mitigation',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Radon Testing & Mitigation Professional Near You',
+    ctaHref: '/radon-testing',
+    sections: [
+      {
+        heading: 'Radon Gas: The Invisible Risk in Your Home',
+        body: `Radon is a naturally occurring radioactive gas that forms as uranium in soil, rock, and groundwater breaks down. It is colorless, odorless, and tasteless — completely undetectable without a test. It seeps into homes through foundation cracks, gaps around service pipes, construction joints, and other openings where the building contacts the soil.
+
+Radon is not rare. The U.S. Environmental Protection Agency (EPA) estimates that nearly 1 in 15 American homes has radon levels at or above the EPA action level of 4 picocuries per liter (pCi/L). It is found in homes on all types of foundations in all 50 states, in new construction and old houses alike.
+
+What makes radon dangerous is not a single large exposure but prolonged exposure to elevated levels over years. Radon is the **leading cause of lung cancer in non-smokers** and the second leading cause overall, responsible for approximately 21,000 deaths per year in the United States. The EPA considers this a public health problem of significant scale — one that is almost entirely preventable with testing and, where needed, mitigation.`,
+      },
+      {
+        heading: 'Where Does Radon Come From?',
+        body: `Radon originates from the radioactive decay chain of uranium-238, which is present in varying concentrations in virtually all soil and rock. As uranium decays to radium, and radium decays further, one of the intermediate products is radon gas (specifically radon-222).
+
+The radon gas produced in soil diffuses upward and is typically diluted harmlessly into outdoor air. The problem occurs when radon enters an enclosed space — a home, school, or office — where it accumulates to elevated concentrations.
+
+**How radon enters a building:**
+
+- **Foundation cracks and joints** — the most common entry point. Any gap in the foundation slab or basement wall allows soil gas (containing radon) to be drawn into the home.
+- **Gaps around service pipes** — where plumbing, electrical, and HVAC penetrations enter through the foundation.
+- **Construction joints** — the meeting point between the foundation floor and walls in poured concrete foundations.
+- **Crawl spaces** — homes with open or poorly ventilated crawl spaces are particularly susceptible.
+- **Well water** — in some cases, radon dissolved in well water can be released into indoor air during showering, washing, and dishwashing. Municipal water is typically treated and is not a significant radon pathway.
+
+**Why your neighbor's level doesn't predict yours:** Radon concentrations vary significantly even between adjacent properties, because soil composition, home construction type, and ventilation patterns interact in complex ways. The only way to know your home's radon level is to test it.`,
+      },
+      {
+        heading: 'Health Effects: Why Radon Is Dangerous',
+        body: `Radon itself is a gas and would be exhaled before causing significant harm. The actual danger comes from its decay products — short-lived radioactive particles that form when radon atoms break down. When you breathe air containing radon, these decay products attach to lung tissue and emit alpha radiation directly into the cells lining the airways.
+
+Alpha radiation is highly effective at damaging DNA in nearby cells. Over years of repeated exposure, this DNA damage can initiate the cellular changes that lead to lung cancer.
+
+**Key facts on radon and lung cancer:**
+
+- The EPA estimates radon causes approximately 21,000 lung cancer deaths annually in the United States.
+- Radon is the #1 cause of lung cancer among non-smokers.
+- For smokers, the combined risk of radon exposure and smoking is dramatically higher than either risk alone — the two are multiplicative, not simply additive.
+- The risk is proportional to the radon level and duration of exposure. Living for 30 years in a home at 8 pCi/L carries roughly 4x the lung cancer risk of a non-smoking, never-radon-exposed individual.
+- There are no immediate symptoms — radon exposure produces no detectable effect until cancer develops years or decades later.
+
+The dose-response relationship is linear, which means any reduction in radon exposure reduces health risk — even bringing levels from 4 pCi/L to 2 pCi/L is meaningful over a lifetime.`,
+      },
+      {
+        heading: 'How to Test Your Home for Radon',
+        body: `Testing is the only way to know whether radon is a problem in your home. Radon tests are inexpensive, widely available, and straightforward to conduct.
+
+**Short-term tests (2–7 days):**
+Charcoal canister tests are placed in the lowest livable area of your home for 2–7 days, then mailed to a laboratory for analysis. These are available at hardware stores and online for $15–$30 (including lab analysis). Short-term tests are useful for a quick initial screening or for real estate transactions requiring fast results.
+
+For the most accurate short-term results, keep windows and doors closed as much as possible during the test, conduct the test during heating season when windows are naturally closed, and place the test in the lowest level of the home that is used regularly (basement for homes with habitable basements, first floor otherwise).
+
+**Long-term tests (90+ days):**
+Alpha-track detectors are left in place for 90 days to a year and provide a more accurate picture of your average radon exposure. Because radon levels fluctuate daily and seasonally, a long-term test gives a more representative result than a single short-term test. Recommended for post-mitigation verification and for definitively confirming whether action is needed.
+
+**Professional testing:**
+A certified radon measurement professional (look for credentials from the National Radon Proficiency Program (NRPP) or National Radon Safety Board (NRSB)) can conduct electronic continuous monitoring tests that provide hour-by-hour data. This is the preferred method for real estate transactions and when litigation or liability is a concern.
+
+**What the results mean:**
+- Below 2 pCi/L: Below the national average (about 1.3 pCi/L indoors). No action needed.
+- 2–4 pCi/L: Between average and the action level. Consider mitigation, especially for long-term residence.
+- 4 pCi/L and above: EPA action level. The EPA and Surgeon General recommend fixing your home at or above this level.
+- Above 8 pCi/L: Significant risk — prioritize mitigation.`,
+      },
+      {
+        heading: 'Radon Mitigation: How High Levels Are Fixed',
+        body: `When test results show radon at or above 4 pCi/L, mitigation is the proven solution. Modern radon mitigation is highly effective — most systems reduce indoor radon levels by 50–99%. The most common and reliable method is called sub-slab depressurization (SSD).
+
+**Sub-slab depressurization (SSD):**
+A licensed mitigation contractor installs a PVC pipe through the foundation slab into the gravel or soil beneath, connected to a continuously running fan. The fan creates a slight negative pressure zone under the slab, drawing radon-containing soil gas up through the pipe and exhausting it outside above the roofline — before it can enter the home. The pipe and fan system is typically routed through a utility space, garage, or exterior of the home. The fan runs continuously on low wattage (25–50 watts, comparable to a refrigerator light bulb).
+
+**Why SSD works:** The pressure differential beneath the slab intercepts radon before it can migrate into the living space. Even homes with multiple cracks and entry points are effectively treated because the negative pressure zone covers the entire footprint of the foundation.
+
+**Other mitigation methods:**
+- **Crawl space ventilation and encapsulation**: For homes on crawl space foundations, sealing the crawl space with a heavy-duty vapor barrier and depressurizing beneath it achieves comparable results to sub-slab systems.
+- **HVAC-based dilution**: In some limited cases, increasing ventilation can dilute radon — but this is rarely sufficient to reach low target levels and is not a substitute for SSD.
+- **Block wall suction**: For basement walls constructed of hollow concrete block, suction points in the block can depressurize the wall cavities.
+
+**What mitigation costs:** A typical sub-slab depressurization system costs $800–$2,500 for a standard home, with most single-system installations in the $1,000–$1,500 range. Complex foundations (multiple slabs, crawl space combination, large footprints) cost more. Post-mitigation testing is always included or recommended to confirm the system works.`,
+      },
+      {
+        heading: 'Radon in Real Estate Transactions',
+        body: `Radon testing has become a standard part of home inspections in most markets, and radon levels are a material fact in real estate transactions. What you need to know:
+
+**As a buyer:** Request a radon test as part of your home inspection contingency if the seller has not already provided a recent test (within the past two years). If the test shows levels at or above 4 pCi/L, you can negotiate with the seller to install a mitigation system before closing or receive a credit to cover the cost. A mitigated home with a well-functioning system is not a reason to avoid purchasing — it is actually a home where the problem is already solved.
+
+**As a seller:** Testing before listing puts you in control of the situation rather than having it surface as a surprise during the buyer's inspection. If levels are elevated, installing mitigation before listing is generally the cleaner approach — it becomes a positive selling point rather than a negotiation point.
+
+**Disclosure requirements:** Most states have radon disclosure requirements for real estate transactions, though the specifics vary. In many states, if a radon test has been conducted on the property, the results must be disclosed to buyers. Consult with a real estate attorney or agent about the requirements in your state.
+
+**Post-mitigation value:** Homes with functioning radon mitigation systems sell comparably to homes without radon concerns, because the problem is corrected. Buyers and inspectors are familiar with these systems — a neatly installed SSD system with a working fan and recent passing test results is a resolved issue.`,
+      },
+      {
+        heading: 'Finding a Qualified Radon Professional',
+        body: `For testing and mitigation, using a credentialed professional ensures the work meets established standards and your results are defensible.
+
+**For testing:**
+Look for a radon measurement professional certified by the National Radon Proficiency Program (NRPP) or the National Radon Safety Board (NRSB). Many state health departments maintain searchable registries of certified radon professionals. Certified professionals use calibrated devices, follow EPA measurement protocols, and provide tamper-resistant results — important for real estate transactions.
+
+**For mitigation:**
+Similarly, look for NRPP or NRSB certified mitigation contractors. Certification requires training in system design, installation standards, and fan selection. A certified contractor will:
+- Perform a diagnostic before system design (to determine sub-slab communication and select the right fan)
+- Install a system that meets EPA or ASTM E-2121 standards
+- Conduct a post-mitigation test to confirm the system is working
+- Provide documentation of the installation and results
+
+**Questions to ask a mitigation contractor:**
+- Are you NRPP or NRSB certified?
+- What will my post-mitigation test look like (short-term vs. long-term)?
+- Where will the system pipe be routed and where will the fan exhaust?
+- What is the warranty on the system and the fan?
+
+The cost of hiring a certified professional is modest relative to the health benefit, and DIY radon mitigation — while technically possible — is not recommended. Improper system design can actually increase radon levels in some configurations.`,
+      },
+    ],
+  },
+
   // Week 3: Pest Control — How to Get Rid of Mice
   {
     slug: 'how-to-get-rid-of-mice',
