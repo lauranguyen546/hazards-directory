@@ -817,6 +817,345 @@ A certified mold inspector (look for IICRC AMRT or CMI certifications) conducts 
       },
     ],
   },
+
+  // Week 1: Water Damage — How to Dry Out a Flooded Basement
+  {
+    slug: 'how-to-dry-out-a-flooded-basement',
+    title: 'How to Dry Out a Flooded Basement: Step-by-Step Guide',
+    metaDescription:
+      'Learn how to safely dry out a flooded basement, remove standing water, prevent mold, and when to call a water damage restoration professional.',
+    targetKeyword: 'how to dry out a flooded basement',
+    categorySlug: 'water-damage-restoration',
+    categoryLabel: 'Water Damage Restoration',
+    datePublished: '2026-05-07',
+    dateModified: '2026-05-07',
+    ctaText: 'Find a Water Damage Restoration Professional Near You',
+    ctaHref: '/water-damage-restoration',
+    sections: [
+      {
+        heading: 'Act Fast: Why the First 24–48 Hours Matter',
+        body: `A flooded basement is one of the most stressful home emergencies a homeowner can face — and the clock starts the moment water enters. Within 24 to 48 hours, standing water and saturated building materials create the temperature, moisture, and organic material conditions that mold needs to begin colonizing. After 48 hours without significant drying progress, mold growth is nearly guaranteed on drywall, wood framing, insulation, and stored belongings.
+
+Speed is not just about preventing mold. Structural damage accelerates with prolonged moisture exposure. Wood framing begins to swell and warp. Metal fasteners rust. Concrete absorbs water and can develop efflorescence or spalling over time. The faster you remove water and begin the drying process, the smaller the scope — and cost — of the eventual repair.
+
+This guide walks through the full process: assessing the situation safely, removing standing water, drying the structure, preventing mold, and knowing when to call a certified water damage restoration company.`,
+      },
+      {
+        heading: 'Safety First: Before You Enter a Flooded Basement',
+        body: `Before stepping into any flooded space, you must address two immediate hazards:
+
+**Electrical hazards.** Water and electricity are a lethal combination. If your electrical panel is in the basement or if you are unsure whether outlets or appliances were submerged, do not enter the space until the power has been turned off at the main breaker. If the main panel is itself submerged or inaccessible, call your utility company to shut off power at the meter before anyone enters.
+
+**Structural hazards.** Floodwater — especially from sewer backups or external flooding — can carry sewage, chemicals, and debris. If water entered from outside your home (storm surge, rising groundwater, or overland flooding), it may be contaminated. Wear waterproof boots, gloves, and eye protection at minimum. If the water has a sewage odor, consider an N95 mask as well.
+
+**Insurance documentation.** Before you move anything or start cleanup, take a thorough photo and video record of everything — the waterline on the walls, flooring, furniture, appliances, HVAC equipment, and all affected belongings. This documentation is critical for insurance claims. Do not throw anything away until an adjuster has inspected the damage.`,
+      },
+      {
+        heading: 'Step 1 — Remove Standing Water',
+        body: `The first physical task is getting standing water out of the space as quickly as possible.
+
+**Submersible pump (best option for significant flooding):** A submersible pump placed on the floor can move hundreds of gallons per hour. Many home improvement stores rent these. Lower the pump intake as close to the floor as possible to maximize extraction. Route the discharge hose far from the foundation — ideally to a storm drain, street curb, or distant part of the yard — to prevent water from simply re-entering.
+
+**Shop vacuum (for smaller amounts):** For a few inches of water or residual water after pumping, a wet/dry shop vacuum is effective. Empty it frequently — a full shop vac is heavy and difficult to carry up stairs.
+
+**Do not use a standard household vacuum.** Standard vacuums are not designed for water extraction and present an electrocution risk.
+
+**Monitor for water re-entry.** As you pump, watch whether the water level drops or simply refills. If water keeps entering faster than you can remove it, the source has not been stopped. Identify and address the entry point — a crack in the foundation wall, a failed sump pump, an open window well — before continuing.`,
+      },
+      {
+        heading: 'Step 2 — Remove Wet Materials',
+        body: `Once standing water is gone, the focus shifts to saturated materials that hold moisture and prevent drying.
+
+**Flooring.** Carpet and carpet padding absorb enormous amounts of water and are extremely difficult to dry completely. In most flood scenarios, carpet and padding should be removed and discarded. Even if the carpet looks salvageable, the padding beneath almost never dries fully before mold begins. Pull carpet from the wall tack strips, roll it up, and cut it into manageable sections for removal. Laminate flooring and engineered wood often cannot be dried and must be removed if submerged. Solid hardwood can sometimes be dried and refinished if caught early.
+
+**Drywall.** Drywall is porous and acts like a sponge. FEMA guidelines recommend removing drywall at least 12 inches above the waterline — often more is removed to allow access to the wall cavity for inspection and drying. Wet insulation behind drywall must also be removed; fiberglass and cellulose insulation cannot be effectively dried in place.
+
+**Furniture and stored items.** Move all furniture out of the wet area to allow air circulation to the floor. Anything made of particle board, MDF, or similar composite materials is likely a total loss once wet. Solid wood furniture may be salvageable if dried promptly.
+
+**Photograph everything before disposal** if you have not already done so.`,
+      },
+      {
+        heading: 'Step 3 — Dry the Structure with Air Movement and Dehumidification',
+        body: `After removing wet materials, structural drying begins. This is where most DIY efforts fall short — inadequate drying equipment leaves hidden moisture in framing, subfloors, and concrete that later becomes a mold problem.
+
+**Air movers (industrial fans).** Regular household fans move air at low velocity and are insufficient for structural drying. Professional-grade air movers direct high-velocity airflow across wet surfaces at low angles, dramatically accelerating evaporation. Rent multiple units and position them to create a circular airflow pattern across all wet surfaces simultaneously.
+
+**Commercial dehumidifiers.** Home dehumidifiers purchased at big-box stores are rated for everyday humidity control and are severely underpowered for post-flood drying. LGR (low grain refrigerant) dehumidifiers, which are the standard in professional water damage work, pull 100+ pints per day from the air and operate efficiently at lower temperatures. Rent industrial dehumidifiers if possible, or hire a restoration company.
+
+**Temperature matters.** Warm air holds more moisture and facilitates faster evaporation. If conditions allow, keep the basement warm during the drying process.
+
+**Monitor progress.** Check the relative humidity and surface moisture readings daily with an inexpensive moisture meter. Concrete is considered dry when moisture content is below 12–16% depending on slab type. Wood framing should reach 15–19% before being re-enclosed. Do not reinstall new drywall or flooring until the structure meets these targets.`,
+      },
+      {
+        heading: 'Step 4 — Treat for Mold Prevention',
+        body: `If drying begins within the first 24–48 hours and is executed aggressively, mold may not establish before the structure is dry. However, applying an EPA-registered antimicrobial or fungicide to structural surfaces is a prudent step — especially on wood framing and concrete block walls — once the area is sufficiently dry.
+
+Common antimicrobial products used in professional restoration (such as Benefect Decon 30 or Concrobium Mold Control) can be applied by sprayer to surfaces after initial drying to inhibit any mold spores that have begun to establish.
+
+**Important caveats:**
+- Antimicrobial treatment does not replace thorough drying. Mold will grow through any surface treatment if moisture persists.
+- If visible mold is already present when you begin cleanup, you are not in prevention territory — you are in remediation territory. Active mold growth on more than 10 square feet of surface area should be handled by a certified mold remediation contractor, not DIY cleanup.
+- Bleach is not an effective treatment for porous materials like wood or concrete block. It kills surface mold color but does not penetrate to reach mold roots in porous substrates.`,
+      },
+      {
+        heading: 'When to Call a Water Damage Restoration Professional',
+        body: `Some basement flooding situations are appropriate for homeowner self-remediation. Many are not. Here is a practical breakdown:
+
+**Call a professional restoration company immediately when:**
+- The flood originated from a sewage backup, toilet overflow, or external floodwater (Category 2 or 3 contaminated water)
+- The flooded area exceeds 50–100 square feet or involves multiple rooms
+- HVAC equipment, the electrical panel, or water heaters were submerged
+- You cannot reliably source adequate drying equipment
+- You see visible mold growth already present
+- Any household members have asthma, immune deficiencies, or are infants or elderly
+- Your homeowners insurance requires professional documentation for the claim
+
+**Professional water damage companies provide:**
+- Industrial-grade extraction, air-moving, and dehumidification equipment
+- Thermal imaging and moisture meters to find hidden saturation
+- Proper documentation for insurance claims
+- IICRC S500 standard-compliant drying protocols
+- Mold prevention treatments and clearance testing
+
+Most homeowners insurance policies cover sudden, accidental water intrusion (burst pipes, appliance failures, storm damage in some cases). A licensed restoration company can work directly with your adjuster.`,
+      },
+    ],
+  },
+
+  // Week 2: Mold — Mold vs Mildew
+  {
+    slug: 'mold-vs-mildew',
+    title: 'Mold vs Mildew: Key Differences, Risks, and How to Treat Each',
+    metaDescription:
+      'Mold and mildew are both fungi, but they differ in appearance, health risk, and treatment. Learn how to tell them apart and when to call a professional.',
+    targetKeyword: 'mold vs mildew',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Mold Remediation',
+    datePublished: '2026-05-14',
+    dateModified: '2026-05-14',
+    ctaText: 'Find a Mold Remediation Professional Near You',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'Why the Distinction Matters',
+        body: `"Mold" and "mildew" are terms people use interchangeably, but they refer to meaningfully different things in terms of health risk, structural impact, and the appropriate treatment response. Misidentifying mold as "just mildew" can lead homeowners to underestimate a problem that requires professional remediation — or to over-react to a relatively minor surface issue that a basic cleaning will resolve.
+
+Both are fungi. Both thrive in moist conditions. Both release spores that can affect indoor air quality. But mildew is generally a surface-level growth with a limited health profile, while mold encompasses a much broader and potentially more dangerous category of fungal growth — including species that produce mycotoxins and penetrate deep into porous building materials.
+
+This guide explains the visual and structural differences, the health risks of each, and the practical steps for treatment — including when professional remediation is needed.`,
+      },
+      {
+        heading: 'What Is Mildew?',
+        body: `Mildew is a type of mold — specifically, it typically refers to powdery or downy surface molds that grow in a flat pattern and do not penetrate deeply into surfaces. The term is most commonly applied to:
+
+**Powdery mildew**: White or gray powdery deposits, most associated with plants and outdoor surfaces but also found on household surfaces with persistent surface moisture. It does not penetrate porous materials.
+
+**Downy mildew**: Appears yellowish, then turns brown or black over time. Found on plants, paper, and fabric.
+
+In household contexts, the white or gray powdery growth commonly found on bathroom tile grout, shower curtains, window sills, and vinyl surfaces is typically referred to as mildew. Key visual characteristics:
+
+- Flat growth pattern (does not have a raised, fuzzy, or three-dimensional texture)
+- White, gray, or light yellow coloring
+- Grows on surfaces but does not penetrate deeply
+- Smaller in affected area — typically localized to a tile line, sill, or surface
+
+The smell of mildew is often described as musty but mild. It does not typically indicate that porous building materials are compromised.`,
+      },
+      {
+        heading: 'What Is Mold?',
+        body: `Mold is the broader category of multicellular fungi that grow as hyphae — thread-like filaments that penetrate into substrates. Unlike mildew, mold does not just sit on surfaces. It grows into and through porous materials like drywall, wood, grout, insulation, fabric, and paper.
+
+Common household molds and their appearances:
+
+**Cladosporium**: Black, green, or olive colored. Found on wood, fabrics, painted surfaces, and HVAC ductwork. Does not typically produce mycotoxins but can trigger allergic reactions.
+
+**Penicillium/Aspergillus**: Blue-green or gray-green fuzzy growth with a musty odor. Common in water-damaged buildings, food, and HVAC systems. Some species produce mycotoxins.
+
+**Stachybotrys chartarum (black mold)**: Dark green or black, slimy appearance. Found on cellulose-rich materials (drywall, paper, wood) that have been wet for extended periods. Associated with mycotoxin production.
+
+**Alternaria**: Dark gray or olive green. Often found in showers, under sinks, and around windows.
+
+Key visual characteristics of mold:
+
+- Three-dimensional, fuzzy, or slimy texture (indicates active, penetrating growth)
+- Dark coloring — black, green, gray, brown
+- Often grows in irregular patches or clusters
+- Strong musty odor
+- May appear on surfaces but the growth extends into the material`,
+      },
+      {
+        heading: 'Health Risks: How They Differ',
+        body: `**Mildew health effects:**
+Mildew can trigger allergic reactions, respiratory irritation, coughing, and headaches — particularly in people with mold sensitivities or respiratory conditions. However, surface mildew on non-porous materials (tile, glass) presents a relatively contained exposure risk. Clean it promptly and the issue is resolved without significant ongoing exposure.
+
+**Mold health effects:**
+Mold presents a broader spectrum of health risk depending on the species, exposure duration, and the individual's sensitivity:
+
+- **Allergic reactions**: Runny nose, sneezing, watery eyes, skin rash. Common with Cladosporium and Alternaria.
+- **Respiratory irritation**: Coughing, wheezing, throat irritation. Can worsen asthma significantly.
+- **Infections**: People with weakened immune systems can develop fungal infections from inhaling Aspergillus or other mold spores.
+- **Mycotoxin exposure**: Some molds (Stachybotrys, some Aspergillus species) produce mycotoxins — toxic compounds that can cause neurological symptoms, immune suppression, and severe respiratory problems in high-exposure scenarios.
+
+The critical difference is that mildew stays on surfaces you can see and clean, while mold grows inside materials, increases in concentration over time, and can affect indoor air quality throughout a home even from a hidden location.`,
+      },
+      {
+        heading: 'How to Treat Mildew',
+        body: `Surface mildew on non-porous materials is typically manageable with household cleaning:
+
+**What you need:**
+- Rubber gloves and eye protection
+- Ventilation (open windows, run exhaust fan)
+- Appropriate cleaning solution
+
+**Cleaning solutions that work on mildew:**
+- White vinegar (undiluted) — effective antifungal that kills mildew on most surfaces
+- Hydrogen peroxide (3%) — good for grout and tile
+- Baking soda paste — mild abrasive option for surface scrubbing
+- Commercial tile/bathroom cleaners with fungicidal properties
+
+**What to avoid:**
+- Bleach on grout — bleach temporarily removes discoloration but does not kill the root fungus in porous grout. It returns quickly.
+- Dry scrubbing — always wet the area first to prevent spore dispersal.
+
+**Address the moisture source.** Mildew returns rapidly without improved ventilation. In bathrooms, run the exhaust fan during and for 20 minutes after showers. If window sills have persistent mildew, the window may be air-leaking or the room may lack adequate ventilation.`,
+      },
+      {
+        heading: 'How to Treat Mold (and When Not to DIY)',
+        body: `The EPA's guideline for DIY mold cleanup is straightforward: if the mold-affected area is less than 10 square feet (roughly 3 feet by 3 feet) on a non-porous surface, and you are in good health, careful DIY cleanup with appropriate PPE is reasonable.
+
+**For small, accessible mold on non-porous surfaces:**
+- Wear N95 mask, gloves, and eye protection
+- Use a damp cloth or sponge — do not dry-brush, which spreads spores
+- Apply an EPA-registered antimicrobial cleaner or undiluted white vinegar
+- Seal cleaned debris in plastic bags before disposal
+
+**When to call a certified mold remediation professional:**
+- Mold covers more than 10 square feet
+- Mold is on porous materials — drywall, wood, insulation, carpet
+- Mold is inside wall cavities, the HVAC system, or the attic
+- You can smell mold but cannot find the source
+- A household member has asthma, allergies, or a compromised immune system
+- The mold returned after DIY cleaning (indicates the moisture source was not resolved)
+
+Professional remediation involves containment to prevent spore spread, physical removal and disposal of affected materials (not just surface treatment), HEPA air filtration, and post-remediation clearance testing by an independent hygienist to confirm the work is complete.`,
+      },
+    ],
+  },
+
+  // Week 3: Pest Control — How to Get Rid of Mice
+  {
+    slug: 'how-to-get-rid-of-mice',
+    title: 'How to Get Rid of Mice in Your House: Traps, Exclusion & When to Call a Pro',
+    metaDescription:
+      'Learn how to get rid of mice with proven traps and exclusion methods, identify signs of infestation, and know when professional pest control is necessary.',
+    targetKeyword: 'how to get rid of mice in house',
+    categorySlug: 'pest-control',
+    categoryLabel: 'Pest Control',
+    datePublished: '2026-05-21',
+    dateModified: '2026-05-21',
+    ctaText: 'Find a Pest Control Professional Near You',
+    ctaHref: '/pest-control',
+    sections: [
+      {
+        heading: 'Understanding the Problem: Why Mice Are Hard to Eliminate',
+        body: `Mice are among the most common household pests in North America, and one of the most frustrating to eliminate. A single female mouse can produce 5–10 litters per year, with 5–6 pups per litter. Under favorable conditions — warmth, food access, nesting materials — a small mouse presence in October can become a full infestation by December.
+
+The difficulty in eliminating mice is not just their reproductive rate. It is their behavioral adaptability. Mice are neophobic — they are instinctively cautious around new objects in their environment, including traps. They learn quickly, have excellent spatial memory, and can survive on remarkably small amounts of food (3 grams per day). They can squeeze through any gap or hole larger than a dime (approximately 6–7mm).
+
+The only effective long-term solution combines three elements: **exclusion** (sealing entry points), **elimination** (trapping), and **sanitation** (removing food and harborage). Missing any one of these elements means the problem continues or returns.`,
+      },
+      {
+        heading: 'Signs of a Mouse Infestation',
+        body: `Before choosing a treatment approach, confirm that mice are the actual problem and assess the approximate scale of the infestation:
+
+**Droppings**: The most reliable indicator. Mouse droppings are 3–6mm long, rod-shaped with pointed ends, and dark when fresh, turning gray as they dry. You will find them concentrated along walls, in cabinet corners, near food sources, and in areas of regular mouse travel.
+
+**Gnaw marks**: Mice gnaw continuously to keep their teeth worn down. Look for chewed packaging, gnaw marks on wooden cabinet corners, baseboards, and in some cases electrical wiring — a serious fire hazard.
+
+**Tracks and runways**: Mice follow the same paths repeatedly (along walls, pipes, and structural edges). You may see greasy rub marks — dark smear marks on baseboards, wall corners, and pipes from the oils in mouse fur.
+
+**Nesting materials**: Mice build nests from shredded paper, fabric, insulation, and plant material. Look in drawers, inside appliances, inside wall voids, and in undisturbed storage areas.
+
+**Sounds**: Scratching, gnawing, or movement sounds in walls and ceilings — typically active at night.
+
+**Live or dead mice**: Seeing a mouse in daylight is often a sign of a larger infestation, since mice are primarily nocturnal and visible daytime activity typically indicates overcrowding.`,
+      },
+      {
+        heading: 'Step 1 — Exclusion: Sealing Entry Points',
+        body: `Trapping mice without sealing the entry points that allowed them in is a losing battle — you will trap continuously without resolving the source. Exclusion should happen in parallel with trapping, not after.
+
+**Common entry points:**
+- Gaps around pipes where they enter through walls (under sinks, behind appliances)
+- Foundation cracks larger than 6mm
+- Gaps between the sill plate (bottom of wall framing) and the foundation
+- Utility conduit entry points in the basement or crawl space
+- Spaces around door frames, especially garage doors
+- Vents without proper screening (dryer vents, crawl space vents)
+- Gaps around chimney flashing and roof penetrations
+
+**Best materials for exclusion:**
+- **Steel wool + caulk**: Pack steel wool tightly into gaps and seal with caulk. Mice cannot chew through steel wool, and caulk prevents the steel wool from being pulled out. This combination is effective for irregular gaps around pipes.
+- **Hardware cloth (1/4" mesh)**: Use for larger openings and vent covers. Staple or screw in place — do not use chicken wire, which mice can chew through.
+- **Metal flashing**: For gaps at the base of walls, door frames, or areas with repeated gnawing.
+- **Expanding foam alone**: Not sufficient — mice can chew through foam. Always reinforce with steel wool or hardware cloth.
+
+Conduct a thorough exterior inspection. Walk the full perimeter of the foundation at ground level, look at every utility penetration, and check around all doors and windows. Common overlooked entry points include gaps under garage doors, gaps in brick mortar, and spaces where wood siding meets the foundation.`,
+      },
+      {
+        heading: 'Step 2 — Trapping: The Most Effective Methods',
+        body: `Trapping (not poisoning) is the recommended elimination method inside the home for several reasons: it provides physical confirmation of success, prevents mice from dying in wall voids and creating odor problems, and poses no risk to pets or children. Multiple trap types are available:
+
+**Snap traps (most effective):**
+Classic snap traps and modern versions like the T-Rex snap trap are the gold standard. When used correctly with proper placement, they are highly effective and kill quickly.
+
+Placement is critical: traps must be placed **perpendicular to the wall** with the trigger end touching the wall. Mice travel along walls and baseboards, not across open floor. Set traps every 2–3 feet along walls where you have evidence of activity.
+
+**Bait**: Contrary to cartoons, cheese is not effective bait. Mice prefer high-fat, high-protein, or high-sugar foods. Best options: peanut butter (stick a small amount firmly in the trigger), nesting material (cotton balls, dental floss pieces), or chocolate. Use a minimal amount — just enough to engage the trigger mechanism.
+
+**Electronic traps:**
+Battery-powered traps deliver a high-voltage shock that kills mice instantly. More expensive per unit but effective and hygienic (no mess). Good option for areas where snap trap reset is inconvenient.
+
+**Glue traps:**
+Not recommended. Mice caught in glue traps suffer prolonged deaths and are difficult to dispose of humanely. They also pose a risk to non-target animals and can capture beneficial species. Many pest control professionals have moved away from recommending them.
+
+**Quantity matters**: For a moderate infestation, set 6–12 traps minimum in a typical home. Under-trapping is the most common reason DIY efforts fail. Dense trap placement in active areas produces results faster.`,
+      },
+      {
+        heading: 'Step 3 — Sanitation: Removing Food and Harborage',
+        body: `Mice will persist in any environment that provides food, water, and nesting sites. Sanitation removes these attractants and makes trapping more effective by limiting alternative food sources.
+
+**Food storage:**
+- Transfer dry goods (flour, grains, cereals, pet food) from cardboard or thin plastic packaging into airtight glass or heavy-duty plastic containers with snap lids. Cardboard is no obstacle to mice.
+- Do not leave pet food out overnight.
+- Clean up food debris promptly, including under appliances.
+- Birdseed stored in garages or outbuildings is a primary mouse attractant — store in metal containers with tight lids.
+
+**Clutter and harborage:**
+- Reduce clutter in basements, garages, and storage areas. Cardboard boxes, paper bags, and fabric piles are both nesting material and harborage.
+- Stack firewood away from the house and off the ground.
+- Keep grass and shrubs trimmed away from the foundation.
+
+**Water sources:**
+Mice can survive on very little water and often get it from the food they eat, so water source elimination is less impactful than food and harborage reduction — but leaking pipes and standing water in crawl spaces do contribute to an environment that supports mice.`,
+      },
+      {
+        heading: 'When to Call a Professional Pest Control Company',
+        body: `DIY mouse control is feasible for minor infestations caught early — a few mice that entered recently, limited droppings, clear and accessible entry points. However, professional pest control is the better choice when:
+
+**The infestation is large.** Many droppings throughout the home, evidence of multiple nesting sites, and mice visible during daytime all suggest a significant population that requires a systematic approach.
+
+**You cannot locate or access the entry points.** Pest control professionals bring experience identifying non-obvious entry points and can conduct exclusion work that is difficult for homeowners — including sealing under slab gaps, treating crawl spaces, and working at roof level.
+
+**The infestation involves your HVAC system, attic, or crawl space.** These areas present health risks (hantavirus from mouse droppings is a concern in disturbed, dried feces) and require proper PPE and containment protocols.
+
+**DIY efforts have not worked after 2–3 weeks.** If you have set traps, sealed visible gaps, and addressed sanitation but are still finding fresh droppings daily, a professional is needed. The entry point is almost certainly somewhere you have not found.
+
+**You have a health-sensitive household.** Families with young children, elderly members, or immunocompromised individuals should minimize DIY disturbance of infested areas.
+
+A licensed pest control company will conduct a full inspection, identify entry points, install a trap/bait station program, and offer ongoing monitoring. For significant infestations, a multi-visit service program over 30–60 days is typical.`,
+      },
+    ],
+  },
 ]
 
 export function getGuide(slug: string): Guide | undefined {
