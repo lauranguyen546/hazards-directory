@@ -17,7 +17,12 @@ const SERVICE_SLUGS: Record<string, string> = {
 const GUIDE_SLUGS = [
   'how-to-detect-mold',
   'mold-remediation-cost',
+  'mold-vs-mildew',
+  'how-to-choose-mold-remediation-company',
   'radon-testing-guide',
+  'what-to-do-after-water-damage',
+  'water-damage-restoration-cost',
+  'pest-control-cost',
 ]
 
 function toStateSlug(state: string) {

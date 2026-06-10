@@ -104,3 +104,45 @@ export function generateServiceSchema(category: string, city: string, state: str
     },
   }
 }
+
+export function generateArticleSchema(opts: {
+  title: string
+  description: string
+  slug: string
+  datePublished: string
+  dateModified: string
+}) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: opts.title,
+    description: opts.description,
+    url: `${baseUrl}/guides/${opts.slug}`,
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified,
+    author: {
+      '@type': 'Organization',
+      name: 'HazardPros',
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'HazardPros',
+      url: baseUrl,
+    },
+  }
+}
+
+export function generateItemListSchema(items: { name: string; url: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  }
+}

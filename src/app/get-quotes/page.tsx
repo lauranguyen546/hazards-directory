@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import LeadCaptureForm from '@/components/LeadCaptureForm'
+import { generateBreadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Get Free Quotes | HazardPros',
@@ -7,7 +8,15 @@ export const metadata: Metadata = {
 }
 
 export default function GetQuotesPage() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'Get Free Quotes' },
+  ])
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <section
@@ -47,5 +56,6 @@ export default function GetQuotesPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

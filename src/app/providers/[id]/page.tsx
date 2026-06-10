@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getProviderById } from '@/lib/supabase'
-import { generateLocalBusinessSchema } from '@/lib/schema'
+import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema'
 import LeadCaptureForm from '@/components/LeadCaptureForm'
 
 interface ProviderPageProps {
@@ -40,6 +40,12 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
   }
 
   const schema = generateLocalBusinessSchema(provider)
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'Providers', url: `${baseUrl}/providers` },
+    { name: provider.provider_name },
+  ])
 
   // Map service categories to readable labels
   const serviceLabels: Record<string, string> = {
@@ -52,10 +58,8 @@ export default async function ProviderPage({ params }: ProviderPageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       
       <main className="min-h-screen bg-gray-50">
         {/* Breadcrumb */}

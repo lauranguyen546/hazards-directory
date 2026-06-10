@@ -4,6 +4,7 @@ import { getProviders, getStates } from '@/lib/supabase'
 import ProviderCard from '@/components/ProviderCard'
 import SearchFiltersWrapper from '@/components/SearchFiltersWrapper'
 import { filterAndSortProviders } from '@/lib/filterProviders'
+import { generateBreadcrumbSchema } from '@/lib/schema'
 
 interface ProvidersPageProps {
   searchParams: {
@@ -34,7 +35,7 @@ export async function generateMetadata({ searchParams }: ProvidersPageProps): Pr
   }
   
   return {
-    title: `${title} | Hazards Directory`,
+    title,
     description,
   }
 }
@@ -62,7 +63,15 @@ export default async function ProvidersPage({ searchParams }: ProvidersPageProps
 
   const totalPages = count ? Math.ceil(count / limit) : 1
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'Providers' },
+  ])
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b">
@@ -129,5 +138,6 @@ export default async function ProvidersPage({ searchParams }: ProvidersPageProps
         </div>
       </div>
     </main>
+    </>
   )
 }

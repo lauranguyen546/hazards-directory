@@ -2,9 +2,10 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import AffiliateProductCard from '@/components/AffiliateProductCard'
 import LeadCaptureForm from '@/components/LeadCaptureForm'
+import { generateBreadcrumbSchema, generateFAQSchema, generateArticleSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'How to Tell If You Have Mold in Your Home | HazardPros',
+  title: 'How to Tell If You Have Mold in Your Home',
   description: 'Learn the signs of mold growth, where to check, DIY test options, and when to call a professional mold remediation company.',
   openGraph: {
     title: 'How to Tell If You Have Mold in Your Home',
@@ -13,52 +14,46 @@ export const metadata: Metadata = {
   },
 }
 
+const FAQS = [
+  {
+    question: 'What does mold smell like?',
+    answer: 'Mold typically has a musty, earthy odor — similar to damp soil or rotting wood. If a room smells musty even after cleaning and airing out, it may indicate hidden mold.',
+  },
+  {
+    question: 'Can mold grow inside walls?',
+    answer: 'Yes. Mold commonly grows inside walls after water intrusion, plumbing leaks, or flooding. Signs include discolored walls, peeling paint, or a musty smell with no visible mold.',
+  },
+  {
+    question: 'How do I test for mold myself?',
+    answer: 'DIY mold test kits (available for $15–$40) use swab or air samples sent to a lab. They can confirm mold presence and identify the type, but a professional inspection covers more area and hidden spots.',
+  },
+  {
+    question: 'Is black mold dangerous?',
+    answer: 'Stachybotrys chartarum (black mold) can produce mycotoxins that affect respiratory health, especially for children, elderly, and immunocompromised individuals. All mold types should be removed promptly.',
+  },
+]
+
 export default function HowToDetectMoldPage() {
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'What does mold smell like?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Mold typically has a musty, earthy odor — similar to damp soil or rotting wood. If a room smells musty even after cleaning and airing out, it may indicate hidden mold.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Can mold grow inside walls?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Yes. Mold commonly grows inside walls after water intrusion, plumbing leaks, or flooding. Signs include discolored walls, peeling paint, or a musty smell with no visible mold.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'How do I test for mold myself?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'DIY mold test kits (available for $15–$40) use swab or air samples sent to a lab. They can confirm mold presence and identify the type, but a professional inspection covers more area and hidden spots.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Is black mold dangerous?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Stachybotrys chartarum (black mold) can produce mycotoxins that affect respiratory health, especially for children, elderly, and immunocompromised individuals. All mold types should be removed promptly.',
-        },
-      },
-    ],
-  }
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'Guides', url: `${baseUrl}/guides` },
+    { name: 'How to Detect Mold' },
+  ])
+  const faqSchema = generateFAQSchema(FAQS)
+  const articleSchema = generateArticleSchema({
+    title: 'How to Tell If You Have Mold in Your Home',
+    description: 'Learn the signs of mold growth, where to check, DIY test options, and when to call a professional.',
+    slug: 'how-to-detect-mold',
+    datePublished: '2026-01-15',
+    dateModified: '2026-03-01',
+  })
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <main className="min-h-screen bg-gray-50">
         {/* Breadcrumb */}
@@ -97,9 +92,7 @@ export default function HowToDetectMoldPage() {
                 </ol>
 
                 <h2 className="text-xl font-bold text-gray-900 mb-3">Where to Check First</h2>
-                <p className="text-gray-700 mb-3">
-                  Focus your inspection on areas with past moisture exposure:
-                </p>
+                <p className="text-gray-700 mb-3">Focus your inspection on areas with past moisture exposure:</p>
                 <ul className="space-y-2 text-gray-700 mb-6 list-disc pl-5">
                   <li>Under sinks and around plumbing</li>
                   <li>Bathroom caulk, grout, and behind toilets</li>
@@ -114,11 +107,7 @@ export default function HowToDetectMoldPage() {
                   <p className="text-sm text-gray-600 mb-3">
                     <strong>Not sure if what you see is mold?</strong> A DIY test kit can confirm it and identify the type before you call a professional.
                   </p>
-                  <AffiliateProductCard
-                    program="amazon_mold_kit"
-                    sourcePage="/guides/how-to-detect-mold"
-                    sourceCategory="Mold"
-                  />
+                  <AffiliateProductCard program="amazon_mold_kit" sourcePage="/guides/how-to-detect-mold" sourceCategory="Mold" />
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-900 mb-3">DIY Testing vs. Professional Inspection</h2>
@@ -132,21 +121,9 @@ export default function HowToDetectMoldPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td className="px-4 py-2 border border-gray-200">DIY test kit</td>
-                        <td className="px-4 py-2 border border-gray-200">$15–$40</td>
-                        <td className="px-4 py-2 border border-gray-200">Confirming visible mold, small areas</td>
-                      </tr>
-                      <tr className="bg-gray-50">
-                        <td className="px-4 py-2 border border-gray-200">Professional inspection</td>
-                        <td className="px-4 py-2 border border-gray-200">$200–$600</td>
-                        <td className="px-4 py-2 border border-gray-200">Hidden mold, large areas, buying/selling a home</td>
-                      </tr>
-                      <tr>
-                        <td className="px-4 py-2 border border-gray-200">Air quality testing</td>
-                        <td className="px-4 py-2 border border-gray-200">$300–$700</td>
-                        <td className="px-4 py-2 border border-gray-200">Health concerns, post-remediation verification</td>
-                      </tr>
+                      <tr><td className="px-4 py-2 border border-gray-200">DIY test kit</td><td className="px-4 py-2 border border-gray-200">$15–$40</td><td className="px-4 py-2 border border-gray-200">Confirming visible mold, small areas</td></tr>
+                      <tr className="bg-gray-50"><td className="px-4 py-2 border border-gray-200">Professional inspection</td><td className="px-4 py-2 border border-gray-200">$200–$600</td><td className="px-4 py-2 border border-gray-200">Hidden mold, large areas, buying/selling a home</td></tr>
+                      <tr><td className="px-4 py-2 border border-gray-200">Air quality testing</td><td className="px-4 py-2 border border-gray-200">$300–$700</td><td className="px-4 py-2 border border-gray-200">Health concerns, post-remediation verification</td></tr>
                     </tbody>
                   </table>
                 </div>
@@ -164,25 +141,19 @@ export default function HowToDetectMoldPage() {
                 {/* FAQ */}
                 <h2 className="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
                 <div className="space-y-4 mb-8">
-                  <details className="border border-gray-200 rounded-lg">
-                    <summary className="px-4 py-3 font-medium text-gray-900 cursor-pointer">What does mold smell like?</summary>
-                    <p className="px-4 pb-4 text-gray-600 text-sm">Mold has a musty, earthy odor — similar to damp soil or rotting wood. If a room smells musty even after cleaning and airing out, it may indicate hidden mold.</p>
-                  </details>
-                  <details className="border border-gray-200 rounded-lg">
-                    <summary className="px-4 py-3 font-medium text-gray-900 cursor-pointer">Can mold grow inside walls?</summary>
-                    <p className="px-4 pb-4 text-gray-600 text-sm">Yes. Mold commonly grows inside walls after water intrusion, plumbing leaks, or flooding. Signs include discolored walls, peeling paint, or a musty smell with no visible mold.</p>
-                  </details>
-                  <details className="border border-gray-200 rounded-lg">
-                    <summary className="px-4 py-3 font-medium text-gray-900 cursor-pointer">Is black mold dangerous?</summary>
-                    <p className="px-4 pb-4 text-gray-600 text-sm">Stachybotrys chartarum (black mold) can produce mycotoxins that affect respiratory health, especially for children, the elderly, and immunocompromised individuals. All mold should be removed promptly.</p>
-                  </details>
+                  {FAQS.map((faq) => (
+                    <details key={faq.question} className="border border-gray-200 rounded-lg">
+                      <summary className="px-4 py-3 font-medium text-gray-900 cursor-pointer">{faq.question}</summary>
+                      <p className="px-4 pb-4 text-gray-600 text-sm">{faq.answer}</p>
+                    </details>
+                  ))}
                 </div>
 
-                {/* Related guides */}
                 <div className="bg-blue-50 rounded-xl p-5">
                   <h3 className="font-bold text-gray-900 mb-3">Related Guides</h3>
                   <ul className="space-y-2 text-sm">
                     <li><Link href="/guides/mold-remediation-cost" className="text-primary-600 hover:underline">Mold Removal Cost Guide 2026 →</Link></li>
+                    <li><Link href="/guides/mold-vs-mildew" className="text-primary-600 hover:underline">Mold vs. Mildew: How to Tell the Difference →</Link></li>
                     <li><Link href="/providers?category=Mold" className="text-primary-600 hover:underline">Find Mold Remediation Pros Near You →</Link></li>
                   </ul>
                 </div>
@@ -191,18 +162,11 @@ export default function HowToDetectMoldPage() {
 
             {/* Sidebar */}
             <aside className="mt-10 lg:mt-0 space-y-6">
-              <LeadCaptureForm
-                prefilledCategory="Mold"
-                sourcePage="/guides/how-to-detect-mold"
-                compact
-              />
+              <LeadCaptureForm prefilledCategory="Mold" sourcePage="/guides/how-to-detect-mold" compact />
               <div className="bg-white border border-gray-200 rounded-xl p-5">
                 <h4 className="font-bold text-gray-900 mb-3">Find Mold Pros Near You</h4>
                 <p className="text-sm text-gray-600 mb-3">Browse verified mold remediation professionals in your area.</p>
-                <Link
-                  href="/providers?category=Mold"
-                  className="block text-center bg-primary-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors"
-                >
+                <Link href="/providers?category=Mold" className="block text-center bg-primary-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-primary-700 transition-colors">
                   Browse Mold Pros →
                 </Link>
               </div>

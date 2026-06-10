@@ -226,12 +226,12 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ── Task 9: Footer ── */}
+        {/* ── Footer ── */}
         <footer id="contact" className="bg-gray-900 text-gray-300 py-12 px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-white text-lg font-bold mb-4">Hazards Directory</h3>
+                <h3 className="text-white text-lg font-bold mb-4">HazardPros</h3>
                 <p className="text-sm">
                   Connecting homeowners with trusted mold, water damage, and pest control professionals.
                 </p>
@@ -242,30 +242,47 @@ export default async function HomePage() {
                   <li><Link href="/providers?category=Mold" className="hover:text-white transition-colors">Mold Remediation</Link></li>
                   <li><Link href="/providers?category=Water" className="hover:text-white transition-colors">Water Damage</Link></li>
                   <li><Link href="/providers?category=Pest" className="hover:text-white transition-colors">Pest Control</Link></li>
+                  <li><Link href="/providers?category=Radon" className="hover:text-white transition-colors">Radon Testing</Link></li>
                 </ul>
               </div>
-              {/* Task 9: Real contact info */}
               <div>
-                <h4 className="text-white font-semibold mb-4">Contact</h4>
+                <h4 className="text-white font-semibold mb-4">Guides</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/guides/what-to-do-after-water-damage" className="hover:text-white transition-colors">After Water Damage</Link></li>
+                  <li><Link href="/guides/how-to-detect-mold" className="hover:text-white transition-colors">Detect Mold</Link></li>
+                  <li><Link href="/guides/mold-remediation-cost" className="hover:text-white transition-colors">Mold Removal Cost</Link></li>
+                  <li><Link href="/guides/mold-vs-mildew" className="hover:text-white transition-colors">Mold vs. Mildew</Link></li>
+                  <li><Link href="/guides/pest-control-cost" className="hover:text-white transition-colors">Pest Control Cost</Link></li>
+                  <li><Link href="/guides/radon-testing-guide" className="hover:text-white transition-colors">Radon Testing</Link></li>
+                  <li><Link href="/guides" className="hover:text-white transition-colors">All Guides →</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-4">Company</h4>
                 <ul className="space-y-2 text-sm">
                   <li>
-                    <a
-                      href="mailto:contact@hazardsdirectory.com"
-                      className="hover:text-white transition-colors"
-                    >
-                      contact@hazardsdirectory.com
-                    </a>
+                    <Link href="/list-your-business" className="hover:text-white transition-colors">
+                      List Your Business
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/list-your-business" className="hover:text-white transition-colors">
-                      List Your Business →
+                    <Link href="/get-quotes" className="hover:text-white transition-colors">
+                      Get Free Quotes
                     </Link>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:contact@hazardpros.com"
+                      className="hover:text-white transition-colors"
+                    >
+                      contact@hazardpros.com
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-              © {new Date().getFullYear()} Hazards Directory. All rights reserved.
+              © {new Date().getFullYear()} HazardPros. All rights reserved.
             </div>
           </div>
         </footer>

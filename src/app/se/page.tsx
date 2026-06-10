@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { getProviders } from '@/lib/supabase'
 import TopRatedSection from '@/components/TopRatedSection'
+import { generateBreadcrumbSchema, generateOrganizationSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Southeast Hazards Directory | FL, GA, NC, SC',
@@ -21,7 +22,17 @@ export default async function SoutheastPage() {
   const waterCount = seProviders.filter(p => p.service_category === 'Water').length
   const pestCount = seProviders.filter(p => p.service_category === 'Pest').length
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'Southeast Directory' },
+  ])
+  const org = generateOrganizationSchema()
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
     <main className="min-h-screen">
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary-700 to-primary-900 text-white py-16 px-4">
@@ -102,5 +113,6 @@ export default async function SoutheastPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }

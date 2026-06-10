@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { generateBreadcrumbSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'List Your Business | HazardPros',
@@ -62,7 +63,15 @@ const tiers = [
 ]
 
 export default function ListYourBusinessPage() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hazardpros.com'
+  const breadcrumb = generateBreadcrumbSchema([
+    { name: 'Home', url: baseUrl },
+    { name: 'List Your Business' },
+  ])
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <section
@@ -194,5 +203,6 @@ export default function ListYourBusinessPage() {
         </Link>
       </div>
     </main>
+    </>
   )
 }
