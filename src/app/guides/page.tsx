@@ -4,17 +4,33 @@ import { generateBreadcrumbSchema, generateItemListSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Home Hazard Guides',
-  description: 'Free guides on mold detection, water damage, radon testing, and pest control for homeowners.',
+  description: 'Free guides on mold, water damage, radon, pest control, asbestos, and lead paint for homeowners.',
 }
 
 const guides = [
   {
     slug: 'what-to-do-after-water-damage',
     title: 'What to Do After Water Damage',
-    description: 'Step-by-step checklist for the first 24–72 hours after water damage — minimize costs, prevent mold, and protect your insurance claim.',
+    description: 'Step-by-step checklist for the first 24–72 hours — minimize costs, prevent mold, and protect your insurance claim.',
     category: 'Water Damage',
     icon: '💧',
     readTime: '7 min read',
+  },
+  {
+    slug: 'water-damage-insurance-claim',
+    title: 'How to File a Water Damage Insurance Claim',
+    description: 'Documentation checklist, adjuster tips, and how to avoid the most common water damage claim denials.',
+    category: 'Water Damage',
+    icon: '📋',
+    readTime: '8 min read',
+  },
+  {
+    slug: 'water-damage-restoration-cost',
+    title: 'Water Damage Restoration Cost Guide 2026',
+    description: 'Average restoration costs by damage class, room, and material — plus what insurance covers.',
+    category: 'Water Damage',
+    icon: '🏠',
+    readTime: '6 min read',
   },
   {
     slug: 'how-to-detect-mold',
@@ -33,14 +49,6 @@ const guides = [
     readTime: '6 min read',
   },
   {
-    slug: 'how-to-choose-mold-remediation-company',
-    title: 'How to Choose a Mold Remediation Company',
-    description: '7 things to verify before hiring: certifications, insurance, containment protocol, and red flags to avoid.',
-    category: 'Mold',
-    icon: '✅',
-    readTime: '6 min read',
-  },
-  {
     slug: 'mold-vs-mildew',
     title: 'Mold vs. Mildew: How to Tell the Difference',
     description: 'Visual guide to identifying mold vs. mildew — appearance, smell, health risks, and when each needs a pro.',
@@ -49,11 +57,19 @@ const guides = [
     readTime: '5 min read',
   },
   {
-    slug: 'water-damage-restoration-cost',
-    title: 'Water Damage Restoration Cost Guide 2026',
-    description: 'Average restoration costs by damage class, room, and material — plus what insurance covers.',
-    category: 'Water Damage',
-    icon: '🏠',
+    slug: 'how-to-choose-mold-remediation-company',
+    title: 'How to Choose a Mold Remediation Company',
+    description: '7 things to verify before hiring: certifications, insurance, containment protocol, and red flags to avoid.',
+    category: 'Mold',
+    icon: '✅',
+    readTime: '6 min read',
+  },
+  {
+    slug: 'crawl-space-encapsulation-cost',
+    title: 'Crawl Space Encapsulation Cost Guide 2026',
+    description: 'Average encapsulation costs, vapor barrier types, and when you need it to prevent mold and moisture.',
+    category: 'Mold & Moisture',
+    icon: '🏚️',
     readTime: '6 min read',
   },
   {
@@ -65,12 +81,36 @@ const guides = [
     readTime: '5 min read',
   },
   {
+    slug: 'termite-inspection-cost',
+    title: 'Termite Inspection & Treatment Cost Guide 2026',
+    description: 'Average termite inspection and treatment costs by method, warning signs, and regional risk levels.',
+    category: 'Pest Control',
+    icon: '🪲',
+    readTime: '6 min read',
+  },
+  {
     slug: 'radon-testing-guide',
     title: 'How to Test Your Home for Radon',
     description: 'Radon is the #2 cause of lung cancer in the US. Learn how to test and when to call a mitigation pro.',
     category: 'Radon',
     icon: '☢️',
     readTime: '5 min read',
+  },
+  {
+    slug: 'asbestos-testing-guide',
+    title: 'How to Test for Asbestos in Your Home',
+    description: 'Where asbestos hides in older homes, how testing works, abatement costs, and when to call a pro.',
+    category: 'Home Hazards',
+    icon: '⚠️',
+    readTime: '7 min read',
+  },
+  {
+    slug: 'lead-paint-testing-guide',
+    title: 'Lead Paint Testing: What Homeowners Need to Know',
+    description: 'How to test for lead paint, interpret results, and choose between encapsulation and removal.',
+    category: 'Home Hazards',
+    icon: '🎨',
+    readTime: '6 min read',
   },
 ]
 

@@ -19,10 +19,15 @@ const GUIDE_SLUGS = [
   'mold-remediation-cost',
   'mold-vs-mildew',
   'how-to-choose-mold-remediation-company',
+  'crawl-space-encapsulation-cost',
   'radon-testing-guide',
   'what-to-do-after-water-damage',
   'water-damage-restoration-cost',
+  'water-damage-insurance-claim',
   'pest-control-cost',
+  'termite-inspection-cost',
+  'asbestos-testing-guide',
+  'lead-paint-testing-guide',
 ]
 
 function toStateSlug(state: string) {
