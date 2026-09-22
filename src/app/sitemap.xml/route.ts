@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { getProviders, getCategoryStateParams, getCategoryStateCountyParams } from '@/lib/supabase'
 import { toSlug } from '@/lib/slugs'
+import { GUIDES } from '@/lib/guides'
 
 interface SitemapPage {
   url: string
@@ -50,7 +51,14 @@ export async function GET() {
     priority: 0.75,
   }))
 
-  const allPages = [...staticPages, ...statePages, ...countyPages, ...providerPages]
+  const guidePages: SitemapPage[] = GUIDES.map((guide) => ({
+    url: `${baseUrl}/guides/${guide.slug}`,
+    changefreq: 'monthly',
+    priority: 0.8,
+    lastmod: guide.dateModified,
+  }))
+
+  const allPages = [...staticPages, guidePages[0] && { url: `${baseUrl}/guides`, changefreq: 'weekly', priority: 0.8 }, ...guidePages, ...statePages, ...countyPages, ...providerPages].filter(Boolean) as SitemapPage[]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

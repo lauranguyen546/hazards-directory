@@ -2276,6 +2276,187 @@ Once clearance testing passes, reconstruction can begin: new drywall, insulation
       },
     ],
   },
+
+  // Asbestos Testing Guide
+  {
+    slug: 'asbestos-testing-guide',
+    title: 'How to Test for Asbestos in Your Home',
+    metaDescription:
+      'Where asbestos hides in older homes, how professional and DIY testing works, abatement costs, and when to call a licensed pro.',
+    targetKeyword: 'asbestos testing home',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Home Hazards',
+    datePublished: '2026-03-01',
+    dateModified: '2026-08-01',
+    ctaText: 'Find a Licensed Asbestos Abatement Professional Near You',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'Why Asbestos Testing Matters in Older Homes',
+        body: `Asbestos was widely used in building materials from the 1940s through the late 1970s. If your home was built before 1980, there is a reasonable chance it contains asbestos-containing materials (ACMs) somewhere — in insulation, floor tiles, roofing, or joint compound. Undisturbed asbestos poses minimal risk. Disturbed, damaged, or deteriorating asbestos releases microscopic fibers that can cause mesothelioma, lung cancer, and asbestosis when inhaled.
+
+The problem is that you cannot identify asbestos by looking at it. Materials that appear identical — vinyl floor tiles, ceiling texture, pipe wrap — may or may not contain asbestos depending on when and where they were manufactured. Testing is the only way to know for certain, and testing before any renovation or demolition work is critical.`,
+      },
+      {
+        heading: 'Where Asbestos Is Most Commonly Found',
+        body: `In homes built before 1980, the most common locations for asbestos-containing materials include:
+
+**Insulation:** Pipe wrap insulation on heating pipes and boilers, attic insulation (vermiculite or loose-fill), and duct insulation are high-risk areas. Vermiculite insulation — found in many pre-1990 attics — is particularly associated with asbestos contamination.
+
+**Flooring:** 9×9-inch vinyl floor tiles (common in basements and kitchens from the 1950s–70s) and the black mastic adhesive beneath them frequently contain asbestos. Sheet vinyl flooring may also contain ACMs.
+
+**Ceiling materials:** Acoustic ceiling tiles, popcorn (textured spray) ceilings, and suspended ceiling panels installed before 1980 commonly tested positive for asbestos.
+
+**Exterior and roofing:** Asbestos cement siding (flat or corrugated panels), roofing shingles, and roof flashing may contain asbestos. These are typically stable unless mechanically disturbed.
+
+**Joint compound and textured paint:** Drywall joint compound and some textured paints manufactured before 1977 frequently contained asbestos. This is especially relevant for any sanding or patching work.
+
+**HVAC components:** Duct wrap, duct tape, and gaskets in older HVAC systems may contain asbestos.`,
+      },
+      {
+        heading: 'Professional vs. DIY Testing',
+        body: `**Professional testing (recommended):** A certified asbestos inspector collects samples using proper protocols — wetting the material to suppress fiber release, using proper personal protective equipment, and sealing samples correctly. Samples are analyzed by an accredited laboratory. Cost: $200–$800 for a full home inspection; $25–$75 per sample for laboratory analysis alone.
+
+**DIY sampling kits:** Available at home improvement stores or online for $30–$50. You collect samples yourself and mail them to a laboratory. The risk is that improper sampling can release fibers and create an exposure event. DIY sampling is only appropriate for materials that are clearly undisturbed and accessible. Never sample from damaged, crumbling, or friable materials — hire a professional.
+
+**When to always hire a professional:**
+- Before any renovation, demolition, or remodeling of a pre-1980 structure
+- If materials are deteriorating or visibly damaged
+- If you suspect vermiculite insulation (it has a high likelihood of asbestos contamination)
+- For any large-scale sampling project`,
+      },
+      {
+        heading: 'Asbestos Abatement: Encapsulation vs. Removal',
+        body: `If testing confirms asbestos-containing materials, you have two options depending on the condition of the material:
+
+**Encapsulation** involves sealing the asbestos in place with a specialized coating that bonds fibers and prevents release. It is appropriate for materials that are in good condition and not in an area subject to frequent disturbance. Cost: $500–$2,500.
+
+**Removal (abatement)** is required when materials are damaged, deteriorating, or in an area where future disturbance is likely. Licensed abatement contractors set up containment (negative pressure enclosures, HEPA air scrubbers), remove the material using wet methods, and dispose of it as regulated hazardous waste. Cost: $1,500–$30,000+ depending on the extent and location of materials.
+
+**EPA and state regulations:** The EPA's Renovation, Repair, and Painting (RRP) Rule requires contractors working on pre-1978 homes to be certified and follow lead-safe work practices — but asbestos regulations are separate. Most states require asbestos abatement contractors to be licensed. Always verify your contractor's state licensing before hiring.`,
+      },
+    ],
+  },
+
+  // Lead Paint Testing Guide
+  {
+    slug: 'lead-paint-testing-guide',
+    title: 'Lead Paint Testing: What Homeowners Need to Know',
+    metaDescription:
+      'How to test for lead paint, interpret results, and choose between encapsulation and removal — plus EPA rules for pre-1978 homes.',
+    targetKeyword: 'lead paint testing home',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Home Hazards',
+    datePublished: '2026-03-10',
+    dateModified: '2026-08-01',
+    ctaText: 'Find a Certified Lead Paint Abatement Professional',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'Why Lead Paint Is Still a Risk in Older Homes',
+        body: `Lead paint was banned from residential use in the United States in 1978, but it remains present in an estimated 24 million older homes. Intact lead paint that is not chipping, peeling, or disturbed poses limited risk. The danger arises when lead paint deteriorates — creating dust and paint chips — or when it is disturbed through sanding, scraping, or renovation work.
+
+Lead exposure is particularly dangerous for children under 6, in whom it causes irreversible neurological damage, learning disabilities, and behavioral problems at blood lead levels once considered safe. The CDC has eliminated the concept of a "safe" blood lead level for children. For adults, lead exposure at high levels causes kidney damage, high blood pressure, and reproductive problems.
+
+Homes built before 1940 are highest risk; homes built between 1940 and 1978 are moderate risk. The older the home, the more likely it is to have multiple layers of lead paint beneath newer finishes.`,
+      },
+      {
+        heading: 'Lead Paint Testing Methods',
+        body: `**XRF (X-ray fluorescence) testing:** The gold standard for professional lead paint testing. An XRF analyzer provides instant, non-destructive readings through all layers of paint to the substrate. No damage to the surface is required. Typical cost: $300–$600 for a full home inspection by a certified inspector.
+
+**Paint chip sampling:** A certified inspector removes a small paint sample and sends it to an accredited laboratory for analysis. Results take 1–5 business days. Cost: $25–$50 per sample. More accurate than DIY swabs but requires surface damage.
+
+**DIY swab tests:** Available at hardware stores for $10–$30. Swab tests detect lead on the surface only — they cannot read through layers. A positive result is reliable; a negative result does not rule out lead beneath top coats. Sensitivity varies by brand; some produce false negatives. Use only EPA-recognized test kits.
+
+**When professional testing is required:** The EPA's RRP Rule requires disclosure of known lead paint hazards before the sale of pre-1978 homes, and requires renovation contractors working in pre-1978 homes to be RRP-certified. If you are buying or selling a pre-1978 home, or hiring a contractor for renovation work, professional testing by a certified inspector is strongly recommended.`,
+      },
+      {
+        heading: 'Interpreting Lead Paint Results',
+        body: `**Positive for lead:** The paint contains lead above the regulatory threshold (typically 1.0 mg/cm² by XRF, or 0.5% by weight). This does not require immediate action if the paint is intact — it requires management.
+
+**Condition assessment matters more than the presence of lead:** The EPA distinguishes between "lead-based paint" (present) and "lead hazards" (present AND in a condition that creates risk). Intact, well-adhered lead paint on surfaces not subject to friction or impact is a lower priority than deteriorating paint, paint on impact surfaces (window frames, doors), or painted surfaces in friction areas (window sills, stair railings).
+
+**Required disclosures:** If you sell a pre-1978 home, federal law requires disclosing known lead paint hazards to buyers and providing the EPA pamphlet "Protect Your Family from Lead in Your Home."`,
+      },
+      {
+        heading: 'Encapsulation vs. Removal',
+        body: `**Encapsulation** applies a specially formulated coating that bonds to the existing paint, sealing lead and preventing dust generation. It is appropriate for intact lead paint on surfaces not subject to frequent friction or impact. Cost: $1–$3 per square foot. Encapsulation must be maintained and periodically inspected — it is not a permanent solution.
+
+**Removal (abatement)** physically removes lead paint through wet scraping, chemical stripping, or complete removal of the substrate. It is required for deteriorating paint, paint on friction/impact surfaces, and surfaces being extensively renovated. Certified abatement contractors must follow EPA lead-safe work practices: containment, HEPA vacuuming, wet methods to suppress dust, and proper waste disposal. Cost: $8–$15 per square foot.
+
+**Interim controls** are temporary measures — paint stabilization, specialized cleaning, window replacement — that reduce lead hazard exposure without permanent abatement. These are commonly used when full abatement is cost-prohibitive.
+
+**Finding a certified contractor:** Always hire an EPA-certified Lead Abatement Contractor or RRP-certified renovator for any work disturbing lead paint. Verify certification through the EPA's website before hiring.`,
+      },
+    ],
+  },
+
+  // Crawl Space Encapsulation Cost Guide
+  {
+    slug: 'crawl-space-encapsulation-cost',
+    title: 'Crawl Space Encapsulation Cost Guide 2026',
+    metaDescription:
+      'Average crawl space encapsulation costs, what is included, vapor barrier thickness comparison, and when you need it to prevent mold and moisture problems.',
+    targetKeyword: 'crawl space encapsulation cost',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Mold & Moisture',
+    datePublished: '2026-04-15',
+    dateModified: '2026-08-01',
+    ctaText: 'Find a Crawl Space Encapsulation Professional Near You',
+    ctaHref: '/mold-remediation',
+    sections: [
+      {
+        heading: 'What Does Crawl Space Encapsulation Cost?',
+        body: `Crawl space encapsulation typically costs **$1,500–$15,000** for most homes, with the majority of projects landing between **$5,000–$8,000** for a complete installation. The wide range reflects differences in crawl space size, moisture severity, existing damage, and the components included in the project.
+
+Key cost drivers:
+- **Crawl space size:** Most contractors price per square foot — $3–$7 per sq ft is typical for complete encapsulation including dehumidifier.
+- **Existing conditions:** Active mold growth, standing water, or structural damage must be addressed before encapsulation, adding $500–$5,000.
+- **Dehumidifier inclusion:** A crawl space-rated dehumidifier adds $1,000–$2,000 to the project but is generally required for lasting results.
+- **Drainage system:** If standing water or active intrusion is present, a French drain or sump pump system adds $1,000–$3,000.`,
+      },
+      {
+        heading: 'What Is Crawl Space Encapsulation?',
+        body: `Encapsulation is the process of sealing your crawl space from ground moisture and outside air. A professional-grade vapor barrier (typically 12–20 mil polyethylene) is installed across the ground and up the walls, all seams are sealed with specialized tape, foundation vents are closed or sealed, and a crawl space dehumidifier is typically installed to maintain low humidity year-round.
+
+This differs from a basic "vapor barrier" installation. A simple ground cover — often 6-mil poly laid loosely on the ground — does not seal wall penetrations, vents, or columns. True encapsulation creates a conditioned, sealed space. The distinction matters because a ground-only barrier can still allow humid outdoor air to enter through open vents and create condensation on the barrier itself.
+
+**Is it worth it?** For homes with moisture problems, visible mold, wood rot, or pest activity in the crawl space — yes. Encapsulation typically pays for itself through reduced heating/cooling costs (10–25%), prevented structural damage, and improved indoor air quality. Studies consistently show that 40–60% of the air in a home's first floor originates from the crawl space.`,
+      },
+      {
+        heading: 'Signs You Need Crawl Space Encapsulation',
+        body: `**Moisture indicators:**
+- Musty odor in the home, especially on the first floor
+- Condensation or water droplets on pipes, ducts, or the existing ground cover
+- Standing water or consistently damp soil in the crawl space
+- High indoor humidity (above 60% RH in summer months)
+
+**Biological indicators:**
+- Visible mold on floor joists, subfloor, or insulation batts
+- Wood rot or soft spots in the subfloor or joists
+- Increased pest activity (insects thrive in moist crawl spaces)
+
+**Structural indicators:**
+- Sagging floors or springy feeling underfoot
+- Doors and windows that stick or are difficult to open/close (indicating wood swelling from moisture)
+- HVAC system working harder than normal (moisture-laden air increases load)
+
+If you notice any of these signs, have a professional inspect the crawl space before moisture causes irreversible structural damage.`,
+      },
+      {
+        heading: 'Vapor Barrier Thickness: 6 mil vs. 12 mil vs. 20 mil',
+        body: `The thickness of the vapor barrier is one of the most important quality indicators in a crawl space encapsulation project.
+
+**6-mil polyethylene:** Commonly sold at hardware stores as a basic ground cover. Tears easily when walked on, does not provide true encapsulation, and degrades within a few years. Not appropriate for a professional encapsulation job.
+
+**12-mil barrier:** Appropriate for most residential encapsulation projects. Durable enough for occasional access, resists puncture, and typically carries a 15-year warranty from reputable manufacturers. This is the entry-level professional-grade option.
+
+**20-mil reinforced barrier:** The highest residential grade. Features woven reinforcement for exceptional puncture resistance, handles regular access, and typically carries a 25-year warranty. Recommended for crawl spaces with significant prior moisture issues or those that will be used for storage.
+
+When comparing quotes, ask contractors specifically what barrier thickness and brand they use. A lower quote that specifies 6-mil poly or an unbranded product is not equivalent to a quote using 12-mil or 20-mil material from manufacturers like CleanSpace, TerraBlock, or similar.`,
+      },
+    ],
+  },
 ]
 
 export function getGuide(slug: string): Guide | undefined {
