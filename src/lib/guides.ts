@@ -2391,6 +2391,117 @@ Homes built before 1940 are highest risk; homes built between 1940 and 1978 are 
     ],
   },
 
+  // Septic Tank Service Guide
+  {
+    slug: 'septic-tank-service',
+    title: 'Septic Tank Service: Inspection, Pumping & Maintenance Guide',
+    metaDescription:
+      'When to schedule septic tank service, what a professional inspection covers, how much pumping costs, and how to choose a licensed septic company.',
+    targetKeyword: 'septic tank service',
+    categorySlug: 'mold-remediation',
+    categoryLabel: 'Septic Systems',
+    datePublished: '2026-09-22',
+    dateModified: '2026-09-22',
+    ctaText: 'Find a Licensed Septic Service Professional Near You',
+    ctaHref: '/providers',
+    sections: [
+      {
+        heading: 'How Often Does a Septic Tank Need Service?',
+        body: `The EPA recommends that a typical residential septic system be inspected by a professional at least every 3 years and pumped every 3–5 years. The right interval for your household depends on four factors:
+
+**Household size:** A 3-bedroom home with 4 residents and a 1,000-gallon tank needs pumping roughly every 3 years. Smaller households or larger tanks can extend that interval to 5 years.
+
+**Tank size:** Smaller tanks fill faster. A 750-gallon tank serving a family of four may need annual or biennial pumping.
+
+**Solids use:** Garbage disposals dramatically accelerate solids accumulation — homes with disposals should pump 30–40% more frequently than the standard interval.
+
+**System type:** Alternative systems (aerobic treatment units, drip irrigation, mound systems) often have state-mandated annual inspection requirements separate from pumping.
+
+Skipping service is the leading cause of premature system failure. A failed drain field — the most common consequence of neglect — costs $3,000–$30,000 to replace, compared to $300–$600 for routine pumping.`,
+      },
+      {
+        heading: 'What a Professional Septic Inspection Covers',
+        body: `A full septic inspection ($150–$500) goes well beyond pumping. A licensed inspector will:
+
+**Locate the tank and access ports:** Some older tanks are buried without marked access risers, requiring probing or records research.
+
+**Measure scum and sludge layers:** The inspector inserts a sludge judge or measurement rod to determine how full the tank is. Pumping is typically required when the combined layers occupy more than one-third of tank capacity.
+
+**Inspect baffles and tees:** Inlet and outlet baffles direct flow to prevent scum from entering the drain field. Deteriorated baffles — especially common in older concrete tanks — are one of the most common repair needs.
+
+**Check the distribution box (D-box):** The D-box distributes effluent evenly across drain field laterals. Cracked, tilted, or clogged D-boxes cause uneven loading and premature drain field failure.
+
+**Evaluate the drain field:** The inspector checks for standing water, lush or spongy grass over lateral lines, and surface effluent breakout — all signs of drain field stress or failure.
+
+**Test components in alternative systems:** ATUs (aerobic treatment units) require inspection of pumps, blowers, UV disinfection, and chlorine levels. Most states require annual licensed inspection of ATUs.
+
+**Pre-sale inspections:** Real estate transactions for homes with septic systems typically require a current inspection (within 6–12 months). A Title V inspection (Massachusetts) or equivalent in your state is often required at the time of sale.`,
+      },
+      {
+        heading: 'Septic Service Costs',
+        body: `**Pumping:** $300–$600 for a standard residential tank (1,000–1,500 gallons). Cost varies by region and access difficulty. Add $50–$150 if the tank lid must be located and excavated.
+
+**Full inspection with pumping:** $350–$800, depending on system complexity. Alternative systems with multiple components cost more to inspect.
+
+**Baffle replacement:** $100–$300 per baffle. Plastic replacement baffles are cheaper and last longer than the original concrete versions.
+
+**Riser installation:** $200–$500 per riser. Installing a concrete or plastic riser at ground level eliminates excavation costs on every future service call — a one-time investment that pays back within 1–2 pumping cycles.
+
+**D-box replacement:** $300–$750 including excavation.
+
+**Drain field repair (limited):** $1,000–$5,000 for partial lateral replacement or remediation products. Full drain field replacement runs $3,000–$15,000 depending on size and soil conditions.
+
+**Emergency service call:** $200–$500 on top of normal service rates for after-hours response.`,
+      },
+      {
+        heading: 'What Not to Put in a Septic System',
+        body: `The single most effective maintenance step homeowners can take is protecting the system from materials that kill beneficial bacteria or clog the drain field.
+
+**Never flush or drain:**
+- Wipes labeled "flushable" — they do not break down in septic systems and accumulate in the tank
+- Feminine hygiene products, cotton swabs, dental floss
+- Cooking grease, oils, and fats (they clog pipes and drain field pores)
+- Medications — antibiotics are particularly harmful to the bacterial culture in the tank
+- Harsh chemical drain cleaners (bleach, lye-based products) in large quantities
+- Paint, solvents, pesticides, or any chemicals not recommended for septic use
+- Coffee grounds and food scraps via garbage disposal
+
+**Limit:**
+- Garbage disposal use — restrict to small amounts; better to compost
+- Bleach and antibacterial soaps — occasional use is acceptable; daily heavy use disrupts tank bacteria
+- Water softener backwash — high salt and brine volumes can interfere with soil absorption
+
+**Protect the drain field physically:**
+- Do not park vehicles or heavy equipment over drain field laterals
+- Do not plant trees or shrubs near the drain field (roots infiltrate and clog laterals)
+- Direct roof drains, sump pumps, and surface water away from the drain field area`,
+      },
+      {
+        heading: 'How to Choose a Septic Service Company',
+        body: `Septic service is regulated at the state level, and licensing requirements vary significantly. Here is what to verify before hiring:
+
+**State license:** Most states require septic pumpers and installers to hold a specific license. In Florida it is a septic tank contractor license; in Texas, an on-site sewage facility installer license. Verify the license number through your state's licensing board before work begins.
+
+**Insurance:** Pumpers should carry general liability insurance. Installers and repair contractors need both liability and workers' compensation.
+
+**Manifest documentation:** Licensed haulers must provide a waste manifest showing where septage was legally disposed of (licensed treatment facility). Ask for a copy. Illegal dumping is common among unlicensed operators.
+
+**Questions to ask:**
+- Do you pump and inspect, or just pump?
+- Will you measure sludge and scum layers and share results?
+- Do you install risers, and what do you charge?
+- Can you provide a written inspection report?
+- Are you licensed to perform repairs if you find issues?
+
+**Red flags:**
+- No written record of service
+- Unable to provide license number
+- Significantly lower price than other quotes (may indicate improper disposal)
+- Pressure to immediately approve expensive repairs without a second opinion`,
+      },
+    ],
+  },
+
   // Crawl Space Encapsulation Cost Guide
   {
     slug: 'crawl-space-encapsulation-cost',

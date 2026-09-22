@@ -212,24 +212,35 @@ export default async function HomePage() {
         {/* ── Task 9: Footer ── */}
         <footer id="contact" className="bg-gray-900 text-gray-300 py-12 px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
               <div>
                 <h3 className="text-white text-lg font-bold mb-4">HomeRepair.Expert</h3>
                 <p className="text-sm">
-                  Connecting homeowners with trusted mold, water damage, and pest control professionals.
+                  Connecting homeowners with trusted mold, water damage, pest control, and septic professionals.
                 </p>
               </div>
               <div>
                 <h4 className="text-white font-semibold mb-4">Services</h4>
                 <ul className="space-y-2 text-sm">
                   <li><Link href="/providers?category=Mold" className="hover:text-white transition-colors">Mold Remediation</Link></li>
-                  <li><Link href="/providers?category=Water" className="hover:text-white transition-colors">Water Damage</Link></li>
+                  <li><Link href="/providers?category=Water" className="hover:text-white transition-colors">Water Damage Restoration</Link></li>
                   <li><Link href="/providers?category=Pest" className="hover:text-white transition-colors">Pest Control</Link></li>
+                  <li><Link href="/providers?category=Radon" className="hover:text-white transition-colors">Radon Testing</Link></li>
                 </ul>
               </div>
-              {/* Task 9: Real contact info */}
               <div>
-                <h4 className="text-white font-semibold mb-4">Contact</h4>
+                <h4 className="text-white font-semibold mb-4">Guides</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/guides/mold-remediation-cost" className="hover:text-white transition-colors">Mold Remediation Cost</Link></li>
+                  <li><Link href="/guides/water-damage-restoration-what-to-expect" className="hover:text-white transition-colors">Water Damage Restoration</Link></li>
+                  <li><Link href="/guides/pest-control-cost" className="hover:text-white transition-colors">Pest Control Cost</Link></li>
+                  <li><Link href="/guides/septic-tank-pumping-cost" className="hover:text-white transition-colors">Septic Tank Pumping Cost</Link></li>
+                  <li><Link href="/guides/crawl-space-encapsulation-cost" className="hover:text-white transition-colors">Crawl Space Encapsulation</Link></li>
+                  <li><Link href="/guides" className="hover:text-white transition-colors font-medium">All Guides →</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-4">Company</h4>
                 <ul className="space-y-2 text-sm">
                   <li>
                     <Link href="/contact" className="hover:text-white transition-colors">
@@ -238,7 +249,12 @@ export default async function HomePage() {
                   </li>
                   <li>
                     <Link href="/list-your-business" className="hover:text-white transition-colors">
-                      List Your Business →
+                      List Your Business
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/guides" className="hover:text-white transition-colors">
+                      Homeowner Guides
                     </Link>
                   </li>
                 </ul>
