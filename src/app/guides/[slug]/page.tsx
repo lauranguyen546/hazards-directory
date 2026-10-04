@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { GUIDES, getGuide } from '@/lib/guides'
-import { generateBreadcrumbSchema, generateArticleSchema } from '@/lib/schema'
+import { generateBreadcrumbSchema, generateArticleSchema, generateFAQSchema } from '@/lib/schema'
 
 interface Props {
   params: { slug: string }
@@ -44,6 +44,8 @@ export default function GuidePage({ params }: Props) {
     dateModified: guide.dateModified,
   })
 
+  const faqSchema = guide.faq && guide.faq.length > 0 ? generateFAQSchema(guide.faq) : null
+
   return (
     <>
       <script
@@ -54,6 +56,12 @@ export default function GuidePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <main className="min-h-screen bg-gray-50">
         {/* Breadcrumb */}

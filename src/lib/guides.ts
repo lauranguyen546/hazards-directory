@@ -3,6 +3,11 @@ export interface GuideSection {
   body: string
 }
 
+export interface GuideFAQ {
+  question: string
+  answer: string
+}
+
 export interface Guide {
   slug: string
   title: string
@@ -13,6 +18,7 @@ export interface Guide {
   datePublished: string
   dateModified: string
   sections: GuideSection[]
+  faq?: GuideFAQ[]
   ctaText: string
   ctaHref: string
 }
@@ -201,6 +207,24 @@ Professional remediation is necessary when:
 Attempting DIY remediation on large or structural mold problems typically makes the situation worse by disturbing mold and spreading spores to previously unaffected areas without proper containment.`,
       },
     ],
+    faq: [
+      {
+        question: 'How much does mold remediation cost on average?',
+        answer: 'Mold remediation typically costs $1,500–$3,500 for an average-sized residential job. Small surface mold jobs (under 10 sq ft) can run $300–$800, while large infestations involving structural materials can exceed $10,000.',
+      },
+      {
+        question: 'Does homeowners insurance cover mold remediation?',
+        answer: 'Homeowners insurance may cover mold remediation if the mold resulted from a sudden, covered event like a burst pipe. Mold from gradual leaks, flooding, or deferred maintenance is typically excluded. Review your policy and document everything before filing a claim.',
+      },
+      {
+        question: 'How long does mold remediation take?',
+        answer: 'Most residential mold remediation jobs take 1–5 days depending on the size and severity. Small jobs may be completed in a single day, while large structural jobs with significant containment requirements can take a week or more.',
+      },
+      {
+        question: 'Can I stay in my home during mold remediation?',
+        answer: 'For small, contained jobs you can usually stay home. For larger remediation involving significant containment, negative air pressure systems, or mold in your HVAC system, your contractor may recommend temporary relocation during the active work phase.',
+      },
+    ],
   },
 
   {
@@ -293,6 +317,24 @@ Many full-service water damage companies handle both mitigation and reconstructi
 **Common coverage issues**: Most policies cover sudden, accidental water damage from internal sources. They generally exclude flooding (separate flood policy required), gradual leaks, and damage from deferred maintenance. If your claim involves a gray area, a public adjuster — who works on your behalf for a percentage of the settlement — can be worth the cost for large losses.
 
 **Working with a preferred vendor**: Many insurers have preferred restoration company networks. You have the right to choose your own contractor, but using a preferred vendor can simplify the billing process. If you choose your own contractor, ensure they are experienced in direct insurance billing.`,
+      },
+    ],
+    faq: [
+      {
+        question: 'How long does water damage restoration take?',
+        answer: 'The drying phase typically takes 3–5 days. Full restoration including repairs can take 1–4 weeks depending on the extent of damage, material replacement needed, and insurance processing time.',
+      },
+      {
+        question: 'What does water damage restoration cost?',
+        answer: 'Water damage restoration averages $3,000–$8,000 for moderate residential jobs. Minor water cleanup runs $1,000–$2,500, while major flooding with structural damage can exceed $30,000.',
+      },
+      {
+        question: 'Should I use my insurance or pay out of pocket for water damage?',
+        answer: 'File a claim for any damage that exceeds your deductible and is covered under your policy. Note that claims can affect future premiums. For small jobs near your deductible amount, out-of-pocket payment may be worth considering.',
+      },
+      {
+        question: 'Can I dry out water damage myself?',
+        answer: 'You can handle minor surface wetness with fans and dehumidifiers. However, professional equipment is significantly more powerful and includes moisture meters to verify complete drying. Inadequate drying leads to mold within 24–48 hours, making professional equipment worth the cost for anything beyond a small spill.',
       },
     ],
   },
@@ -403,6 +445,24 @@ Some companies offer annual monitoring contracts, checking exterior bait station
 **Verify licensing.** Every state requires pest control technicians to hold a license. Ask for the applicator's license number and verify it through your state's Department of Agriculture or structural pest control board. Unlicensed applicators often use black-market pesticides at dangerous concentrations.
 
 **Separate the inspection from the treatment.** Companies that diagnose and treat in the same visit have an obvious financial incentive to recommend the most expensive option. For termites or bed bugs — high-cost decisions — consider getting an independent inspection before committing to a treatment company.`,
+      },
+    ],
+    faq: [
+      {
+        question: 'How much does pest control cost per visit?',
+        answer: 'A single general pest control visit typically costs $150–$300. Annual contracts with quarterly service average $400–$700 per year. Termite treatment, bed bug extermination, and other specialized services cost significantly more — often $1,500–$5,000+.',
+      },
+      {
+        question: 'How often should you get pest control service?',
+        answer: 'Most pest control companies recommend quarterly service (4 times per year) for ongoing prevention. Homes with active infestations may require monthly visits until the problem is resolved. Single-treatment services work for minor issues.',
+      },
+      {
+        question: 'Is it worth getting a pest control contract?',
+        answer: 'Annual pest control contracts make sense for most homeowners, especially in warm climates where pests are active year-round. They cost less per visit than one-time services and include guarantees — if pests return between visits, retreatment is typically free.',
+      },
+      {
+        question: 'How long does pest control treatment last?',
+        answer: 'General pest control treatments typically last 60–90 days. Termite treatments (especially liquid barrier treatments) can last 5–10 years. Bed bug treatments require 2–3 visits over several weeks to address eggs and newly hatched insects.',
       },
     ],
   },
@@ -608,6 +668,24 @@ If you're experiencing these symptoms, do not wait for a scheduled pumping appoi
 **Ask where the waste goes.** Licensed pumpers transport septage to approved treatment facilities or licensed land application sites. Reputable companies can name the facility without hesitation. Illegal dumping — unfortunately not unheard of — can expose you to liability as the generator of the waste.
 
 **Consider a service contract for multi-tank or complex systems.** Some septic companies offer annual inspection contracts that include pumping when needed. For properties with complex systems or histories of drain field issues, this provides peace of mind and often early detection of developing problems.`,
+      },
+    ],
+    faq: [
+      {
+        question: 'How much does septic tank pumping cost?',
+        answer: 'Septic pumping typically costs $300–$600 for a standard residential tank. Larger tanks, buried lids requiring excavation, or tanks with solids buildup from missed pumping cycles can push costs to $800–$1,000 or more.',
+      },
+      {
+        question: 'How often should a septic tank be pumped?',
+        answer: 'Most residential septic tanks should be pumped every 3–5 years, but the right interval depends on tank size and household size. A 1,000-gallon tank serving a family of 4 typically needs pumping every 3–4 years. Annual inspections can tell you exactly when your tank needs service.',
+      },
+      {
+        question: 'What happens if you don\'t pump your septic tank?',
+        answer: 'An overfull septic tank allows solids to migrate to the drain field, clogging it. Drain field failure is catastrophic — repair costs run $5,000–$20,000 and can require digging up your yard. Regular pumping is cheap insurance against this outcome.',
+      },
+      {
+        question: 'How do I know when my septic tank needs pumping?',
+        answer: 'Signs include slow drains throughout the house, gurgling sounds in pipes, wet spots or unusually lush grass over the drain field, sewage odors indoors or outdoors, and sewage backup in lowest drains. Annual inspection by a septic professional gives you a definitive measurement of sludge levels.',
       },
     ],
   },
@@ -2565,6 +2643,24 @@ If you notice any of these signs, have a professional inspect the crawl space be
 **20-mil reinforced barrier:** The highest residential grade. Features woven reinforcement for exceptional puncture resistance, handles regular access, and typically carries a 25-year warranty. Recommended for crawl spaces with significant prior moisture issues or those that will be used for storage.
 
 When comparing quotes, ask contractors specifically what barrier thickness and brand they use. A lower quote that specifies 6-mil poly or an unbranded product is not equivalent to a quote using 12-mil or 20-mil material from manufacturers like CleanSpace, TerraBlock, or similar.`,
+      },
+    ],
+    faq: [
+      {
+        question: 'How much does crawl space encapsulation cost?',
+        answer: 'Crawl space encapsulation typically costs $3,000–$8,000 for a standard residential crawl space. Pricing depends primarily on square footage, liner thickness, drainage system needs, and whether dehumidification equipment is included. Larger crawl spaces or those with existing moisture damage run higher.',
+      },
+      {
+        question: 'Is crawl space encapsulation worth it?',
+        answer: 'Yes, for most homes with crawl spaces. Encapsulation reduces moisture-related structural damage, improves air quality throughout the home (40–50% of air rises from the crawl space), lowers HVAC costs, and prevents mold and pest infestations. Most homeowners recoup costs through energy savings and avoided repairs.',
+      },
+      {
+        question: 'How long does crawl space encapsulation last?',
+        answer: 'A professionally installed encapsulation system with a 12–20 mil liner typically lasts 15–25 years. The vapor barrier itself can last longer, but drainage systems and dehumidifiers may need maintenance or replacement over time.',
+      },
+      {
+        question: 'Can I encapsulate my crawl space myself?',
+        answer: 'DIY encapsulation with 6-mil poly sheeting is possible but not equivalent to professional encapsulation. Professional systems use thicker liners (12–20 mil), proper seam sealing, wall coverage, and integrated drainage. For a crawl space with significant moisture, professional installation is strongly recommended.',
       },
     ],
   },

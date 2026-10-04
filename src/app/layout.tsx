@@ -6,12 +6,23 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'HomeRepair.Expert | Find Trusted Mold, Water & Pest Control Pros',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://homerepair.expert'),
+  title: {
+    default: 'HomeRepair.Expert | Find Trusted Mold, Water & Pest Control Pros',
+    template: '%s | HomeRepair.Expert',
+  },
   description: 'Find verified mold remediation, water damage restoration, and pest control providers across the United States. Compare ratings, reviews, and services.',
   openGraph: {
-    title: 'HomeRepair.Expert',
+    siteName: 'HomeRepair.Expert',
+    title: 'HomeRepair.Expert | Find Trusted Mold, Water & Pest Control Pros',
     description: 'Find trusted mold, water damage, and pest control professionals',
     type: 'website',
+    url: 'https://homerepair.expert',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'HomeRepair.Expert | Find Trusted Mold, Water & Pest Control Pros',
+    description: 'Find trusted mold, water damage, and pest control professionals',
   },
 }
 

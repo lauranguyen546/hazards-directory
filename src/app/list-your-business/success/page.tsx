@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Listing Activated | HomeRepair.Expert',
+  robots: { index: false, follow: false },
 }
 
 export default function SuccessPage({
