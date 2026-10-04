@@ -9,7 +9,7 @@ export interface CategoryContent {
   relatedGuides?: Array<{ title: string; slug: string }>
 }
 
-export const CATEGORY_CONTENT: Record<CategorySlug, CategoryContent> = {
+export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
   'mold-remediation': {
     whatIs:
       'Mold remediation is the process of identifying, containing, and safely removing mold growth from a home or building. Unlike simple mold cleaning, professional remediation addresses the underlying moisture source, removes contaminated materials, and treats affected surfaces to prevent regrowth. It is essential for protecting both the structural integrity of your home and the health of its occupants.',
